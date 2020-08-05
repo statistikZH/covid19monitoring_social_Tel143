@@ -1,0 +1,957 @@
+variable,kategorie,wert,jahr,monat
+Schicht,Umleiter (4.45),228,2019,1
+Schicht,Morgen (08.00),378,2019,1
+Schicht,ZD Morgen (08.00),0,2019,1
+Schicht,Vormit (10.00),464,2019,1
+Schicht,ZD Nachmittag (12.00),0,2019,1
+Schicht,Mittag (13.00),438,2019,1
+Schicht,Vorab (16.00),405,2019,1
+Schicht,Zwischendrin (17.00),345,2019,1
+Schicht,Abend (18.00),402,2019,1
+Schicht,Spät (21.00),489,2019,1
+Schicht,Nacht (23.00),501,2019,1
+Schicht,Chat Morgen (10.00),57,2019,1
+Schicht,Chat Nachmittag (14.00),34,2019,1
+Schicht,Chat Abend (18.00),89,2019,1
+Schicht,Mail-Beratung,20,2019,1
+Schicht,Angestel-Team,3,2019,1
+Geschlecht,Weiblich,2051,2019,1
+Geschlecht,Männlich,712,2019,1
+Geschlecht,nicht bestimmbar,38,2019,1
+Alter,bis 18 J.,90,2019,1
+Alter,19 - 40 J.,614,2019,1
+Alter,41 - 65 J.,1014,2019,1
+Alter,über 65 J.,847,2019,1
+Alter,nicht bestimmbar,236,2019,1
+Kontakthäufigkeit,Erster Kontakt,872,2019,1
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",863,2019,1
+Kontakthäufigkeit,Regelmässiger Kontakt,1066,2019,1
+Kontakthäufigkeit,Vereinbarung,0,2019,1
+Beratungsinhalt,Alltagsbewältigung,1276,2019,1
+Beratungsinhalt,Psychisches Leiden,1104,2019,1
+Beratungsinhalt,Sorge wegen Infektion,0,2019,1
+Beratungsinhalt,Körperliches Leiden,357,2019,1
+Beratungsinhalt,Einsamkeit,572,2019,1
+Beratungsinhalt,Familie / Erziehung,306,2019,1
+Beratungsinhalt,Beziehung allgemein,246,2019,1
+Beratungsinhalt,Paarbeziehung,231,2019,1
+Beratungsinhalt,Arbeit / Ausbildung,176,2019,1
+Beratungsinhalt,Existenzprobleme,82,2019,1
+Beratungsinhalt,Gewalt,73,2019,1
+Beratungsinhalt,Sexualität,48,2019,1
+Beratungsinhalt,Spiritualität / Lebenssinn,72,2019,1
+Beratungsinhalt,Suchtverhalten,81,2019,1
+Beratungsinhalt,Suizidalität,83,2019,1
+Beratungsinhalt,Verlust / Trauer / Tod,50,2019,1
+Beratungsinhalt,Verschiedenes,373,2019,1
+Beratungsinhalt,Medienerziehung/Swisscom,0,2019,1
+Zusätzliche Beanspruchung,Verschobenes Gespräch,559,2019,1
+Zusätzliche Beanspruchung,Schweigeanruf,359,2019,1
+Zusätzliche Beanspruchung,Fehlanruf,108,2019,1
+Zusätzliche Beanspruchung,Juxanruf,15,2019,1
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",11,2019,1
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,1
+Gesprächsdauer,Median (Zentralwert),0.009722222222222222,2019,1
+Schicht,Umleiter (4.45),249,2019,2
+Schicht,Morgen (08.00),368,2019,2
+Schicht,ZD Morgen (08.00),0,2019,2
+Schicht,Vormit (10.00),450,2019,2
+Schicht,ZD Nachmittag (12.00),0,2019,2
+Schicht,Mittag (13.00),415,2019,2
+Schicht,Vorab (16.00),291,2019,2
+Schicht,Zwischendrin (17.00),320,2019,2
+Schicht,Abend (18.00),391,2019,2
+Schicht,Spät (21.00),387,2019,2
+Schicht,Nacht (23.00),407,2019,2
+Schicht,Chat Morgen (10.00),46,2019,2
+Schicht,Chat Nachmittag (14.00),51,2019,2
+Schicht,Chat Abend (18.00),67,2019,2
+Schicht,Mail-Beratung,23,2019,2
+Schicht,Angestel-Team,73,2019,2
+Geschlecht,Weiblich,1969,2019,2
+Geschlecht,Männlich,599,2019,2
+Geschlecht,nicht bestimmbar,33,2019,2
+Alter,bis 18 J.,70,2019,2
+Alter,19 - 40 J.,591,2019,2
+Alter,41 - 65 J.,941,2019,2
+Alter,über 65 J.,774,2019,2
+Alter,nicht bestimmbar,225,2019,2
+Kontakthäufigkeit,Erster Kontakt,777,2019,2
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",852,2019,2
+Kontakthäufigkeit,Regelmässiger Kontakt,972,2019,2
+Kontakthäufigkeit,Vereinbarung,0,2019,2
+Beratungsinhalt,Alltagsbewältigung,1175,2019,2
+Beratungsinhalt,Psychisches Leiden,1018,2019,2
+Beratungsinhalt,Sorge wegen Infektion,0,2019,2
+Beratungsinhalt,Körperliches Leiden,322,2019,2
+Beratungsinhalt,Einsamkeit,525,2019,2
+Beratungsinhalt,Familie / Erziehung,308,2019,2
+Beratungsinhalt,Beziehung allgemein,218,2019,2
+Beratungsinhalt,Paarbeziehung,262,2019,2
+Beratungsinhalt,Arbeit / Ausbildung,157,2019,2
+Beratungsinhalt,Existenzprobleme,71,2019,2
+Beratungsinhalt,Gewalt,73,2019,2
+Beratungsinhalt,Sexualität,41,2019,2
+Beratungsinhalt,Spiritualität / Lebenssinn,56,2019,2
+Beratungsinhalt,Suchtverhalten,57,2019,2
+Beratungsinhalt,Suizidalität,59,2019,2
+Beratungsinhalt,Verlust / Trauer / Tod,60,2019,2
+Beratungsinhalt,Verschiedenes,312,2019,2
+Beratungsinhalt,Medienerziehung/Swisscom,0,2019,2
+Zusätzliche Beanspruchung,Verschobenes Gespräch,491,2019,2
+Zusätzliche Beanspruchung,Schweigeanruf,325,2019,2
+Zusätzliche Beanspruchung,Fehlanruf,105,2019,2
+Zusätzliche Beanspruchung,Juxanruf,10,2019,2
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",9,2019,2
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,2
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,2
+Schicht,Umleiter (4.45),321,2019,3
+Schicht,Morgen (08.00),476,2019,3
+Schicht,ZD Morgen (08.00),0,2019,3
+Schicht,Vormit (10.00),475,2019,3
+Schicht,ZD Nachmittag (12.00),0,2019,3
+Schicht,Mittag (13.00),448,2019,3
+Schicht,Vorab (16.00),381,2019,3
+Schicht,Zwischendrin (17.00),375,2019,3
+Schicht,Abend (18.00),447,2019,3
+Schicht,Spät (21.00),465,2019,3
+Schicht,Nacht (23.00),482,2019,3
+Schicht,Chat Morgen (10.00),64,2019,3
+Schicht,Chat Nachmittag (14.00),46,2019,3
+Schicht,Chat Abend (18.00),68,2019,3
+Schicht,Mail-Beratung,22,2019,3
+Schicht,Angestel-Team,58,2019,3
+Geschlecht,Weiblich,2108,2019,3
+Geschlecht,Männlich,696,2019,3
+Geschlecht,nicht bestimmbar,34,2019,3
+Alter,bis 18 J.,107,2019,3
+Alter,19 - 40 J.,598,2019,3
+Alter,41 - 65 J.,1064,2019,3
+Alter,über 65 J.,839,2019,3
+Alter,nicht bestimmbar,230,2019,3
+Kontakthäufigkeit,Erster Kontakt,816,2019,3
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",919,2019,3
+Kontakthäufigkeit,Regelmässiger Kontakt,1103,2019,3
+Kontakthäufigkeit,Vereinbarung,0,2019,3
+Beratungsinhalt,Alltagsbewältigung,1323,2019,3
+Beratungsinhalt,Psychisches Leiden,1057,2019,3
+Beratungsinhalt,Sorge wegen Infektion,0,2019,3
+Beratungsinhalt,Körperliches Leiden,420,2019,3
+Beratungsinhalt,Einsamkeit,580,2019,3
+Beratungsinhalt,Familie / Erziehung,328,2019,3
+Beratungsinhalt,Beziehung allgemein,251,2019,3
+Beratungsinhalt,Paarbeziehung,250,2019,3
+Beratungsinhalt,Arbeit / Ausbildung,192,2019,3
+Beratungsinhalt,Existenzprobleme,80,2019,3
+Beratungsinhalt,Gewalt,69,2019,3
+Beratungsinhalt,Sexualität,59,2019,3
+Beratungsinhalt,Spiritualität / Lebenssinn,81,2019,3
+Beratungsinhalt,Suchtverhalten,69,2019,3
+Beratungsinhalt,Suizidalität,107,2019,3
+Beratungsinhalt,Verlust / Trauer / Tod,80,2019,3
+Beratungsinhalt,Verschiedenes,360,2019,3
+Beratungsinhalt,Medienerziehung/Swisscom,0,2019,3
+Zusätzliche Beanspruchung,Verschobenes Gespräch,765,2019,3
+Zusätzliche Beanspruchung,Schweigeanruf,395,2019,3
+Zusätzliche Beanspruchung,Fehlanruf,107,2019,3
+Zusätzliche Beanspruchung,Juxanruf,12,2019,3
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",12,2019,3
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2019,3
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,3
+Schicht,Umleiter (4.45),274,2019,4
+Schicht,Morgen (08.00),590,2019,4
+Schicht,ZD Morgen (08.00),0,2019,4
+Schicht,Vormit (10.00),370,2019,4
+Schicht,ZD Nachmittag (12.00),0,2019,4
+Schicht,Mittag (13.00),466,2019,4
+Schicht,Vorab (16.00),355,2019,4
+Schicht,Zwischendrin (17.00),405,2019,4
+Schicht,Abend (18.00),442,2019,4
+Schicht,Spät (21.00),438,2019,4
+Schicht,Nacht (23.00),482,2019,4
+Schicht,Chat Morgen (10.00),79,2019,4
+Schicht,Chat Nachmittag (14.00),82,2019,4
+Schicht,Chat Abend (18.00),39,2019,4
+Schicht,Mail-Beratung,23,2019,4
+Schicht,Angestel-Team,8,2019,4
+Geschlecht,Weiblich,2144,2019,4
+Geschlecht,Männlich,649,2019,4
+Geschlecht,nicht bestimmbar,25,2019,4
+Alter,bis 18 J.,83,2019,4
+Alter,19 - 40 J.,663,2019,4
+Alter,41 - 65 J.,1072,2019,4
+Alter,über 65 J.,767,2019,4
+Alter,nicht bestimmbar,233,2019,4
+Kontakthäufigkeit,Erster Kontakt,765,2019,4
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",884,2019,4
+Kontakthäufigkeit,Regelmässiger Kontakt,1053,2019,4
+Kontakthäufigkeit,Vereinbarung,116,2019,4
+Beratungsinhalt,Alltagsbewältigung,1354,2019,4
+Beratungsinhalt,Psychisches Leiden,1143,2019,4
+Beratungsinhalt,Sorge wegen Infektion,0,2019,4
+Beratungsinhalt,Körperliches Leiden,344,2019,4
+Beratungsinhalt,Einsamkeit,595,2019,4
+Beratungsinhalt,Familie / Erziehung,308,2019,4
+Beratungsinhalt,Beziehung allgemein,237,2019,4
+Beratungsinhalt,Paarbeziehung,250,2019,4
+Beratungsinhalt,Arbeit / Ausbildung,176,2019,4
+Beratungsinhalt,Existenzprobleme,99,2019,4
+Beratungsinhalt,Gewalt,107,2019,4
+Beratungsinhalt,Sexualität,47,2019,4
+Beratungsinhalt,Spiritualität / Lebenssinn,75,2019,4
+Beratungsinhalt,Suchtverhalten,73,2019,4
+Beratungsinhalt,Suizidalität,82,2019,4
+Beratungsinhalt,Verlust / Trauer / Tod,50,2019,4
+Beratungsinhalt,Verschiedenes,336,2019,4
+Beratungsinhalt,Medienerziehung/Swisscom,3,2019,4
+Zusätzliche Beanspruchung,Verschobenes Gespräch,745,2019,4
+Zusätzliche Beanspruchung,Schweigeanruf,355,2019,4
+Zusätzliche Beanspruchung,Fehlanruf,100,2019,4
+Zusätzliche Beanspruchung,Juxanruf,27,2019,4
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",8,2019,4
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,4
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,4
+Schicht,Umleiter (4.45),261,2019,5
+Schicht,Morgen (08.00),492,2019,5
+Schicht,ZD Morgen (08.00),0,2019,5
+Schicht,Vormit (10.00),400,2019,5
+Schicht,ZD Nachmittag (12.00),0,2019,5
+Schicht,Mittag (13.00),442,2019,5
+Schicht,Vorab (16.00),454,2019,5
+Schicht,Zwischendrin (17.00),304,2019,5
+Schicht,Abend (18.00),433,2019,5
+Schicht,Spät (21.00),478,2019,5
+Schicht,Nacht (23.00),460,2019,5
+Schicht,Chat Morgen (10.00),76,2019,5
+Schicht,Chat Nachmittag (14.00),49,2019,5
+Schicht,Chat Abend (18.00),50,2019,5
+Schicht,Mail-Beratung,12,2019,5
+Schicht,Angestel-Team,3,2019,5
+Geschlecht,Weiblich,2202,2019,5
+Geschlecht,Männlich,577,2019,5
+Geschlecht,nicht bestimmbar,19,2019,5
+Alter,bis 18 J.,87,2019,5
+Alter,19 - 40 J.,621,2019,5
+Alter,41 - 65 J.,1128,2019,5
+Alter,über 65 J.,730,2019,5
+Alter,nicht bestimmbar,232,2019,5
+Kontakthäufigkeit,Erster Kontakt,765,2019,5
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",915,2019,5
+Kontakthäufigkeit,Regelmässiger Kontakt,732,2019,5
+Kontakthäufigkeit,Vereinbarung,386,2019,5
+Beratungsinhalt,Alltagsbewältigung,1332,2019,5
+Beratungsinhalt,Psychisches Leiden,1148,2019,5
+Beratungsinhalt,Sorge wegen Infektion,0,2019,5
+Beratungsinhalt,Körperliches Leiden,322,2019,5
+Beratungsinhalt,Einsamkeit,548,2019,5
+Beratungsinhalt,Familie / Erziehung,354,2019,5
+Beratungsinhalt,Beziehung allgemein,224,2019,5
+Beratungsinhalt,Paarbeziehung,286,2019,5
+Beratungsinhalt,Arbeit / Ausbildung,163,2019,5
+Beratungsinhalt,Existenzprobleme,62,2019,5
+Beratungsinhalt,Gewalt,92,2019,5
+Beratungsinhalt,Sexualität,49,2019,5
+Beratungsinhalt,Spiritualität / Lebenssinn,63,2019,5
+Beratungsinhalt,Suchtverhalten,70,2019,5
+Beratungsinhalt,Suizidalität,86,2019,5
+Beratungsinhalt,Verlust / Trauer / Tod,77,2019,5
+Beratungsinhalt,Verschiedenes,313,2019,5
+Beratungsinhalt,Medienerziehung/Swisscom,3,2019,5
+Zusätzliche Beanspruchung,Verschobenes Gespräch,650,2019,5
+Zusätzliche Beanspruchung,Schweigeanruf,336,2019,5
+Zusätzliche Beanspruchung,Fehlanruf,98,2019,5
+Zusätzliche Beanspruchung,Juxanruf,26,2019,5
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",7,2019,5
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,5
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,5
+Schicht,Umleiter (4.45),272,2019,6
+Schicht,Morgen (08.00),702,2019,6
+Schicht,ZD Morgen (08.00),0,2019,6
+Schicht,Vormit (10.00),407,2019,6
+Schicht,ZD Nachmittag (12.00),0,2019,6
+Schicht,Mittag (13.00),429,2019,6
+Schicht,Vorab (16.00),368,2019,6
+Schicht,Zwischendrin (17.00),188,2019,6
+Schicht,Abend (18.00),425,2019,6
+Schicht,Spät (21.00),475,2019,6
+Schicht,Nacht (23.00),478,2019,6
+Schicht,Chat Morgen (10.00),65,2019,6
+Schicht,Chat Nachmittag (14.00),68,2019,6
+Schicht,Chat Abend (18.00),27,2019,6
+Schicht,Mail-Beratung,31,2019,6
+Schicht,Angestel-Team,1,2019,6
+Geschlecht,Weiblich,2166,2019,6
+Geschlecht,Männlich,591,2019,6
+Geschlecht,nicht bestimmbar,46,2019,6
+Alter,bis 18 J.,58,2019,6
+Alter,19 - 40 J.,620,2019,6
+Alter,41 - 65 J.,1110,2019,6
+Alter,über 65 J.,793,2019,6
+Alter,nicht bestimmbar,222,2019,6
+Kontakthäufigkeit,Erster Kontakt,800,2019,6
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",887,2019,6
+Kontakthäufigkeit,Regelmässiger Kontakt,547,2019,6
+Kontakthäufigkeit,Vereinbarung,569,2019,6
+Beratungsinhalt,Alltagsbewältigung,1368,2019,6
+Beratungsinhalt,Psychisches Leiden,1189,2019,6
+Beratungsinhalt,Sorge wegen Infektion,0,2019,6
+Beratungsinhalt,Körperliches Leiden,308,2019,6
+Beratungsinhalt,Einsamkeit,525,2019,6
+Beratungsinhalt,Familie / Erziehung,311,2019,6
+Beratungsinhalt,Beziehung allgemein,214,2019,6
+Beratungsinhalt,Paarbeziehung,258,2019,6
+Beratungsinhalt,Arbeit / Ausbildung,180,2019,6
+Beratungsinhalt,Existenzprobleme,91,2019,6
+Beratungsinhalt,Gewalt,64,2019,6
+Beratungsinhalt,Sexualität,40,2019,6
+Beratungsinhalt,Spiritualität / Lebenssinn,59,2019,6
+Beratungsinhalt,Suchtverhalten,72,2019,6
+Beratungsinhalt,Suizidalität,106,2019,6
+Beratungsinhalt,Verlust / Trauer / Tod,56,2019,6
+Beratungsinhalt,Verschiedenes,325,2019,6
+Beratungsinhalt,Medienerziehung/Swisscom,2,2019,6
+Zusätzliche Beanspruchung,Verschobenes Gespräch,673,2019,6
+Zusätzliche Beanspruchung,Schweigeanruf,327,2019,6
+Zusätzliche Beanspruchung,Fehlanruf,108,2019,6
+Zusätzliche Beanspruchung,Juxanruf,16,2019,6
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",9,2019,6
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,6
+Gesprächsdauer,Median (Zentralwert),0.009722222222222222,2019,6
+Schicht,Umleiter (4.45),260,2019,7
+Schicht,Morgen (08.00),752,2019,7
+Schicht,ZD Morgen (08.00),0,2019,7
+Schicht,Vormit (10.00),383,2019,7
+Schicht,ZD Nachmittag (12.00),0,2019,7
+Schicht,Mittag (13.00),323,2019,7
+Schicht,Vorab (16.00),372,2019,7
+Schicht,Zwischendrin (17.00),114,2019,7
+Schicht,Abend (18.00),451,2019,7
+Schicht,Spät (21.00),434,2019,7
+Schicht,Nacht (23.00),412,2019,7
+Schicht,Chat Morgen (10.00),64,2019,7
+Schicht,Chat Nachmittag (14.00),35,2019,7
+Schicht,Chat Abend (18.00),51,2019,7
+Schicht,Mail-Beratung,33,2019,7
+Schicht,Angestel-Team,4,2019,7
+Geschlecht,Weiblich,2078,2019,7
+Geschlecht,Männlich,560,2019,7
+Geschlecht,nicht bestimmbar,38,2019,7
+Alter,bis 18 J.,25,2019,7
+Alter,19 - 40 J.,587,2019,7
+Alter,41 - 65 J.,1073,2019,7
+Alter,über 65 J.,759,2019,7
+Alter,nicht bestimmbar,232,2019,7
+Kontakthäufigkeit,Erster Kontakt,764,2019,7
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",753,2019,7
+Kontakthäufigkeit,Regelmässiger Kontakt,614,2019,7
+Kontakthäufigkeit,Vereinbarung,545,2019,7
+Beratungsinhalt,Alltagsbewältigung,1382,2019,7
+Beratungsinhalt,Psychisches Leiden,1141,2019,7
+Beratungsinhalt,Sorge wegen Infektion,0,2019,7
+Beratungsinhalt,Körperliches Leiden,301,2019,7
+Beratungsinhalt,Einsamkeit,490,2019,7
+Beratungsinhalt,Familie / Erziehung,283,2019,7
+Beratungsinhalt,Beziehung allgemein,189,2019,7
+Beratungsinhalt,Paarbeziehung,267,2019,7
+Beratungsinhalt,Arbeit / Ausbildung,157,2019,7
+Beratungsinhalt,Existenzprobleme,82,2019,7
+Beratungsinhalt,Gewalt,54,2019,7
+Beratungsinhalt,Sexualität,42,2019,7
+Beratungsinhalt,Spiritualität / Lebenssinn,57,2019,7
+Beratungsinhalt,Suchtverhalten,79,2019,7
+Beratungsinhalt,Suizidalität,76,2019,7
+Beratungsinhalt,Verlust / Trauer / Tod,59,2019,7
+Beratungsinhalt,Verschiedenes,315,2019,7
+Beratungsinhalt,Medienerziehung/Swisscom,2,2019,7
+Zusätzliche Beanspruchung,Verschobenes Gespräch,597,2019,7
+Zusätzliche Beanspruchung,Schweigeanruf,291,2019,7
+Zusätzliche Beanspruchung,Fehlanruf,107,2019,7
+Zusätzliche Beanspruchung,Juxanruf,9,2019,7
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",9,2019,7
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,7
+Gesprächsdauer,Median (Zentralwert),0.009722222222222222,2019,7
+Schicht,Umleiter (4.45),273,2019,8
+Schicht,Morgen (08.00),661,2019,8
+Schicht,ZD Morgen (08.00),0,2019,8
+Schicht,Vormit (10.00),423,2019,8
+Schicht,ZD Nachmittag (12.00),0,2019,8
+Schicht,Mittag (13.00),458,2019,8
+Schicht,Vorab (16.00),407,2019,8
+Schicht,Zwischendrin (17.00),1,2019,8
+Schicht,Abend (18.00),557,2019,8
+Schicht,Spät (21.00),522,2019,8
+Schicht,Nacht (23.00),467,2019,8
+Schicht,Chat Morgen (10.00),67,2019,8
+Schicht,Chat Nachmittag (14.00),67,2019,8
+Schicht,Chat Abend (18.00),38,2019,8
+Schicht,Mail-Beratung,39,2019,8
+Schicht,Angestel-Team,0,2019,8
+Geschlecht,Weiblich,2030,2019,8
+Geschlecht,Männlich,630,2019,8
+Geschlecht,nicht bestimmbar,32,2019,8
+Alter,bis 18 J.,58,2019,8
+Alter,19 - 40 J.,591,2019,8
+Alter,41 - 65 J.,1049,2019,8
+Alter,über 65 J.,802,2019,8
+Alter,nicht bestimmbar,192,2019,8
+Kontakthäufigkeit,Erster Kontakt,798,2019,8
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",834,2019,8
+Kontakthäufigkeit,Regelmässiger Kontakt,582,2019,8
+Kontakthäufigkeit,Vereinbarung,478,2019,8
+Beratungsinhalt,Alltagsbewältigung,1392,2019,8
+Beratungsinhalt,Psychisches Leiden,1166,2019,8
+Beratungsinhalt,Sorge wegen Infektion,0,2019,8
+Beratungsinhalt,Körperliches Leiden,277,2019,8
+Beratungsinhalt,Einsamkeit,471,2019,8
+Beratungsinhalt,Familie / Erziehung,339,2019,8
+Beratungsinhalt,Beziehung allgemein,246,2019,8
+Beratungsinhalt,Paarbeziehung,276,2019,8
+Beratungsinhalt,Arbeit / Ausbildung,176,2019,8
+Beratungsinhalt,Existenzprobleme,81,2019,8
+Beratungsinhalt,Gewalt,62,2019,8
+Beratungsinhalt,Sexualität,46,2019,8
+Beratungsinhalt,Spiritualität / Lebenssinn,54,2019,8
+Beratungsinhalt,Suchtverhalten,94,2019,8
+Beratungsinhalt,Suizidalität,89,2019,8
+Beratungsinhalt,Verlust / Trauer / Tod,63,2019,8
+Beratungsinhalt,Verschiedenes,320,2019,8
+Beratungsinhalt,Medienerziehung/Swisscom,0,2019,8
+Zusätzliche Beanspruchung,Verschobenes Gespräch,789,2019,8
+Zusätzliche Beanspruchung,Schweigeanruf,352,2019,8
+Zusätzliche Beanspruchung,Fehlanruf,125,2019,8
+Zusätzliche Beanspruchung,Juxanruf,8,2019,8
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",14,2019,8
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,8
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,8
+Schicht,Umleiter (4.45),271,2019,9
+Schicht,Morgen (08.00),476,2019,9
+Schicht,ZD Morgen (08.00),0,2019,9
+Schicht,Vormit (10.00),312,2019,9
+Schicht,ZD Nachmittag (12.00),0,2019,9
+Schicht,Mittag (13.00),416,2019,9
+Schicht,Vorab (16.00),377,2019,9
+Schicht,Zwischendrin (17.00),120,2019,9
+Schicht,Abend (18.00),447,2019,9
+Schicht,Spät (21.00),406,2019,9
+Schicht,Nacht (23.00),446,2019,9
+Schicht,Chat Morgen (10.00),59,2019,9
+Schicht,Chat Nachmittag (14.00),29,2019,9
+Schicht,Chat Abend (18.00),45,2019,9
+Schicht,Mail-Beratung,24,2019,9
+Schicht,Angestel-Team,2,2019,9
+Geschlecht,Weiblich,1696,2019,9
+Geschlecht,Männlich,650,2019,9
+Geschlecht,nicht bestimmbar,42,2019,9
+Alter,bis 18 J.,38,2019,9
+Alter,19 - 40 J.,529,2019,9
+Alter,41 - 65 J.,895,2019,9
+Alter,über 65 J.,701,2019,9
+Alter,nicht bestimmbar,225,2019,9
+Kontakthäufigkeit,Erster Kontakt,761,2019,9
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",756,2019,9
+Kontakthäufigkeit,Regelmässiger Kontakt,462,2019,9
+Kontakthäufigkeit,Vereinbarung,409,2019,9
+Beratungsinhalt,Alltagsbewältigung,1227,2019,9
+Beratungsinhalt,Psychisches Leiden,992,2019,9
+Beratungsinhalt,Sorge wegen Infektion,0,2019,9
+Beratungsinhalt,Körperliches Leiden,221,2019,9
+Beratungsinhalt,Einsamkeit,420,2019,9
+Beratungsinhalt,Familie / Erziehung,323,2019,9
+Beratungsinhalt,Beziehung allgemein,195,2019,9
+Beratungsinhalt,Paarbeziehung,267,2019,9
+Beratungsinhalt,Arbeit / Ausbildung,151,2019,9
+Beratungsinhalt,Existenzprobleme,75,2019,9
+Beratungsinhalt,Gewalt,68,2019,9
+Beratungsinhalt,Sexualität,46,2019,9
+Beratungsinhalt,Spiritualität / Lebenssinn,55,2019,9
+Beratungsinhalt,Suchtverhalten,91,2019,9
+Beratungsinhalt,Suizidalität,76,2019,9
+Beratungsinhalt,Verlust / Trauer / Tod,69,2019,9
+Beratungsinhalt,Verschiedenes,257,2019,9
+Beratungsinhalt,Medienerziehung/Swisscom,1,2019,9
+Zusätzliche Beanspruchung,Verschobenes Gespräch,628,2019,9
+Zusätzliche Beanspruchung,Schweigeanruf,318,2019,9
+Zusätzliche Beanspruchung,Fehlanruf,85,2019,9
+Zusätzliche Beanspruchung,Juxanruf,7,2019,9
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",4,2019,9
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2019,9
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,9
+Schicht,Umleiter (4.45),304,2019,10
+Schicht,Morgen (08.00),515,2019,10
+Schicht,ZD Morgen (08.00),0,2019,10
+Schicht,Vormit (10.00),396,2019,10
+Schicht,ZD Nachmittag (12.00),0,2019,10
+Schicht,Mittag (13.00),351,2019,10
+Schicht,Vorab (16.00),440,2019,10
+Schicht,Zwischendrin (17.00),222,2019,10
+Schicht,Abend (18.00),404,2019,10
+Schicht,Spät (21.00),517,2019,10
+Schicht,Nacht (23.00),557,2019,10
+Schicht,Chat Morgen (10.00),55,2019,10
+Schicht,Chat Nachmittag (14.00),50,2019,10
+Schicht,Chat Abend (18.00),63,2019,10
+Schicht,Mail-Beratung,19,2019,10
+Schicht,Angestel-Team,8,2019,10
+Geschlecht,Weiblich,2063,2019,10
+Geschlecht,Männlich,622,2019,10
+Geschlecht,nicht bestimmbar,45,2019,10
+Alter,bis 18 J.,51,2019,10
+Alter,19 - 40 J.,551,2019,10
+Alter,41 - 65 J.,1062,2019,10
+Alter,über 65 J.,820,2019,10
+Alter,nicht bestimmbar,246,2019,10
+Kontakthäufigkeit,Erster Kontakt,820,2019,10
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",868,2019,10
+Kontakthäufigkeit,Regelmässiger Kontakt,582,2019,10
+Kontakthäufigkeit,Vereinbarung,460,2019,10
+Beratungsinhalt,Alltagsbewältigung,1369,2019,10
+Beratungsinhalt,Psychisches Leiden,1203,2019,10
+Beratungsinhalt,Sorge wegen Infektion,0,2019,10
+Beratungsinhalt,Körperliches Leiden,306,2019,10
+Beratungsinhalt,Einsamkeit,487,2019,10
+Beratungsinhalt,Familie / Erziehung,312,2019,10
+Beratungsinhalt,Beziehung allgemein,207,2019,10
+Beratungsinhalt,Paarbeziehung,256,2019,10
+Beratungsinhalt,Arbeit / Ausbildung,204,2019,10
+Beratungsinhalt,Existenzprobleme,71,2019,10
+Beratungsinhalt,Gewalt,68,2019,10
+Beratungsinhalt,Sexualität,49,2019,10
+Beratungsinhalt,Spiritualität / Lebenssinn,51,2019,10
+Beratungsinhalt,Suchtverhalten,85,2019,10
+Beratungsinhalt,Suizidalität,77,2019,10
+Beratungsinhalt,Verlust / Trauer / Tod,119,2019,10
+Beratungsinhalt,Verschiedenes,325,2019,10
+Beratungsinhalt,Medienerziehung/Swisscom,1,2019,10
+Zusätzliche Beanspruchung,Verschobenes Gespräch,710,2019,10
+Zusätzliche Beanspruchung,Schweigeanruf,323,2019,10
+Zusätzliche Beanspruchung,Fehlanruf,118,2019,10
+Zusätzliche Beanspruchung,Juxanruf,13,2019,10
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",7,2019,10
+Gesprächsdauer,Aritmetisches Mittel,0.011111111111111112,2019,10
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,10
+Schicht,Umleiter (4.45),295,2019,11
+Schicht,Morgen (08.00),529,2019,11
+Schicht,ZD Morgen (08.00),0,2019,11
+Schicht,Vormit (10.00),326,2019,11
+Schicht,ZD Nachmittag (12.00),0,2019,11
+Schicht,Mittag (13.00),385,2019,11
+Schicht,Vorab (16.00),387,2019,11
+Schicht,Zwischendrin (17.00),251,2019,11
+Schicht,Abend (18.00),358,2019,11
+Schicht,Spät (21.00),446,2019,11
+Schicht,Nacht (23.00),360,2019,11
+Schicht,Chat Morgen (10.00),110,2019,11
+Schicht,Chat Nachmittag (14.00),37,2019,11
+Schicht,Chat Abend (18.00),31,2019,11
+Schicht,Mail-Beratung,28,2019,11
+Schicht,Angestel-Team,0,2019,11
+Geschlecht,Weiblich,1900,2019,11
+Geschlecht,Männlich,579,2019,11
+Geschlecht,nicht bestimmbar,29,2019,11
+Alter,bis 18 J.,52,2019,11
+Alter,19 - 40 J.,587,2019,11
+Alter,41 - 65 J.,927,2019,11
+Alter,über 65 J.,753,2019,11
+Alter,nicht bestimmbar,189,2019,11
+Kontakthäufigkeit,Erster Kontakt,765,2019,11
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",888,2019,11
+Kontakthäufigkeit,Regelmässiger Kontakt,493,2019,11
+Kontakthäufigkeit,Vereinbarung,362,2019,11
+Beratungsinhalt,Alltagsbewältigung,1269,2019,11
+Beratungsinhalt,Psychisches Leiden,1101,2019,11
+Beratungsinhalt,Sorge wegen Infektion,0,2019,11
+Beratungsinhalt,Körperliches Leiden,299,2019,11
+Beratungsinhalt,Einsamkeit,515,2019,11
+Beratungsinhalt,Familie / Erziehung,311,2019,11
+Beratungsinhalt,Beziehung allgemein,176,2019,11
+Beratungsinhalt,Paarbeziehung,253,2019,11
+Beratungsinhalt,Arbeit / Ausbildung,172,2019,11
+Beratungsinhalt,Existenzprobleme,89,2019,11
+Beratungsinhalt,Gewalt,49,2019,11
+Beratungsinhalt,Sexualität,39,2019,11
+Beratungsinhalt,Spiritualität / Lebenssinn,67,2019,11
+Beratungsinhalt,Suchtverhalten,105,2019,11
+Beratungsinhalt,Suizidalität,124,2019,11
+Beratungsinhalt,Verlust / Trauer / Tod,83,2019,11
+Beratungsinhalt,Verschiedenes,280,2019,11
+Beratungsinhalt,Medienerziehung/Swisscom,0,2019,11
+Zusätzliche Beanspruchung,Verschobenes Gespräch,638,2019,11
+Zusätzliche Beanspruchung,Schweigeanruf,288,2019,11
+Zusätzliche Beanspruchung,Fehlanruf,90,2019,11
+Zusätzliche Beanspruchung,Juxanruf,15,2019,11
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",5,2019,11
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2019,11
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,11
+Schicht,Umleiter (4.45),278,2019,12
+Schicht,Morgen (08.00),549,2019,12
+Schicht,ZD Morgen (08.00),0,2019,12
+Schicht,Vormit (10.00),375,2019,12
+Schicht,ZD Nachmittag (12.00),0,2019,12
+Schicht,Mittag (13.00),428,2019,12
+Schicht,Vorab (16.00),349,2019,12
+Schicht,Zwischendrin (17.00),291,2019,12
+Schicht,Abend (18.00),413,2019,12
+Schicht,Spät (21.00),378,2019,12
+Schicht,Nacht (23.00),432,2019,12
+Schicht,Chat Morgen (10.00),64,2019,12
+Schicht,Chat Nachmittag (14.00),51,2019,12
+Schicht,Chat Abend (18.00),34,2019,12
+Schicht,Mail-Beratung,42,2019,12
+Schicht,Angestel-Team,0,2019,12
+Geschlecht,Weiblich,1956,2019,12
+Geschlecht,Männlich,643,2019,12
+Geschlecht,nicht bestimmbar,38,2019,12
+Alter,bis 18 J.,44,2019,12
+Alter,19 - 40 J.,640,2019,12
+Alter,41 - 65 J.,963,2019,12
+Alter,über 65 J.,812,2019,12
+Alter,nicht bestimmbar,178,2019,12
+Kontakthäufigkeit,Erster Kontakt,931,2019,12
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",830,2019,12
+Kontakthäufigkeit,Regelmässiger Kontakt,539,2019,12
+Kontakthäufigkeit,Vereinbarung,337,2019,12
+Beratungsinhalt,Alltagsbewältigung,1324,2019,12
+Beratungsinhalt,Psychisches Leiden,1052,2019,12
+Beratungsinhalt,Sorge wegen Infektion,0,2019,12
+Beratungsinhalt,Körperliches Leiden,282,2019,12
+Beratungsinhalt,Einsamkeit,467,2019,12
+Beratungsinhalt,Familie / Erziehung,361,2019,12
+Beratungsinhalt,Beziehung allgemein,200,2019,12
+Beratungsinhalt,Paarbeziehung,274,2019,12
+Beratungsinhalt,Arbeit / Ausbildung,162,2019,12
+Beratungsinhalt,Existenzprobleme,82,2019,12
+Beratungsinhalt,Gewalt,60,2019,12
+Beratungsinhalt,Sexualität,50,2019,12
+Beratungsinhalt,Spiritualität / Lebenssinn,66,2019,12
+Beratungsinhalt,Suchtverhalten,82,2019,12
+Beratungsinhalt,Suizidalität,107,2019,12
+Beratungsinhalt,Verlust / Trauer / Tod,96,2019,12
+Beratungsinhalt,Verschiedenes,305,2019,12
+Beratungsinhalt,Medienerziehung/Swisscom,1,2019,12
+Zusätzliche Beanspruchung,Verschobenes Gespräch,597,2019,12
+Zusätzliche Beanspruchung,Schweigeanruf,358,2019,12
+Zusätzliche Beanspruchung,Fehlanruf,78,2019,12
+Zusätzliche Beanspruchung,Juxanruf,14,2019,12
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",2,2019,12
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2019,12
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2019,12
+Schicht,Umleiter (4.45),251,2020,1
+Schicht,Morgen (08.00),476,2020,1
+Schicht,ZD Morgen (08.00),0,2020,1
+Schicht,Vormit (10.00),390,2020,1
+Schicht,ZD Nachmittag (12.00),0,2020,1
+Schicht,Mittag (13.00),503,2020,1
+Schicht,Vorab (16.00),417,2020,1
+Schicht,Zwischendrin (17.00),285,2020,1
+Schicht,Abend (18.00),401,2020,1
+Schicht,Spät (21.00),472,2020,1
+Schicht,Nacht (23.00),455,2020,1
+Schicht,Chat Morgen (10.00),73,2020,1
+Schicht,Chat Nachmittag (14.00),75,2020,1
+Schicht,Chat Abend (18.00),27,2020,1
+Schicht,Mail-Beratung,48,2020,1
+Schicht,Angestel-Team,1,2020,1
+Geschlecht,Weiblich,2012,2020,1
+Geschlecht,Männlich,658,2020,1
+Geschlecht,nicht bestimmbar,49,2020,1
+Alter,bis 18 J.,119,2020,1
+Alter,19 - 40 J.,604,2020,1
+Alter,41 - 65 J.,1018,2020,1
+Alter,über 65 J.,819,2020,1
+Alter,nicht bestimmbar,159,2020,1
+Kontakthäufigkeit,Erster Kontakt,943,2020,1
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",860,2020,1
+Kontakthäufigkeit,Regelmässiger Kontakt,585,2020,1
+Kontakthäufigkeit,Vereinbarung,331,2020,1
+Beratungsinhalt,Alltagsbewältigung,1337,2020,1
+Beratungsinhalt,Psychisches Leiden,1084,2020,1
+Beratungsinhalt,Sorge wegen Infektion,0,2020,1
+Beratungsinhalt,Körperliches Leiden,272,2020,1
+Beratungsinhalt,Einsamkeit,475,2020,1
+Beratungsinhalt,Familie / Erziehung,305,2020,1
+Beratungsinhalt,Beziehung allgemein,210,2020,1
+Beratungsinhalt,Paarbeziehung,321,2020,1
+Beratungsinhalt,Arbeit / Ausbildung,187,2020,1
+Beratungsinhalt,Existenzprobleme,97,2020,1
+Beratungsinhalt,Gewalt,75,2020,1
+Beratungsinhalt,Sexualität,90,2020,1
+Beratungsinhalt,Spiritualität / Lebenssinn,67,2020,1
+Beratungsinhalt,Suchtverhalten,102,2020,1
+Beratungsinhalt,Suizidalität,125,2020,1
+Beratungsinhalt,Verlust / Trauer / Tod,84,2020,1
+Beratungsinhalt,Verschiedenes,292,2020,1
+Beratungsinhalt,Medienerziehung/Swisscom,1,2020,1
+Zusätzliche Beanspruchung,Verschobenes Gespräch,735,2020,1
+Zusätzliche Beanspruchung,Schweigeanruf,287,2020,1
+Zusätzliche Beanspruchung,Fehlanruf,114,2020,1
+Zusätzliche Beanspruchung,Juxanruf,14,2020,1
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",5,2020,1
+Gesprächsdauer,Aritmetisches Mittel,0.012499999999999999,2020,1
+Gesprächsdauer,Median (Zentralwert),0.011111111111111112,2020,1
+Schicht,Umleiter (4.45),216,2020,2
+Schicht,Morgen (08.00),409,2020,2
+Schicht,ZD Morgen (08.00),0,2020,2
+Schicht,Vormit (10.00),358,2020,2
+Schicht,ZD Nachmittag (12.00),0,2020,2
+Schicht,Mittag (13.00),444,2020,2
+Schicht,Vorab (16.00),331,2020,2
+Schicht,Zwischendrin (17.00),282,2020,2
+Schicht,Abend (18.00),387,2020,2
+Schicht,Spät (21.00),414,2020,2
+Schicht,Nacht (23.00),506,2020,2
+Schicht,Chat Morgen (10.00),50,2020,2
+Schicht,Chat Nachmittag (14.00),22,2020,2
+Schicht,Chat Abend (18.00),48,2020,2
+Schicht,Mail-Beratung,80,2020,2
+Schicht,Angestel-Team,6,2020,2
+Geschlecht,Weiblich,1907,2020,2
+Geschlecht,Männlich,649,2020,2
+Geschlecht,nicht bestimmbar,22,2020,2
+Alter,bis 18 J.,115,2020,2
+Alter,19 - 40 J.,504,2020,2
+Alter,41 - 65 J.,1009,2020,2
+Alter,über 65 J.,783,2020,2
+Alter,nicht bestimmbar,167,2020,2
+Kontakthäufigkeit,Erster Kontakt,750,2020,2
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",829,2020,2
+Kontakthäufigkeit,Regelmässiger Kontakt,733,2020,2
+Kontakthäufigkeit,Vereinbarung,266,2020,2
+Beratungsinhalt,Alltagsbewältigung,1239,2020,2
+Beratungsinhalt,Psychisches Leiden,1110,2020,2
+Beratungsinhalt,Sorge wegen Infektion,0,2020,2
+Beratungsinhalt,Körperliches Leiden,362,2020,2
+Beratungsinhalt,Einsamkeit,477,2020,2
+Beratungsinhalt,Familie / Erziehung,250,2020,2
+Beratungsinhalt,Beziehung allgemein,202,2020,2
+Beratungsinhalt,Paarbeziehung,237,2020,2
+Beratungsinhalt,Arbeit / Ausbildung,191,2020,2
+Beratungsinhalt,Existenzprobleme,83,2020,2
+Beratungsinhalt,Gewalt,74,2020,2
+Beratungsinhalt,Sexualität,67,2020,2
+Beratungsinhalt,Spiritualität / Lebenssinn,46,2020,2
+Beratungsinhalt,Suchtverhalten,74,2020,2
+Beratungsinhalt,Suizidalität,119,2020,2
+Beratungsinhalt,Verlust / Trauer / Tod,80,2020,2
+Beratungsinhalt,Verschiedenes,313,2020,2
+Beratungsinhalt,Medienerziehung/Swisscom,0,2020,2
+Zusätzliche Beanspruchung,Verschobenes Gespräch,570,2020,2
+Zusätzliche Beanspruchung,Schweigeanruf,260,2020,2
+Zusätzliche Beanspruchung,Fehlanruf,109,2020,2
+Zusätzliche Beanspruchung,Juxanruf,31,2020,2
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",5,2020,2
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2020,2
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2020,2
+Schicht,Umleiter (4.45),330,2020,3
+Schicht,Morgen (08.00),448,2020,3
+Schicht,ZD Morgen (08.00),0,2020,3
+Schicht,Vormit (10.00),403,2020,3
+Schicht,ZD Nachmittag (12.00),0,2020,3
+Schicht,Mittag (13.00),506,2020,3
+Schicht,Vorab (16.00),377,2020,3
+Schicht,Zwischendrin (17.00),351,2020,3
+Schicht,Abend (18.00),428,2020,3
+Schicht,Spät (21.00),479,2020,3
+Schicht,Nacht (23.00),476,2020,3
+Schicht,Chat Morgen (10.00),21,2020,3
+Schicht,Chat Nachmittag (14.00),57,2020,3
+Schicht,Chat Abend (18.00),40,2020,3
+Schicht,Mail-Beratung,66,2020,3
+Schicht,Angestel-Team,1,2020,3
+Geschlecht,Weiblich,2022,2020,3
+Geschlecht,Männlich,861,2020,3
+Geschlecht,nicht bestimmbar,69,2020,3
+Alter,bis 18 J.,97,2020,3
+Alter,19 - 40 J.,572,2020,3
+Alter,41 - 65 J.,1139,2020,3
+Alter,über 65 J.,888,2020,3
+Alter,nicht bestimmbar,256,2020,3
+Kontakthäufigkeit,Erster Kontakt,910,2020,3
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",963,2020,3
+Kontakthäufigkeit,Regelmässiger Kontakt,741,2020,3
+Kontakthäufigkeit,Vereinbarung,338,2020,3
+Beratungsinhalt,Alltagsbewältigung,1544,2020,3
+Beratungsinhalt,Psychisches Leiden,1144,2020,3
+Beratungsinhalt,Sorge wegen Infektion,338,2020,3
+Beratungsinhalt,Körperliches Leiden,324,2020,3
+Beratungsinhalt,Einsamkeit,500,2020,3
+Beratungsinhalt,Familie / Erziehung,259,2020,3
+Beratungsinhalt,Beziehung allgemein,177,2020,3
+Beratungsinhalt,Paarbeziehung,233,2020,3
+Beratungsinhalt,Arbeit / Ausbildung,221,2020,3
+Beratungsinhalt,Existenzprobleme,69,2020,3
+Beratungsinhalt,Gewalt,75,2020,3
+Beratungsinhalt,Sexualität,57,2020,3
+Beratungsinhalt,Spiritualität / Lebenssinn,78,2020,3
+Beratungsinhalt,Suchtverhalten,54,2020,3
+Beratungsinhalt,Suizidalität,94,2020,3
+Beratungsinhalt,Verlust / Trauer / Tod,63,2020,3
+Beratungsinhalt,Verschiedenes,327,2020,3
+Beratungsinhalt,Medienerziehung/Swisscom,2,2020,3
+Zusätzliche Beanspruchung,Verschobenes Gespräch,612,2020,3
+Zusätzliche Beanspruchung,Schweigeanruf,289,2020,3
+Zusätzliche Beanspruchung,Fehlanruf,106,2020,3
+Zusätzliche Beanspruchung,Juxanruf,20,2020,3
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",8,2020,3
+Gesprächsdauer,Aritmetisches Mittel,0.010416666666666666,2020,3
+Gesprächsdauer,Median (Zentralwert),0.009722222222222222,2020,3
+Schicht,Umleiter (4.45),192,2020,4
+Schicht,Morgen (08.00),255,2020,4
+Schicht,ZD Morgen (08.00),232,2020,4
+Schicht,Vormit (10.00),289,2020,4
+Schicht,ZD Nachmittag (12.00),259,2020,4
+Schicht,Mittag (13.00),344,2020,4
+Schicht,Vorab (16.00),294,2020,4
+Schicht,Zwischendrin (17.00),362,2020,4
+Schicht,Abend (18.00),418,2020,4
+Schicht,Spät (21.00),446,2020,4
+Schicht,Nacht (23.00),406,2020,4
+Schicht,Chat Morgen (10.00),10,2020,4
+Schicht,Chat Nachmittag (14.00),45,2020,4
+Schicht,Chat Abend (18.00),89,2020,4
+Schicht,Mail-Beratung,44,2020,4
+Schicht,Angestel-Team,10,2020,4
+Geschlecht,Weiblich,2159,2020,4
+Geschlecht,Männlich,765,2020,4
+Geschlecht,nicht bestimmbar,57,2020,4
+Alter,bis 18 J.,86,2020,4
+Alter,19 - 40 J.,575,2020,4
+Alter,41 - 65 J.,1047,2020,4
+Alter,über 65 J.,994,2020,4
+Alter,nicht bestimmbar,279,2020,4
+Kontakthäufigkeit,Erster Kontakt,909,2020,4
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",911,2020,4
+Kontakthäufigkeit,Regelmässiger Kontakt,752,2020,4
+Kontakthäufigkeit,Vereinbarung,408,2020,4
+Beratungsinhalt,Alltagsbewältigung,1387,2020,4
+Beratungsinhalt,Psychisches Leiden,1271,2020,4
+Beratungsinhalt,Sorge wegen Infektion,461,2020,4
+Beratungsinhalt,Körperliches Leiden,353,2020,4
+Beratungsinhalt,Einsamkeit,532,2020,4
+Beratungsinhalt,Familie / Erziehung,287,2020,4
+Beratungsinhalt,Beziehung allgemein,211,2020,4
+Beratungsinhalt,Paarbeziehung,227,2020,4
+Beratungsinhalt,Arbeit / Ausbildung,165,2020,4
+Beratungsinhalt,Existenzprobleme,67,2020,4
+Beratungsinhalt,Gewalt,66,2020,4
+Beratungsinhalt,Sexualität,61,2020,4
+Beratungsinhalt,Spiritualität / Lebenssinn,81,2020,4
+Beratungsinhalt,Suchtverhalten,116,2020,4
+Beratungsinhalt,Suizidalität,94,2020,4
+Beratungsinhalt,Verlust / Trauer / Tod,71,2020,4
+Beratungsinhalt,Verschiedenes,276,2020,4
+Beratungsinhalt,Medienerziehung/Swisscom,2,2020,4
+Zusätzliche Beanspruchung,Verschobenes Gespräch,391,2020,4
+Zusätzliche Beanspruchung,Schweigeanruf,219,2020,4
+Zusätzliche Beanspruchung,Fehlanruf,103,2020,4
+Zusätzliche Beanspruchung,Juxanruf,1,2020,4
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",2,2020,4
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2020,4
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2020,4
+Schicht,Umleiter (4.45),223,2020,5
+Schicht,Morgen (08.00),363,2020,5
+Schicht,ZD Morgen (08.00),249,2020,5
+Schicht,Vormit (10.00),304,2020,5
+Schicht,ZD Nachmittag (12.00),318,2020,5
+Schicht,Mittag (13.00),386,2020,5
+Schicht,Vorab (16.00),389,2020,5
+Schicht,Zwischendrin (17.00),354,2020,5
+Schicht,Abend (18.00),459,2020,5
+Schicht,Spät (21.00),442,2020,5
+Schicht,Nacht (23.00),488,2020,5
+Schicht,Chat Morgen (10.00),41,2020,5
+Schicht,Chat Nachmittag (14.00),43,2020,5
+Schicht,Chat Abend (18.00),99,2020,5
+Schicht,Mail-Beratung,52,2020,5
+Schicht,Angestel-Team,8,2020,5
+Geschlecht,Weiblich,2166,2020,5
+Geschlecht,Männlich,955,2020,5
+Geschlecht,Divers,0,2020,5
+Geschlecht,nicht bestimmbar,85,2020,5
+Alter,bis 18 J.,113,2020,5
+Alter,19 - 40 J.,689,2020,5
+Alter,41 - 65 J.,1143,2020,5
+Alter,über 65 J.,919,2020,5
+Alter,nicht bestimmbar,342,2020,5
+Kontakthäufigkeit,Erster Kontakt,1007,2020,5
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",1067,2020,5
+Kontakthäufigkeit,Regelmässiger Kontakt,808,2020,5
+Kontakthäufigkeit,Vereinbarung,324,2020,5
+Beratungsinhalt,Alltagsbewältigung,1551,2020,5
+Beratungsinhalt,Psychisches Leiden,1320,2020,5
+Beratungsinhalt,Körperliches Leiden,331,2020,5
+Beratungsinhalt,Sorge wegen Infektion,250,2020,5
+Beratungsinhalt,Einsamkeit,487,2020,5
+Beratungsinhalt,Familie / Erziehung,331,2020,5
+Beratungsinhalt,Beziehung allgemein,232,2020,5
+Beratungsinhalt,Paarbeziehung,283,2020,5
+Beratungsinhalt,Arbeit / Ausbildung,189,2020,5
+Beratungsinhalt,Existenzprobleme,74,2020,5
+Beratungsinhalt,Gewalt,66,2020,5
+Beratungsinhalt,Sexualität,73,2020,5
+Beratungsinhalt,Spiritualität / Lebenssinn,85,2020,5
+Beratungsinhalt,Suchtverhalten,106,2020,5
+Beratungsinhalt,Suizidalität,113,2020,5
+Beratungsinhalt,Verlust / Trauer / Tod,65,2020,5
+Beratungsinhalt,Verschiedenes,377,2020,5
+Beratungsinhalt,Medienerziehung/Swisscom,0,2020,5
+Zusätzliche Beanspruchung,Verschobenes Gespräch,582,2020,5
+Zusätzliche Beanspruchung,Schweigeanruf,283,2020,5
+Zusätzliche Beanspruchung,Fehlanruf,121,2020,5
+Zusätzliche Beanspruchung,Juxanruf,23,2020,5
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",4,2020,5
+Gesprächsdauer,Aritmetisches Mittel,0.012499999999999999,2020,5
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2020,5
+Schicht,Umleiter (4.45),153,2020,6
+Schicht,Morgen (08.00),385,2020,6
+Schicht,ZD Morgen (08.00),204,2020,6
+Schicht,Vormit (10.00),305,2020,6
+Schicht,ZD Nachmittag (12.00),341,2020,6
+Schicht,Mittag (13.00),352,2020,6
+Schicht,Vorab (16.00),388,2020,6
+Schicht,Zwischendrin (17.00),382,2020,6
+Schicht,Abend (18.00),488,2020,6
+Schicht,Spät (21.00),504,2020,6
+Schicht,Nacht (23.00),464,2020,6
+Schicht,Chat Morgen (10.00),21,2020,6
+Schicht,Chat Nachmittag (14.00),54,2020,6
+Schicht,Chat Abend (18.00),117,2020,6
+Schicht,Mail-Beratung,71,2020,6
+Schicht,Angestel-Team,7,2020,6
+Geschlecht,Weiblich,2170,2020,6
+Geschlecht,Männlich,884,2020,6
+Geschlecht,Divers,2,2020,6
+Geschlecht,nicht bestimmbar,69,2020,6
+Alter,bis 18 J.,90,2020,6
+Alter,19 - 40 J.,784,2020,6
+Alter,41 - 65 J.,1163,2020,6
+Alter,über 65 J.,825,2020,6
+Alter,nicht bestimmbar,263,2020,6
+Kontakthäufigkeit,Erster Kontakt,945,2020,6
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",1025,2020,6
+Kontakthäufigkeit,Regelmässiger Kontakt,767,2020,6
+Kontakthäufigkeit,Vereinbarung,388,2020,6
+Beratungsinhalt,Alltagsbewältigung,1435,2020,6
+Beratungsinhalt,Psychisches Leiden,1367,2020,6
+Beratungsinhalt,Körperliches Leiden,275,2020,6
+Beratungsinhalt,Sorge wegen Infektion,87,2020,6
+Beratungsinhalt,Einsamkeit,456,2020,6
+Beratungsinhalt,Familie / Erziehung,359,2020,6
+Beratungsinhalt,Beziehung allgemein,217,2020,6
+Beratungsinhalt,Paarbeziehung,301,2020,6
+Beratungsinhalt,Arbeit / Ausbildung,193,2020,6
+Beratungsinhalt,Existenzprobleme,58,2020,6
+Beratungsinhalt,Gewalt,85,2020,6
+Beratungsinhalt,Sexualität,58,2020,6
+Beratungsinhalt,Spiritualität / Lebenssinn,82,2020,6
+Beratungsinhalt,Suchtverhalten,130,2020,6
+Beratungsinhalt,Suizidalität,133,2020,6
+Beratungsinhalt,Verlust / Trauer / Tod,80,2020,6
+Beratungsinhalt,Verschiedenes,423,2020,6
+Beratungsinhalt,Medienerziehung/Swisscom,1,2020,6
+Zusätzliche Beanspruchung,Verschobenes Gespräch,701,2020,6
+Zusätzliche Beanspruchung,Schweigeanruf,290,2020,6
+Zusätzliche Beanspruchung,Fehlanruf,112,2020,6
+Zusätzliche Beanspruchung,Juxanruf,6,2020,6
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",2,2020,6
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,2020,6
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,2020,6

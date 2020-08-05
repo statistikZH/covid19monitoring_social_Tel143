@@ -1,0 +1,728 @@
+---
+title: "Mitteilung: Dargebotene Hand"
+description: |
+author:
+  - name: "Lars Schöbitz"
+    affiliation: Statistisches Amt des Kantons Zürich
+    affiliation_url: https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt.html
+  - name: "Katharina Kälin"
+    affiliation: Statistisches Amt des Kantons Zürich
+    affiliation_url: https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt.html
+date: "`r Sys.Date()`"
+output: 
+  bookdown::word_document2:
+    toc: true
+    toc_depth: 2
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+
+# chunk options  ----------------------------
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  layout = "l-page", 
+  fig.height = 7, 
+  fig.width = 9, 
+  dpi = 300
+)
+
+
+```
+
+```{r load-libraries}
+
+# libraries ---------------------------------------------------------------
+
+library(dplyr)
+library(tidyr)
+library(magrittr)
+library(ggplot2)
+library(statR)
+
+```
+
+```{r options}
+
+# gist source: https://gist.github.com/larnsce/c9efc871933f90a4b139af6256208353
+
+# functions to define scaling options ----------------
+
+scale_fill_statZH <- function() {
+  ggplot2::scale_fill_manual(values = statR::zhpal$zhdiagonal)
+}
+
+scale_colour_statZH <- function() {
+  ggplot2::scale_colour_manual(values = statR::zhpal$zhdiagonal)
+}
+
+# ggplot2 scaling options ---------------------------------
+
+options(
+  ggplot2.discrete.fill = scale_fill_statZH,
+  ggplot2.discrete.colour = scale_colour_statZH
+)
+
+# set ggplot theme
+
+theme_set(theme_stat())
+
+```
+
+
+```{r load-data}
+
+dat_by_month_raw <- readr::read_csv(here::here("data/raw_data/Social_Tel143_nach_monat.csv"))
+dat_by_quartal_raw <- readr::read_csv(here::here("data/raw_data/Social_Tel143_nach_quartal.csv"))
+
+```
+
+```{r}
+
+## aggregation levels
+
+aggregation_alter <- c("bis 18", "19 bis 40", "41 bis 65", "19 bis 65", "über 65", "nicht bestimmbar", "Total")
+aggregation_kontakthaeufigkeit <- c("Erstkontakt", "gelegentlicher Kontakt", "regelmaessiger Kontakt")
+
+```
+
+
+```{r data-manipulation-main}
+
+# Main data manipulation for data by month
+
+dat_by_month <- dat_by_month_raw %>% 
+  mutate(monat_label = lubridate::month(monat, label = TRUE, abbr = FALSE, locale = Sys.getlocale("LC_TIME"))) %>% 
+  
+  ## Remove Merkmale der kategorie "Beratungsinhalt"
+  filter(kategorie != "Medienerziehung/Swisscom") %>% 
+  
+  ## Remove Merkmale der kategorie Geschlecht 
+  # filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  
+  ## Filter monat smaller six, as we have data only until end of June
+  filter(monat <= 6)  %>% 
+  
+  ## Rename männlich und weiblich zu Männer und Frauen
+  mutate(
+    kategorie = case_when(
+      kategorie == "Weiblich" ~ "Frauen",
+      kategorie == "Männlich" ~ "Männer",
+      TRUE ~ kategorie
+    ) 
+  )
+
+# Main data manipulation for data by quartal
+
+dat_by_quartal <- dat_by_quartal_raw %>% 
+  ## Remove Merkmale der kategorie "Beratungsinhalt"
+  filter(kategorie != "Medienerziehung/Swisscom") %>% 
+  
+  ## Remove Merkmale der kategorie Geschlecht 
+  #filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  
+  ## 
+  ## filter(altersklasse != "nicht bestimmbar") %>% 
+  
+  ## filter for only Q1 and Q2
+  filter(quartal %in% c("1Q", "2Q")) %>% 
+  
+  ## Rename männlich und weiblich zu Männer und Frauen
+  mutate(
+    kategorie = case_when(
+      kategorie == "Weiblich" ~ "Frauen",
+      kategorie == "Männlich" ~ "Männer",
+      TRUE ~ kategorie
+    ) 
+  )
+
+
+```
+
+
+```{r data-manipulation-by-month}
+
+# Total Anzahl Anrufe ---------------
+
+## Vergleich Halbjahr 2019 mit Halbjahr 2020
+
+dat_bm_przt_diff_total <- dat_by_month %>% 
+  
+  ## filter for Schicht as this is the total count of calls
+  filter(variable == "Geschlecht") %>% 
+  
+  group_by(jahr, monat) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  ) %>% 
+  group_by(jahr) %>% 
+  summarise(
+    total_anzahl = sum(sum_anzahl),
+    mean_anzahl = mean(sum_anzahl),
+    sd = sd(sum_anzahl)
+  ) %>% 
+  mutate(
+    mean_przt_diff = (mean_anzahl / lag(mean_anzahl) - 1) * 100
+  )
+
+anzahl_anrufe_2020 <- filter(dat_bm_przt_diff_total, jahr == 2020)$total_anzahl
+anzahl_anrufe_2019 <- filter(dat_bm_przt_diff_total, jahr == 2019)$total_anzahl
+
+## Vergleich Monate bis Juni 2020 mit Monate bis Juni 2019
+
+dat_bm_przt_diff_month <- dat_by_month %>% 
+  
+  ## filter for Schicht as this is the total count of calls
+  filter(variable == "Geschlecht") %>% 
+  
+  group_by(jahr, monat, monat_label) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  ) %>% 
+  arrange(monat, jahr) %>%
+  group_by(monat) %>% 
+  mutate(
+    #sum_przt_diff = (sum_anzahl - lag(sum_anzahl)) / lag(sum_anzahl) * 100,
+    sum_przt_diff = (sum_anzahl / lag(sum_anzahl) - 1) * 100
+  )
+
+# vector for month data 2020 
+
+anzahl_anrufe_przt_diff_month <- dat_bm_przt_diff_month %>% 
+  filter(jahr == 2020) 
+
+```
+
+
+```{r data-manipulation-by-month2}
+
+## By month total -------------------------
+
+dat_bm_total <- dat_by_month %>% 
+  
+  group_by(monat_label, jahr, variable, kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  ) 
+
+## Indexiert auf 2019 in prozent pro Inhalt ------------
+
+dat_bm_diff_vorjahr_przt <- dat_bm_total %>% 
+  group_by(jahr, variable, kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(sum_anzahl)
+  ) %>% 
+  arrange(kategorie, jahr) %>% 
+  group_by(variable, kategorie) %>%
+  mutate(
+    diff_vorjahr_przt = (sum_anzahl / lag(sum_anzahl) - 1) * 100
+  )
+
+## Indexiert auf 2019 in total pro Inhalt ------------
+
+dat_bm_diff_vorjahr_total <- dat_bm_total %>% 
+  arrange(monat_label, kategorie, jahr) %>% 
+  group_by(monat_label, variable, kategorie) %>%
+  mutate(
+    diff_vorjahr_total = sum_anzahl - lag(sum_anzahl)
+  )
+
+```
+
+
+```{r data-manipulation-by-quartal}
+
+## Indexiert auf 2019 für aggregration alter ---------------------
+
+dat_bq_diff_vorjahr <- dat_by_quartal %>%
+  
+  filter(altersklasse %in% aggregation_alter) %>%
+  mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
+  group_by(jahr, variable, kategorie, altersklasse) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  ) %>% 
+  arrange(variable, kategorie, altersklasse, jahr) %>% 
+  group_by(altersklasse, variable, kategorie) %>%
+  mutate(
+    diff_vorjahr_przt = (sum_anzahl / lag(sum_anzahl) - 1) * 100,
+    diff_vorjahr_total = sum_anzahl - lag(sum_anzahl)
+  ) 
+
+```
+
+
+
+```{r}
+
+# Paragraph 1: Wieviel häufiger haben Frauen angerufen als Männer?
+
+para1_geschlecht <- dat_bm_total %>% 
+  filter(variable == "Geschlecht") %>% 
+  filter(!kategorie %in% c("nicht bestimmbar", "Divers")) %>% 
+  #filter(jahr == 2020) %>% 
+  group_by(jahr, kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(sum_anzahl)
+  ) %>% 
+  spread(key = kategorie, value = sum_anzahl) %>% 
+  mutate(multiple = Frauen / Männer)
+
+# Paragraph 1: Zunahme/Abnahme Männer Frauen 2020 ggü 2019
+
+para1_geschlecht_zu_abhname <- dat_bm_diff_vorjahr_przt %>% 
+  filter(variable == "Geschlecht") %>% 
+  filter(!kategorie %in% c("nicht bestimmbar", "Divers")) %>% 
+  filter(jahr == 2020)
+
+## Männer
+
+para1_Maenner <- filter(para1_geschlecht_zu_abhname, kategorie == "Männer")$diff_vorjahr_przt
+
+## Frauen
+
+para1_Frauen <- filter(para1_geschlecht_zu_abhname, kategorie == "Frauen")$diff_vorjahr_przt
+
+```
+
+
+```{r}
+
+# Parapgraph 2: Zunahme Altersklasse zwischen 2019 und 2020
+
+para2_geschlecht_alter_diff <- dat_bq_diff_vorjahr %>% 
+  filter(variable == "Geschlecht") %>% 
+  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  filter(altersklasse != "nicht bestimmbar") 
+
+## Männer
+
+para2_Maenner <- para2_geschlecht_alter_diff %>% 
+  filter(jahr == 2020) %>% 
+  filter(kategorie == "Männer")
+
+para2_Maenner_18 <- filter(para2_Maenner, altersklasse == "bis 18")$diff_vorjahr_przt
+para2_Maenner_1940 <- filter(para2_Maenner, altersklasse == "19 bis 40")$diff_vorjahr_przt
+para2_Maenner_4165 <- filter(para2_Maenner, altersklasse == "41 bis 65")$diff_vorjahr_przt
+para2_Maenner_65 <- filter(para2_Maenner, altersklasse == "über 65")$diff_vorjahr_przt
+
+## Frauen
+
+para2_Frauen <- para2_geschlecht_alter_diff %>% 
+  filter(jahr == 2020) %>% 
+  filter(kategorie == "Frauen")
+
+para2_Frauen_18 <- filter(para2_Frauen, altersklasse == "bis 18")$diff_vorjahr_przt
+para2_Frauen_1940 <- filter(para2_Frauen, altersklasse == "19 bis 40")$diff_vorjahr_przt
+para2_Frauen_4165 <- filter(para2_Frauen, altersklasse == "41 bis 65")$diff_vorjahr_przt
+para2_Frauen_65 <- filter(para2_Frauen, altersklasse == "über 65")$diff_vorjahr_przt
+
+
+```
+
+```{r}
+
+# Paragraph 3: Ein durchschnittlicher Anruf dauert
+
+para3_gespraechsdauer <- dat_bm_total %>% 
+  filter(variable == "Gesprächsdauer") %>% 
+  group_by(jahr, kategorie) %>% 
+  mutate(minuten = sum_anzahl * 24 * 60) %>% 
+  filter(kategorie == "Aritmetisches Mittel") %>% 
+  summarise(
+    mean_minuten = mean(minuten)
+  ) %>% 
+  filter(jahr == 2020) %>% 
+  .$mean_minuten
+
+# 17 * 100 / 60
+
+```
+
+```{r}
+
+# Pragraph 3
+
+## Total Anzahl Beratungsinhalte pro Monat
+
+dat_bm_total_beratungsinhalte <- dat_bm_total %>% 
+  filter(jahr == 2020) %>% 
+  #filter(kategorie != "Sorge wegen Infektion") %>% 
+  filter(variable == "Beratungsinhalt") %>% 
+  group_by(jahr, monat_label) %>% 
+  summarise(
+    sum_anzahl_beratungsinhalte = sum(sum_anzahl)
+  )
+
+## Total Anrufe pro Monat
+
+dat_bm_total_anrufe <- dat_bm_total %>% 
+  
+  ## filter for Schicht as this is the total count of calls
+  filter(variable == "Geschlecht") %>% 
+  
+  group_by(jahr, monat_label) %>% 
+  summarise(
+    sum_anzahl_anrufe = sum(sum_anzahl)
+  ) %>% 
+  filter(jahr == 2020)
+
+## Join dataframes
+
+para3_beratungsinhalte_multiple <- dat_bm_total_anrufe %>% 
+  left_join(dat_bm_total_beratungsinhalte) %>% 
+  mutate(
+    multiple = sum_anzahl_beratungsinhalte / sum_anzahl_anrufe
+  ) %>% 
+  summarise(
+    mean_multiple = mean(multiple)
+  ) %>% 
+  .$mean_multiple
+
+```
+
+```{r}
+
+# Paragraph 3: Prozentuale verteilung inhalte Jahr 2020
+
+dat_bm_beratungsinhalt_przt <- dat_bm_total %>% 
+  filter(jahr == 2020) %>% 
+  filter(variable == "Beratungsinhalt") %>%
+  group_by(jahr, variable, kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(sum_anzahl)
+  ) %>% 
+  mutate(
+    przt = sum_anzahl / sum(sum_anzahl) * 100
+  ) 
+
+## Top 3
+
+para3_beratungsinhalte_top3 <- dat_bm_beratungsinhalt_przt %>% 
+  arrange(desc(przt)) %>% 
+  head(3) %>% 
+  summarise(
+    sum_przt_top3 = sum(przt)
+  ) %>% 
+  .$sum_przt_top3
+
+# t <- dat_bm_total %>% 
+#   filter(variable == "Geschlecht") %>% 
+#   filter(kategorie %in% c("nicht bestimmbar", "Divers")) %>%
+#   group_by(jahr) %>% 
+#   summarize(sum_anzahl = sum(sum_anzahl)) %>%
+#   ungroup
+# 
+# View(t)
+# 
+# t[which(t$jahr == 2020), c("sum_anzahl")]/anzahl_anrufe_2020*100
+# t[which(t$jahr == 2019), c("sum_anzahl")]/anzahl_anrufe_2019*100
+
+```
+
+
+```{r}
+
+# Paragraph 3: Prozentuale verteilung inhalte Monat April in 2020
+
+dat_bm_beratungsinhalt_przt2 <- dat_bm_total %>% 
+  filter(jahr == 2020) %>% 
+  #filter(monat_label == "April") %>% 
+  filter(variable == "Beratungsinhalt") %>%
+  group_by(jahr, monat_label, variable, kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(sum_anzahl)
+  ) %>% 
+  mutate(
+    przt = sum_anzahl / sum(sum_anzahl) * 100
+  ) 
+
+## Sorge wegen Infektion im April
+
+para3_sorge_infektion_april <- dat_bm_beratungsinhalt_przt2 %>% 
+  filter(kategorie == "Sorge wegen Infektion") %>% 
+  filter(monat_label == "April")
+
+## Sorge wegen Infektion im Juni
+
+para3_sorge_infektion_juni <- dat_bm_beratungsinhalt_przt2 %>% 
+  filter(kategorie == "Sorge wegen Infektion") %>% 
+  filter(monat_label == "Juni")
+
+```
+
+# Corona verändert Alltagssorgen nur wenig
+
+**Kurze Zusammenfassung**
+
+Die «Dargebotene Hand» bietet als Sorgentelefon Unterstützung für die Bevölkerung. Während  seit jeher die Mehrheit der Anrufenden weiterhin Frauen sind, melden sich im Corona-Jahr 2020 mehr Männer im Jahr 2020 mehr als im Vorjahr. Kaum etwas geverändert hat sich bei den Beratungsinhalten, wobei das Thema «Suchtverhalten» die grösste Veränderung aufweist.
+
+# Erster Paragraph (Einleitung) 
+
+Das Schweizer Sorgentelefon «Dargebotene Hand», auch bekannt als Telefon 143, ist rund um die Uhr für Menschen da, die helfende und unterstützende Gespräche benötigen. Die Gespräche finden via Chat oder Telefon statt, wobei das Telefon mit 93% den Löwenanteil der Kontakte ausmacht. Das regionale Sorgentelefon kümmert sich um den Kanton Zürich ohne die Bezirke Winterthur und Andelfingen, den st. gallischen Bezirk Gaster und See und den Bezirk Höfe im Kanton Schwyz. Aus aktuellem Anlass der Corona-Pandemie zeigen wir in der vorliegenden Kurzanalyse, wer bei der Nummer 143 anruft und welche Beratungsinhalte gefragt sind. 
+
+## Männer rufen vermehrt an
+
+Das Sorgentelefon hat im ersten Halbjahr 2020 rund `r prettyNum(round(anzahl_anrufe_2020, -2))` Anrufe mit einer durchschnittlichen Gesprächsdauer von `r round(para3_gespraechsdauer, 0)` Minuten entgegengenommen.. Dies entspricht fast `r prettyNum(round(anzahl_anrufe_2020 / 180, -1))` Anrufen pro Tag mit insgesamt `r prettyNum(round(anzahl_anrufe_2020 / 180 * 17 / 60, 0))` Stunden Betreuungszeit. Die Mehrheit der Anrufenden waren Frauen: Sie riefen rund zweieinhalb Mal mehr an als die Männer. Dieses Muster zeigt sich gemäss der Dargebotenen Hand schon seit Jahren: Frauen reden vermehrt über ihre Probleme, während Männer eher dazu tendieren, ihre Sorgen für sich zu behalten oder Belastungen anders zu kompensieren.
+
+Im Vergleich zum Vorjahr sind die Zahl der Anrufe und die durchschnittliche Gesprächsdauer im ersten Halbjahr 2020 stabil geblieben. Was sich verändert hat, ist die Verteilung nach Monaten und Geschlechtern: Im Januar und im Februar nahm die Zahl der Anrufe leicht ab. Von März bis Juni nahm sie dagegen zu. Vor allem bei den Männern fällt die Zunahme deutlich aus: sie riefen rund `r round(para1_Maenner, 0)`% mhäufiger an als im selben Vorjahreszeitraum. Die Frauen meldeten sich hingegen etwas seltener beim Sorgentelefon, die Zahl ihrer Anrufe ist um  `r round(para1_Frauen * -1, 1)`% gesunken.
+
+**Visualisierung:** Grafik 1   
+**Titel:** Anzahl Anrufe pro Monat  
+**Untertitel:** Nach Geschlecht und Jahr  
+**Datenquelle:** Dargebotene Hand (143.ch)  
+**Alternativtext:** Balkendiagramm für die Monate Januar bis Juni in den Jahren 2019 und 2020. Die horizontale Achse zeigt die Monate, die vertikale Achse die Anzahl Anrufe. Verglichen wird die Anzahl zwischen den Jahren in einem Diagramm und nach Geschlecht in 2 Facetten. Anzahl Anrufe Frauen liegt zwischen 1907 im Februar 2020 und 2202 im Mai 2020. Anzahl Anrufe Männer liegt zwischen 577 im Mai 2019 und 955 im Mai 2020.  
+
+```{r plot-geschlecht1}
+
+
+dat_bm_total %>% 
+  filter(variable == "Geschlecht") %>% 
+  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  
+  ## plot
+  
+  ggplot(aes(x = monat_label, y = sum_anzahl, fill = factor(jahr))) +
+  geom_col(position = position_dodge()) +
+  geom_hline(yintercept = 0, size = 1) +
+  labs(
+    #title = "Anzahl Anrufe",
+    #subtitle = "Nach Geschlecht und Monat",
+    x = NULL,
+    y = "Anzahl Anrufe",
+    fill = NULL
+    #caption = "Datenquelle: Dargebotene Hand (143.ch)"
+  ) +
+  facet_wrap(~kategorie) +
+  scale_y_continuous(breaks = seq(0, 2500, 250)) +
+  theme(panel.grid.minor = element_blank()) 
+
+
+```
+
+```{r, eval=FALSE}
+
+## Prozent Anrufe Divers und nicht bestimmbar
+
+dat_bm_total %>% 
+  filter(variable == "Geschlecht") %>% 
+  group_by(jahr, variable, kategorie) %>%
+  summarise(
+    sum_anzahl = sum(sum_anzahl)
+  ) %>% 
+  group_by(jahr) %>% 
+  mutate( 
+    przt = sum_anzahl / sum(sum_anzahl) * 100
+  ) %>% 
+  filter(kategorie %in% c("nicht bestimmbar", "Divers"))
+
+```
+
+## Gegenläufige Veränderung bei Männern und Frauen 
+
+Das Sorgentelefon wird vor allem von Männern und Frauen im mittleren Alter gewählt. Jugendliche wählen die Nummer 143 kaum. Ihre Altersklasse ist allerdings auch mit Abstand am kleinsten, und für sie gibt es viele andere, teils gezielt auf Jugendliche zugeschnittene Beratungsangebote (z.B. Notrufnummer 147 von Pro Juventute). Der im ersten Halbjahr 2020 beobachtete Zuwachs der Anrufe von Männern ist vor allem in der mittleren Altersklasse ersichtlich. Frauen im mittleren Alter griffen hingegen im ersten Halbjahr 2020 seltener  zum Hörer als im Vorjahr. Dafür melden sich jugendliche Frauen und Frauen im Pensionsalter vermehrt. 
+
+Weshalb es zu diesen Verlagerungen kam, ist nicht bekannt. Besonders das veränderte Verhalten der Geschlechter in der mittleren Altersklasse ist schwierig zu deuten. Dass hingegen die Frauen über 65 vermehrt anriefen, hängt wohl damit zusammen, dass sie öfter alleine leben und deshalb mehr unter dem Lockdown litten als die gleichaltrigen Männer.
+
+**Visualisierung:** Grafik 2  
+**Titel:** Anzahl Anrufe pro Altersgruppe  
+**Untertitel:** Nach Geschlecht und Jahr   
+**Datenquelle:** Dargebotene Hand (143.ch)  
+**Alternativtext:** Balkendiagramm mit drei Altersklassen (bis 18-Jährige, 19 bis 65-Jährige, über 65-Jährige) auf der horizontalen Achse. Anzahl Anrufe als Total zwischen Januar und Juni auf der vertikalen Achse. Bei Frauen in 2019 und 2020, 418 und 522 Anrufe in der unteren Altersklasse; 7382 und 6775 Anrufe in der mittleren Altersklasse; 3875 und 4346 Anrufe in der oberen Altersklasse. Bei Männern in 2019 und 2020, 56 und 60 Anrufe in der unteren Altersklasse; 2586 und 3410 in der mittleren Altersklasse; 850 und 879 in der oberen Altersklasse. 
+
+
+```{r plot-geschlecht-alter}
+
+dat_by_quartal %>%
+  
+  filter(quartal %in% c("1Q", "2Q")) %>% 
+  filter(variable == "Geschlecht") %>% 
+  
+  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  filter(altersklasse != "nicht bestimmbar") %>% 
+  
+  filter(altersklasse %in% aggregation_alter) %>%
+  
+  # kombiniere Altersgruppen
+  
+  mutate(
+    altersklasse = case_when(
+      altersklasse == "19 bis 40" ~ "19 bis 65",
+      altersklasse == "41 bis 65" ~ "19 bis 65",
+      TRUE ~ altersklasse
+    )
+  ) %>% 
+  mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
+  group_by(jahr, kategorie, altersklasse) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  )  %>% 
+  
+  ggplot(aes(x = altersklasse, y = sum_anzahl, group = factor(jahr), fill = factor(jahr))) +
+  geom_col(position = position_dodge()) +
+  facet_wrap(~kategorie, ncol = 4) +
+  labs(
+    #title = "Anzahl Anrufe",
+    #subtitle = "Nach Geschlecht, Alter und Jahr (Q1 und Q2)",
+    x = NULL,
+    y = "Anzahl Anrufe",
+    #caption = "Datenquelle: Dargebotene Hand (143.ch)",
+    fill = NULL
+  ) +
+  scale_y_continuous(breaks = seq(0, 8000, 1000)) 
+#theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) 
+
+
+```
+
+```{r, eval=FALSE}
+
+## Prozent Anrufe Divers und nicht bestimmbar
+
+dat_by_quartal %>%
+  
+  filter(quartal %in% c("1Q", "2Q")) %>% 
+  filter(variable == "Geschlecht") %>% 
+  
+  filter(altersklasse %in% aggregation_alter) %>%
+  mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
+  group_by(jahr, kategorie, altersklasse) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  )  %>% 
+  group_by(jahr, altersklasse) %>% 
+  mutate( 
+    przt = sum_anzahl / sum(sum_anzahl) * 100
+  ) %>% 
+  filter(kategorie %in% c("nicht bestimmbar", "Divers")) 
+```
+
+## Immer noch dieselben Themen
+
+Bei jedem Anruf notieren die Mitarbeiter und Mitarbeiterinnen des Sorgentelefons die angesprochenen Beratungsinhalte. Pro Anruf können natürlich mehrere Themen zur Sprache kommen, im Schnitt sind es zwei.  
+
+Die während der Beratungsgespräche am häufigsten angesprochenen Themen sind «Alltagsbewältigung», «Psychisches Leiden» und «Einsamkeit». Diese drei Themen machen zusammen fast `r round(para3_beratungsinhalte_top3, -1)`% der Beratungsinhalte aus, und daran hat sich im Vergleich zum Vorjahr auch nichts geändert.
+
+Neu seit März gibt es die Kategorie «Sorge wegen Infektion». Dieses Thema hatte besonders im April Konjunktur:  `r round(para3_sorge_infektion_april$sum_anzahl)` oder `r round(para3_sorge_infektion_april$przt, 0)`% der Anrufe gingen damals unter anderem wegen der Corona-Pandemie ein. Schon im Mai und besonders im Juni verlor das Thema dann wieder an Brisanz. Im Juni zählte das Sorgentelefon nur noch `r round(para3_sorge_infektion_juni$sum_anzahl)` Anrufe zu diesem Thema ein.  
+
+Eindrücklich ist die Veränderung beim Thema «Suchtverhalten»: Die über 65-Jährigen riefen im ersten Halbjahr 2020 deswegen mehr als dreimal so häufig an wie im Vorjahr, während die Zahl der Anrufe bei den übrigen Alterskategorien stabil blieb. Ein möglicher Erklärungsansatz sind die Verhaltensempfehlungen der Behörden wegen der Pandemie. Angehörige der Risikogruppe, zu der Menschen im Pensionsalter gehören, wurden aufgefordert, zuhause zu bleiben und zwischenmenschliche Kontakte möglichst zu meiden. Diese «verordnete» Isolation dürfte bei vielen älteren Menschen ein Gefühl der Einsamkeit geweckt haben, dem sie wiederum mit Suchtmitteln zu begegnen versuchten.
+
+**Visualisierung:** Grafik 3   
+**Titel:** Anzahl Anrufe pro Monat  
+**Untertitel:** Nach Beratungsinhalt  
+**Datenquelle:** Dargebotene Hand (143.ch)  
+**Alternativtext:** Liniendiagramm für die Monate Januar bis Juni in den Jahren 2019 und 2020. Die horizontale Achse zeigt die Monate, die vertikale Achse die Anzahl Anrufe. Verglichen wird die Anzahl zwischen den Jahren in einem Diagramm und nach Beratungsinhalt in 16 Facetten. Häufigste Inhalte mit rund 500 bis 1500 Anrufen sind "Verschiedenes", "Einsamkeit", "Psychisches Leiden" und "Alltagsbewältigung". Folgend mit rund 200 bis 500 Anrufen sind die Inhalte "Beziehung allgemein", "Paarbeziehung", "Familie / Erziehung" und "Körperliches Leiden". Folgend mit rund 80 bis 220 Anrufen sind die Inhalte "Existenzprobleme", "Suchtverhalten", "Suizidalität" und "Arbeit / Ausbildung". Folgend mit rund 40 bis 110 Anrufen sind die Inhalte "Sexualität", "Verlust / Trauer / Tod", "Spiritualität / Lebenssinn" und "Gewalt". 
+
+```{r}
+
+## prepare four levels for data to order in rows in facet
+
+beratungsinhalt_size_group <- dat_bm_total %>% 
+  
+  filter(variable == "Beratungsinhalt") %>% 
+  filter(kategorie != "Sorge wegen Infektion") %>% 
+  group_by(kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(sum_anzahl)
+  ) %>%  
+  arrange(desc(sum_anzahl)) %>% 
+  mutate(
+    size_group = case_when(
+      sum_anzahl > 4000 ~ 1,
+      sum_anzahl > 2200 ~ 2,
+      sum_anzahl > 920 ~ 3,
+      TRUE ~ 4 
+    )
+  ) %>% 
+  select(kategorie, size_group) 
+
+beratungsinhalt_size_group$kategorie <- factor(beratungsinhalt_size_group$kategorie, levels = beratungsinhalt_size_group$kategorie)
+
+## helper dataframe to set scale on y axis equal for each row on plot 
+## help from: https://stackoverflow.com/a/33455480/6816220
+
+df_helper <- tibble(
+  jahr = c(rep("2020", 16), rep("2019", 16)),
+  monat_label = "Januar",
+  kategorie = rep(beratungsinhalt_size_group$kategorie, 2),
+  sum_anzahl = c(
+    rep(1700, 4), rep(500, 4), rep(230, 4), rep(110, 4),
+    rep(200, 4), rep(100, 4), rep(50, 4), rep(30, 4)
+  )
+)
+
+```
+
+```{r plot4-alternative2, fig.height=9}
+
+dat_bm_total %>% 
+  
+  filter(variable == "Beratungsinhalt") %>% 
+  filter(kategorie != "Sorge wegen Infektion") %>%
+  mutate(kategorie = factor(kategorie, levels = beratungsinhalt_size_group$kategorie)) %>% 
+  
+  ggplot(aes(x = factor(monat_label), y = sum_anzahl, group = factor(jahr), color = factor(jahr))) +
+  geom_line() +
+  geom_point(size = 2) +
+  geom_col(data = df_helper, aes(x = monat_label, y = sum_anzahl, color = NULL), alpha = 0) +
+  labs(
+    #title = "Anzahl Anrufe",
+    #subtitle = "Nach Geschlecht und Monat",
+    x = NULL,
+    y = "Anzahl Anrufe",
+    color = NULL
+    #caption = "Datenquelle: Dargebotene Hand (143.ch)"
+  ) +
+  facet_wrap(~kategorie, scales = "free_y", ncol = 4) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) 
+
+
+```
+
+```{r, eval=FALSE}
+
+dat_by_quartal  %>% 
+  filter(variable == "Beratungsinhalt") %>% 
+  filter(kategorie != "Sorge wegen Infektion") %>% 
+  filter(altersklasse %in% aggregation_alter) %>%
+  mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
+  
+  ## remove Alter nicht bestimmbar
+  mutate(jahr = factor(jahr)) %>% 
+  group_by(jahr, kategorie, altersklasse) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  ) %>% 
+  mutate( 
+    przt = sum_anzahl / sum(sum_anzahl) * 100
+  ) %>% 
+  filter(altersklasse == "nicht bestimmbar") %>% 
+  arrange(desc(przt))
+
+
+```
+
+```{r, eval=FALSE}
+
+dat_by_month %>%
+  
+  ## filter for Schicht as this is the total count of calls
+  filter(variable %in% c("Geschlecht", "Zusätzliche Beanspruchung")) %>% 
+  group_by(jahr, monat, variable) %>% 
+  summarise(
+    sum_anzahl = sum(anzahl)
+  ) %>% 
+  mutate(
+    przt = sum_anzahl / sum(sum_anzahl) * 100
+  )
+
+```
+
+# Hinweis
+
+Bei den Kategorien Geschlecht und Alter gibt es jeweils die Merkmal «nicht bestimmbar». Dies bedeutet, dass die Anrufenden ihr Geschlecht und/oder Alter nicht angegeben haben. Insgesamt machen diese Anrufe sowohl 2019 als auch 2020 weniger als 2% aus. Werden die Kategorien jedoch miteinander oder mit bestimmten Beratungsinhalten gekreuzt, kann der Anteil auf bis zu 20% steigen. Diese Fälle wurden aus der Analyse ausgeschlossen. Dasselbe gilt für die Kategorie «divers» beim Geschlecht, die insgesamt zwei Anrufe betrifft. In den Rohdaten sind jedoch alle Kategorien enthalten.
+
