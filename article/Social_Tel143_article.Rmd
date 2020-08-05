@@ -1,20 +1,9 @@
 ---
 title: "Mitteilung: Dargebotene Hand"
-description: |
-author:
-  - name: "Lars Schöbitz"
-    affiliation: Statistisches Amt des Kantons Zürich
-    affiliation_url: https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt.html
-  - name: "Katharina Kälin"
-    affiliation: Statistisches Amt des Kantons Zürich
-    affiliation_url: https://www.zh.ch/de/direktion-der-justiz-und-des-innern/statistisches-amt.html
+description: ""
+author: "Details siehe [GitHub repo](https://github.com/statistikZH/covid19monitoring_social_Tel143)"
 date: "`r Sys.Date()`"
-output: 
-  bookdown::word_document2:
-    toc: true
-    toc_depth: 2
-editor_options: 
-  chunk_output_type: console
+output: html_document 
 ---
 
 ```{r setup, include=FALSE}
@@ -25,7 +14,7 @@ knitr::opts_chunk$set(
   echo = FALSE,
   message = FALSE,
   warning = FALSE,
-  layout = "l-page", 
+  layout = "l-page", # for output distill::distill_article
   fig.height = 7, 
   fig.width = 9, 
   dpi = 300
@@ -42,6 +31,7 @@ library(knitr)
 library(rmarkdown)
 library(readr)
 library(lubridate)
+library(here)
 library(dplyr)
 library(tidyr)
 library(magrittr)
@@ -94,6 +84,14 @@ aggregation_kontakthaeufigkeit <- c("Erstkontakt", "gelegentlicher Kontakt", "re
 
 ```
 
+```{r}
+
+## set pixel and dpi for plot export with ggsave
+
+pixel = 1152
+my_dpi = 300 
+
+```
 
 ```{r data-manipulation-main}
 
@@ -146,7 +144,6 @@ dat_by_quartal <- dat_by_quartal_raw %>%
 
 
 ```
-
 
 ```{r data-manipulation-by-month}
 
@@ -201,7 +198,6 @@ anzahl_anrufe_przt_diff_month <- dat_bm_przt_diff_month %>%
 
 ```
 
-
 ```{r data-manipulation-by-month2}
 
 ## By month total -------------------------
@@ -237,7 +233,6 @@ dat_bm_diff_vorjahr_total <- dat_bm_total %>%
 
 ```
 
-
 ```{r data-manipulation-by-quartal}
 
 ## Indexiert auf 2019 für aggregration alter ---------------------
@@ -258,8 +253,6 @@ dat_bq_diff_vorjahr <- dat_by_quartal %>%
   ) 
 
 ```
-
-
 
 ```{r}
 
@@ -292,7 +285,6 @@ para1_Maenner <- filter(para1_geschlecht_zu_abhname, kategorie == "Männer")$dif
 para1_Frauen <- filter(para1_geschlecht_zu_abhname, kategorie == "Frauen")$diff_vorjahr_przt
 
 ```
-
 
 ```{r}
 
@@ -428,7 +420,6 @@ para3_beratungsinhalte_top3 <- dat_bm_beratungsinhalt_przt %>%
 
 ```
 
-
 ```{r}
 
 # Paragraph 3: Prozentuale verteilung inhalte Monat April in 2020
@@ -483,7 +474,6 @@ Im Vergleich zum Vorjahr sind die Zahl der Anrufe und die durchschnittliche Gesp
 
 ```{r plot-geschlecht1}
 
-
 dat_bm_total %>% 
   filter(variable == "Geschlecht") %>% 
   filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
@@ -504,6 +494,15 @@ dat_bm_total %>%
   facet_wrap(~kategorie) +
   scale_y_continuous(breaks = seq(0, 2500, 250)) +
   theme(panel.grid.minor = element_blank()) 
+
+# save plot for web
+
+ggsave(here::here("plots/plot1_anzahl_anrufe.png"), 
+       width = pixel*2.5/my_dpi,   
+       height = pixel*1.5/my_dpi,
+       units = "in",
+       dpi = my_dpi)
+
 
 
 ```
@@ -533,7 +532,7 @@ Das Sorgentelefon wird vor allem von Männern und Frauen im mittleren Alter gew�
 Weshalb es zu diesen Verlagerungen kam, ist nicht bekannt. Besonders das veränderte Verhalten der Geschlechter in der mittleren Altersklasse ist schwierig zu deuten. Dass hingegen die Frauen über 65 vermehrt anriefen, hängt wohl damit zusammen, dass sie öfter alleine leben und deshalb mehr unter dem Lockdown litten als die gleichaltrigen Männer.
 
 **Visualisierung:** Grafik 2  
-**Titel:** Anzahl Anrufe pro Altersgruppe  
+**Titel:** Anzahl Anrufe pro Altersklasse  
 **Untertitel:** Nach Geschlecht und Jahr   
 **Datenquelle:** Dargebotene Hand (143.ch)  
 **Alternativtext:** Balkendiagramm mit drei Altersklassen (bis 18-Jährige, 19 bis 65-Jährige, über 65-Jährige) auf der horizontalen Achse. Anzahl Anrufe als Total zwischen Januar und Juni auf der vertikalen Achse. Bei Frauen in 2019 und 2020, 418 und 522 Anrufe in der unteren Altersklasse; 7382 und 6775 Anrufe in der mittleren Altersklasse; 3875 und 4346 Anrufe in der oberen Altersklasse. Bei Männern in 2019 und 2020, 56 und 60 Anrufe in der unteren Altersklasse; 2586 und 3410 in der mittleren Altersklasse; 850 und 879 in der oberen Altersklasse. 
@@ -578,7 +577,14 @@ dat_by_quartal %>%
     fill = NULL
   ) +
   scale_y_continuous(breaks = seq(0, 8000, 1000)) 
-#theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) 
+
+## save plot for web
+
+ggsave(here::here("plots/plot2_anzahl_anrufe_alterklasse.png"), 
+       width = pixel*2.5/my_dpi,   
+       height = pixel*1.5/my_dpi,
+       units = "in",
+       dpi = my_dpi)
 
 
 ```
@@ -684,6 +690,14 @@ dat_bm_total %>%
   facet_wrap(~kategorie, scales = "free_y", ncol = 4) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) 
 
+## save plot for web
+
+ggsave(here::here("plots/plot2_anzahl_anrufe_beratungsinhalt.png"), 
+       width = pixel*2.5/my_dpi,   
+       height = pixel*2.5/my_dpi,
+       units = "in",
+       dpi = my_dpi)
+
 
 ```
 
@@ -729,4 +743,9 @@ dat_by_month %>%
 # Hinweis
 
 Bei den Kategorien Geschlecht und Alter gibt es jeweils die Merkmal «nicht bestimmbar». Dies bedeutet, dass die Anrufenden ihr Geschlecht und/oder Alter nicht angegeben haben. Insgesamt machen diese Anrufe sowohl 2019 als auch 2020 weniger als 2% aus. Werden die Kategorien jedoch miteinander oder mit bestimmten Beratungsinhalten gekreuzt, kann der Anteil auf bis zu 20% steigen. Diese Fälle wurden aus der Analyse ausgeschlossen. Dasselbe gilt für die Kategorie «divers» beim Geschlecht, die insgesamt zwei Anrufe betrifft. In den Rohdaten sind jedoch alle Kategorien enthalten.
+
+# Datengrundlage
+
+Die Daten und der Quellcode für diesen Artikel stehen öffenlich auf [GitHub](https://github.com/statistikZH/covid19monitoring_social_Tel143) zur Verfügung.
+
 
