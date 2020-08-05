@@ -4,7 +4,7 @@
 
 **Datenquelle:** [Dargebotene Hand](https://www.143.ch/)  
 **Mitteilung**: [Corona verändert Alltagssorgen nur wenig](zh.ch)  
-**Code**: [R Markdown]()  
+**Code**: [R Markdown](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd)  
 
 ## Projektbeschreibung
 
@@ -12,7 +12,7 @@ Dieses Repository enthält Daten und Quellcode um die Mitteilung [Corona veränd
 
 ## Daten
 
-### raw_data
+### ../raw_data/
 
 **Social_Tel143_nach_monat.csv**
 
@@ -38,9 +38,9 @@ Dieses Repository enthält Daten und Quellcode um die Mitteilung [Corona veränd
 
 **Wichtige Anmerkung** Zu beachten ist, dass `wert` summiert nach `variable` nicht die gleiche Summe für jede Variable ergibt. Die totale Anzahl Anrufe ist die Summe der `variable` "Schicht". Falls ein Anruf in die `variable` "Zusätzliche Beanspruchung" fällt, werden keine weiteren Details für `variable` "Alter", "Geschlecht" und "Kontakthäufigkeit" aufgenommen. Zum Beispiel: die Summe aus `wert` für "Alter" und "Zusätzliche Beanspruchung" ist gleich der Summe aus `wert` für "Schicht". Die `variable` "Gesprächsdauer" gibt den median und mittelwert an. Die `variable` "Beratungsinhalt" ist die Anzahl der Inhalte, welche aufgenommen wurde. Pro Anruf können mehrere Beratungsinhalte gewählt werden.
 
-### derived_data
+### ../derived_data/
 
-Tabellen in diesem Ordner sind zusammengefasste Hintergrunddaten der drei Grafiken. Der Code für die Daten ist in `article/Social_Tel143_article.Rmd` enthalten. 
+Tabellen in diesem Ordner sind zusammengefasste Hintergrunddaten der drei Grafiken. Der Quellcode für die Daten ist im [Skript](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd). 
 
 ## Voraussetzungen
 

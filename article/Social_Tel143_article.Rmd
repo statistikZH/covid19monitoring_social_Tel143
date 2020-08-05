@@ -474,12 +474,13 @@ Im Vergleich zum Vorjahr sind die Zahl der Anrufe und die durchschnittliche Gesp
 
 ```{r plot-geschlecht1}
 
-dat_bm_total %>% 
+p1 <- dat_bm_total %>% 
   filter(variable == "Geschlecht") %>% 
-  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
-  
-  ## plot
-  
+  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) 
+
+## plot
+
+p1 %>% 
   ggplot(aes(x = monat_label, y = sum_anzahl, fill = factor(jahr))) +
   geom_col(position = position_dodge()) +
   geom_hline(yintercept = 0, size = 1) +
@@ -503,7 +504,9 @@ ggsave(here::here("plots/plot1_anzahl_anrufe.png"),
        units = "in",
        dpi = my_dpi)
 
+# save derived data
 
+readr::write_csv(p1, path = here::here("data/derived_data/dat_p1_anzahl_anrufe.csv"))
 
 ```
 
@@ -540,7 +543,7 @@ Weshalb es zu diesen Verlagerungen kam, ist nicht bekannt. Besonders das veränd
 
 ```{r plot-geschlecht-alter}
 
-dat_by_quartal %>%
+p2 <- dat_by_quartal %>%
   
   filter(quartal %in% c("1Q", "2Q")) %>% 
   filter(variable == "Geschlecht") %>% 
@@ -563,8 +566,12 @@ dat_by_quartal %>%
   group_by(jahr, kategorie, altersklasse) %>% 
   summarise(
     sum_anzahl = sum(wert)
-  )  %>% 
-  
+  )  
+
+
+## plot
+
+p2 %>% 
   ggplot(aes(x = altersklasse, y = sum_anzahl, group = factor(jahr), fill = factor(jahr))) +
   geom_col(position = position_dodge()) +
   facet_wrap(~kategorie, ncol = 4) +
@@ -586,6 +593,10 @@ ggsave(here::here("plots/plot2_anzahl_anrufe_alterklasse.png"),
        units = "in",
        dpi = my_dpi)
 
+
+# save derived data
+
+readr::write_csv(p2, path = here::here("data/derived_data/dat_p1_anzahl_anrufe_altersklasse.csv"))
 
 ```
 
@@ -669,12 +680,15 @@ df_helper <- tibble(
 
 ```{r plot4-alternative2, fig.height=9}
 
-dat_bm_total %>% 
+p3 <- dat_bm_total %>% 
   
   filter(variable == "Beratungsinhalt") %>% 
   filter(kategorie != "Sorge wegen Infektion") %>%
-  mutate(kategorie = factor(kategorie, levels = beratungsinhalt_size_group$kategorie)) %>% 
-  
+  mutate(kategorie = factor(kategorie, levels = beratungsinhalt_size_group$kategorie)) 
+
+## plot
+
+p3 %>% 
   ggplot(aes(x = factor(monat_label), y = sum_anzahl, group = factor(jahr), color = factor(jahr))) +
   geom_line() +
   geom_point(size = 2) +
@@ -697,6 +711,11 @@ ggsave(here::here("plots/plot2_anzahl_anrufe_beratungsinhalt.png"),
        height = pixel*2.5/my_dpi,
        units = "in",
        dpi = my_dpi)
+
+
+# save derived data
+
+readr::write_csv(p3, path = here::here("data/derived_data/dat_p1_anzahl_anrufe_beratungsinhalt.csv"))
 
 
 ```
