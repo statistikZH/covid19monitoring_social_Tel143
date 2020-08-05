@@ -16,25 +16,25 @@ Dieses Repository enthält Daten und Code um die Mitteilung [Corona verändert A
 
 **Social_Tel143_nach_monat.csv**
 
-|Spaltenname |Beschreibung                                                                                      |Format |
-|:-----------|:-------------------------------------------------------------------------------------------------|:------|
-|variable    |Variablen zu welchen bei einem Anruf Informationen aufgenommen werden                             |Text   |
-|kategorie   |Jeweilige Kategorien für die einzelnen Variablen                                                  |Text   |
-|wert        |Wert für die jeweiligen Kategorien (siehe 'Wichtige Anmerkung' für wichtige Details zu Variablen) |Zahl   |
-|jahr        |Kalenderjahr                                                                                      |Zahl   |
-|monat       |Monat des Kalenderjahres                                                                          |Zahl   |
+|Spaltenname   |Beschreibung                                                                                      |Format |
+|:------------ |:-------------------------------------------------------------------------------------------------|:------|
+|`variable`    |Variablen zu welchen bei einem Anruf Informationen aufgenommen werden                             |Text   |
+|`kategorie`   |Jeweilige Kategorien für die einzelnen Variablen                                                  |Text   |
+|`wert`        |Wert für die jeweiligen Kategorien (siehe 'Wichtige Anmerkung' für wichtige Details zu Variablen) |Zahl   |
+|`jahr`        |Kalenderjahr                                                                                      |Zahl   |
+|`monat`       |Monat des Kalenderjahres                                                                          |Zahl   |
 
 
 **Social_Tel143_nach_quartal.csv**
 
-|Spaltenname  |Beschreibung                                                                             |Format |
-|:------------|:----------------------------------------------------------------------------------------|:------|
-|variable     |Variablen zu welchen bei einem Anruf Informationen aufgenommen werden                    |Text   |
-|kategorie    |Jeweilige Kategorien für die einzelnen Variablen                                         |Text   |
-|altersklasse |Kreuzung der variablen nach Alterklassen                                                 |Text   |
-|wert         |Wert für die jeweiligen Kategorien (siehe 'Wichtige Anmerkung' für Details zu Variablen) |Zahl   |
-|jahr         |Kalenderjahr                                                                             |Zahl   |
-|quartal      |Quartal des Kalenderjahres                                                               |Text   |
+|Spaltenname    |Beschreibung                                                                             |Format |
+|:------------- |:----------------------------------------------------------------------------------------|:------|
+|`variable`     |Variablen zu welchen bei einem Anruf Informationen aufgenommen werden                    |Text   |
+|`kategorie`    |Jeweilige Kategorien für die einzelnen Variablen                                         |Text   |
+|`altersklasse` |Kreuzung der variablen nach Alterklassen                                                 |Text   |
+|`wert`         |Wert für die jeweiligen Kategorien (siehe 'Wichtige Anmerkung' für Details zu Variablen) |Zahl   |
+|`jahr`         |Kalenderjahr                                                                             |Zahl   |
+|`quartal`      |Quartal des Kalenderjahres                                                               |Text   |
 
 **Wichtige Anmerkung** Zu beachten ist, dass `wert` summiert nach `variable` nicht die gleiche Summe für jede Variable ergibt. Die totale Anzahl Anrufe ist die Summe der `variable` "Schicht". Falls ein Anruf in die `variable` "Zusätzliche Beanspruchung" fällt, werden keine weiteren Details für `variable` "Alter", "Geschlecht" und "Kontakthäufigkeit" aufgenommen. Zum Beispiel: die Summe aus `wert` für "Alter" und "Zusätzliche Beanspruchung" ist gleich der Summe aus `wert` für "Schicht". Die `variable` "Gesprächsdauer" gibt den median und mittelwert an. Die `variable` "Beratungsinhalt" ist die Anzahl der Inhalte, welche aufgenommen wurde. Pro Anruf können mehrere Beratungsinhalte gewählt werden.
 
