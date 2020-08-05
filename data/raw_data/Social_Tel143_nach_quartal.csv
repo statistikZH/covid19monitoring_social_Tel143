@@ -1,1451 +1,1451 @@
-variable,kategorie,altersklasse,wert,jahr,quartal
-Schicht,Umleiter (4.45),bis 18,0,2019,1Q
-Schicht,Morgen (08.00),bis 18,3,2019,1Q
-Schicht,ZD Morgen (08.00),bis 18,0,2019,1Q
-Schicht,Vormit (10.00),bis 18,14,2019,1Q
-Schicht,ZD Nachmittag (12.00),bis 18,0,2019,1Q
-Schicht,Mittag (13.00),bis 18,10,2019,1Q
-Schicht,Vorab (16.00),bis 18,8,2019,1Q
-Schicht,Zwischendrin (17.00),bis 18,8,2019,1Q
-Schicht,Abend (18.00),bis 18,7,2019,1Q
-Schicht,Spät (21.00),bis 18,12,2019,1Q
-Schicht,Nacht (23.00),bis 18,5,2019,1Q
-Schicht,Chat Morgen (10.00),bis 18,61,2019,1Q
-Schicht,Chat Nachmittag (14.00),bis 18,52,2019,1Q
-Schicht,Chat Abend (18.00),bis 18,63,2019,1Q
-Schicht,Mail-Beratung,bis 18,16,2019,1Q
-Schicht,Angestel-Team,bis 18,6,2019,1Q
-Geschlecht,Weiblich,bis 18,216,2019,1Q
-Geschlecht,Männlich,bis 18,37,2019,1Q
-Geschlecht,Divers,bis 18,0,2019,1Q
-Geschlecht,nicht bestimmbar,bis 18,12,2019,1Q
-Kontakthäufigkeit,Erster Kontakt,bis 18,128,2019,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,42,2019,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,95,2019,1Q
-Kontakthäufigkeit,Vereinbarung,bis 18,0,2019,1Q
-Beratungsinhalt,Alltagsbewältigung,bis 18,87,2019,1Q
-Beratungsinhalt,Psychisches Leiden,bis 18,101,2019,1Q
-Beratungsinhalt,Körperliches Leiden,bis 18,22,2019,1Q
-Beratungsinhalt,Sorge wegen Infektion,bis 18,0,2019,1Q
-Beratungsinhalt,Einsamkeit,bis 18,37,2019,1Q
-Beratungsinhalt,Familie / Erziehung,bis 18,72,2019,1Q
-Beratungsinhalt,Beziehung allgemein,bis 18,25,2019,1Q
-Beratungsinhalt,Paarbeziehung,bis 18,19,2019,1Q
-Beratungsinhalt,Arbeit / Ausbildung,bis 18,23,2019,1Q
-Beratungsinhalt,Existenzprobleme,bis 18,8,2019,1Q
-Beratungsinhalt,Gewalt,bis 18,31,2019,1Q
-Beratungsinhalt,Sexualität,bis 18,39,2019,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,13,2019,1Q
-Beratungsinhalt,Suchtverhalten,bis 18,15,2019,1Q
-Beratungsinhalt,Suizidalität,bis 18,34,2019,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,bis 18,1,2019,1Q
-Beratungsinhalt,Verschiedenes,bis 18,39,2019,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,2019,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,2019,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,2019,1Q
-Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,2019,1Q
-Zusätzliche Beanspruchung,Juxanruf,bis 18,0,2019,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,2019,1Q
-Gesprächsdauer,Aritmetisches Mittel,bis 18,0.016666666666666666,2019,1Q
-Gesprächsdauer,Median (Zentralwert),bis 18,0.011805555555555555,2019,1Q
-Schicht,Umleiter (4.45),19 bis 40,76,2019,1Q
-Schicht,Morgen (08.00),19 bis 40,153,2019,1Q
-Schicht,ZD Morgen (08.00),19 bis 40,0,2019,1Q
-Schicht,Vormit (10.00),19 bis 40,204,2019,1Q
-Schicht,ZD Nachmittag (12.00),19 bis 40,0,2019,1Q
-Schicht,Mittag (13.00),19 bis 40,183,2019,1Q
-Schicht,Vorab (16.00),19 bis 40,201,2019,1Q
-Schicht,Zwischendrin (17.00),19 bis 40,163,2019,1Q
-Schicht,Abend (18.00),19 bis 40,214,2019,1Q
-Schicht,Spät (21.00),19 bis 40,192,2019,1Q
-Schicht,Nacht (23.00),19 bis 40,198,2019,1Q
-Schicht,Chat Morgen (10.00),19 bis 40,62,2019,1Q
-Schicht,Chat Nachmittag (14.00),19 bis 40,35,2019,1Q
-Schicht,Chat Abend (18.00),19 bis 40,68,2019,1Q
-Schicht,Mail-Beratung,19 bis 40,21,2019,1Q
-Schicht,Angestel-Team,19 bis 40,21,2019,1Q
-Geschlecht,Weiblich,19 bis 40,1159,2019,1Q
-Geschlecht,Männlich,19 bis 40,618,2019,1Q
-Geschlecht,Divers,19 bis 40,0,2019,1Q
-Geschlecht,nicht bestimmbar,19 bis 40,14,2019,1Q
-Kontakthäufigkeit,Erster Kontakt,19 bis 40,729,2019,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,545,2019,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,517,2019,1Q
-Kontakthäufigkeit,Vereinbarung,19 bis 40,0,2019,1Q
-Beratungsinhalt,Alltagsbewältigung,19 bis 40,644,2019,1Q
-Beratungsinhalt,Psychisches Leiden,19 bis 40,802,2019,1Q
-Beratungsinhalt,Körperliches Leiden,19 bis 40,104,2019,1Q
-Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,2019,1Q
-Beratungsinhalt,Einsamkeit,19 bis 40,211,2019,1Q
-Beratungsinhalt,Familie / Erziehung,19 bis 40,265,2019,1Q
-Beratungsinhalt,Beziehung allgemein,19 bis 40,185,2019,1Q
-Beratungsinhalt,Paarbeziehung,19 bis 40,314,2019,1Q
-Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,218,2019,1Q
-Beratungsinhalt,Existenzprobleme,19 bis 40,54,2019,1Q
-Beratungsinhalt,Gewalt,19 bis 40,79,2019,1Q
-Beratungsinhalt,Sexualität,19 bis 40,39,2019,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,46,2019,1Q
-Beratungsinhalt,Suchtverhalten,19 bis 40,79,2019,1Q
-Beratungsinhalt,Suizidalität,19 bis 40,89,2019,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,23,2019,1Q
-Beratungsinhalt,Verschiedenes,19 bis 40,203,2019,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,2019,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,1,2019,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,2019,1Q
-Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,2019,1Q
-Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,2019,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,2019,1Q
-Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013194444444444444,2019,1Q
-Gesprächsdauer,Median (Zentralwert),19 bis 40,0.011805555555555555,2019,1Q
-Schicht,Umleiter (4.45),41 bis 65,236,2019,1Q
-Schicht,Morgen (08.00),41 bis 65,347,2019,1Q
-Schicht,ZD Morgen (08.00),41 bis 65,0,2019,1Q
-Schicht,Vormit (10.00),41 bis 65,373,2019,1Q
-Schicht,ZD Nachmittag (12.00),41 bis 65,0,2019,1Q
-Schicht,Mittag (13.00),41 bis 65,326,2019,1Q
-Schicht,Vorab (16.00),41 bis 65,312,2019,1Q
-Schicht,Zwischendrin (17.00),41 bis 65,281,2019,1Q
-Schicht,Abend (18.00),41 bis 65,357,2019,1Q
-Schicht,Spät (21.00),41 bis 65,328,2019,1Q
-Schicht,Nacht (23.00),41 bis 65,338,2019,1Q
-Schicht,Chat Morgen (10.00),41 bis 65,14,2019,1Q
-Schicht,Chat Nachmittag (14.00),41 bis 65,17,2019,1Q
-Schicht,Chat Abend (18.00),41 bis 65,13,2019,1Q
-Schicht,Mail-Beratung,41 bis 65,6,2019,1Q
-Schicht,Angestel-Team,41 bis 65,47,2019,1Q
-Geschlecht,Weiblich,41 bis 65,2305,2019,1Q
-Geschlecht,Männlich,41 bis 65,689,2019,1Q
-Geschlecht,Divers,41 bis 65,0,2019,1Q
-Geschlecht,nicht bestimmbar,41 bis 65,1,2019,1Q
-Kontakthäufigkeit,Erster Kontakt,41 bis 65,802,2019,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1103,2019,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,1090,2019,1Q
-Kontakthäufigkeit,Vereinbarung,41 bis 65,0,2019,1Q
-Beratungsinhalt,Alltagsbewältigung,41 bis 65,1395,2019,1Q
-Beratungsinhalt,Psychisches Leiden,41 bis 65,1216,2019,1Q
-Beratungsinhalt,Körperliches Leiden,41 bis 65,411,2019,1Q
-Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,2019,1Q
-Beratungsinhalt,Einsamkeit,41 bis 65,526,2019,1Q
-Beratungsinhalt,Familie / Erziehung,41 bis 65,362,2019,1Q
-Beratungsinhalt,Beziehung allgemein,41 bis 65,277,2019,1Q
-Beratungsinhalt,Paarbeziehung,41 bis 65,285,2019,1Q
-Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,224,2019,1Q
-Beratungsinhalt,Existenzprobleme,41 bis 65,106,2019,1Q
-Beratungsinhalt,Gewalt,41 bis 65,68,2019,1Q
-Beratungsinhalt,Sexualität,41 bis 65,42,2019,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,70,2019,1Q
-Beratungsinhalt,Suchtverhalten,41 bis 65,66,2019,1Q
-Beratungsinhalt,Suizidalität,41 bis 65,62,2019,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,97,2019,1Q
-Beratungsinhalt,Verschiedenes,41 bis 65,307,2019,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,0,2019,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,2019,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,2019,1Q
-Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,2019,1Q
-Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,2019,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,2019,1Q
-Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.011805555555555555,2019,1Q
-Gesprächsdauer,Median (Zentralwert),41 bis 65,0.010416666666666666,2019,1Q
-Schicht,Umleiter (4.45),über 65,224,2019,1Q
-Schicht,Morgen (08.00),über 65,251,2019,1Q
-Schicht,ZD Morgen (08.00),über 65,0,2019,1Q
-Schicht,Vormit (10.00),über 65,284,2019,1Q
-Schicht,ZD Nachmittag (12.00),über 65,0,2019,1Q
-Schicht,Mittag (13.00),über 65,284,2019,1Q
-Schicht,Vorab (16.00),über 65,240,2019,1Q
-Schicht,Zwischendrin (17.00),über 65,248,2019,1Q
-Schicht,Abend (18.00),über 65,290,2019,1Q
-Schicht,Spät (21.00),über 65,288,2019,1Q
-Schicht,Nacht (23.00),über 65,299,2019,1Q
-Schicht,Chat Morgen (10.00),über 65,0,2019,1Q
-Schicht,Chat Nachmittag (14.00),über 65,1,2019,1Q
-Schicht,Chat Abend (18.00),über 65,0,2019,1Q
-Schicht,Mail-Beratung,über 65,0,2019,1Q
-Schicht,Angestel-Team,über 65,29,2019,1Q
-Geschlecht,Weiblich,über 65,1957,2019,1Q
-Geschlecht,Männlich,über 65,479,2019,1Q
-Geschlecht,Divers,über 65,0,2019,1Q
-Geschlecht,nicht bestimmbar,über 65,2,2019,1Q
-Kontakthäufigkeit,Erster Kontakt,über 65,377,2019,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,695,2019,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,über 65,1366,2019,1Q
-Kontakthäufigkeit,Vereinbarung,über 65,0,2019,1Q
-Beratungsinhalt,Alltagsbewältigung,über 65,1375,2019,1Q
-Beratungsinhalt,Psychisches Leiden,über 65,770,2019,1Q
-Beratungsinhalt,Körperliches Leiden,über 65,490,2019,1Q
-Beratungsinhalt,Sorge wegen Infektion,über 65,0,2019,1Q
-Beratungsinhalt,Einsamkeit,über 65,791,2019,1Q
-Beratungsinhalt,Familie / Erziehung,über 65,200,2019,1Q
-Beratungsinhalt,Beziehung allgemein,über 65,176,2019,1Q
-Beratungsinhalt,Paarbeziehung,über 65,69,2019,1Q
-Beratungsinhalt,Arbeit / Ausbildung,über 65,14,2019,1Q
-Beratungsinhalt,Existenzprobleme,über 65,48,2019,1Q
-Beratungsinhalt,Gewalt,über 65,15,2019,1Q
-Beratungsinhalt,Sexualität,über 65,13,2019,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,über 65,61,2019,1Q
-Beratungsinhalt,Suchtverhalten,über 65,35,2019,1Q
-Beratungsinhalt,Suizidalität,über 65,27,2019,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,über 65,52,2019,1Q
-Beratungsinhalt,Verschiedenes,über 65,269,2019,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,über 65,0,2019,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,2,2019,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,2019,1Q
-Zusätzliche Beanspruchung,Fehlanruf,über 65,1,2019,1Q
-Zusätzliche Beanspruchung,Juxanruf,über 65,0,2019,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,2019,1Q
-Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,2019,1Q
-Gesprächsdauer,Median (Zentralwert),über 65,0.007638888888888889,2019,1Q
-Schicht,Umleiter (4.45),nicht bestimmbar,39,2019,1Q
-Schicht,Morgen (08.00),nicht bestimmbar,63,2019,1Q
-Schicht,ZD Morgen (08.00),nicht bestimmbar,0,2019,1Q
-Schicht,Vormit (10.00),nicht bestimmbar,73,2019,1Q
-Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,2019,1Q
-Schicht,Mittag (13.00),nicht bestimmbar,72,2019,1Q
-Schicht,Vorab (16.00),nicht bestimmbar,49,2019,1Q
-Schicht,Zwischendrin (17.00),nicht bestimmbar,64,2019,1Q
-Schicht,Abend (18.00),nicht bestimmbar,46,2019,1Q
-Schicht,Spät (21.00),nicht bestimmbar,61,2019,1Q
-Schicht,Nacht (23.00),nicht bestimmbar,73,2019,1Q
-Schicht,Chat Morgen (10.00),nicht bestimmbar,25,2019,1Q
-Schicht,Chat Nachmittag (14.00),nicht bestimmbar,19,2019,1Q
-Schicht,Chat Abend (18.00),nicht bestimmbar,73,2019,1Q
-Schicht,Mail-Beratung,nicht bestimmbar,15,2019,1Q
-Schicht,Angestel-Team,nicht bestimmbar,11,2019,1Q
-Geschlecht,Weiblich,nicht bestimmbar,442,2019,1Q
-Geschlecht,Männlich,nicht bestimmbar,166,2019,1Q
-Geschlecht,Divers,nicht bestimmbar,0,2019,1Q
-Geschlecht,nicht bestimmbar,nicht bestimmbar,75,2019,1Q
-Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,406,2019,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,233,2019,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,44,2019,1Q
-Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,0,2019,1Q
-Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,242,2019,1Q
-Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,269,2019,1Q
-Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,64,2019,1Q
-Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,2019,1Q
-Beratungsinhalt,Einsamkeit,nicht bestimmbar,92,2019,1Q
-Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,38,2019,1Q
-Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,45,2019,1Q
-Beratungsinhalt,Paarbeziehung,nicht bestimmbar,46,2019,1Q
-Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,39,2019,1Q
-Beratungsinhalt,Existenzprobleme,nicht bestimmbar,16,2019,1Q
-Beratungsinhalt,Gewalt,nicht bestimmbar,21,2019,1Q
-Beratungsinhalt,Sexualität,nicht bestimmbar,15,2019,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,19,2019,1Q
-Beratungsinhalt,Suchtverhalten,nicht bestimmbar,10,2019,1Q
-Beratungsinhalt,Suizidalität,nicht bestimmbar,36,2019,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,15,2019,1Q
-Beratungsinhalt,Verschiedenes,nicht bestimmbar,220,2019,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,2019,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,2019,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,2019,1Q
-Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,2019,1Q
-Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,2019,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,2019,1Q
-Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.011111111111111112,2019,1Q
-Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.008333333333333333,2019,1Q
-Schicht,Umleiter (4.45),bis 18,0,2019,2Q
-Schicht,Morgen (08.00),bis 18,2,2019,2Q
-Schicht,ZD Morgen (08.00),bis 18,0,2019,2Q
-Schicht,Vormit (10.00),bis 18,28,2019,2Q
-Schicht,ZD Nachmittag (12.00),bis 18,0,2019,2Q
-Schicht,Mittag (13.00),bis 18,5,2019,2Q
-Schicht,Vorab (16.00),bis 18,6,2019,2Q
-Schicht,Zwischendrin (17.00),bis 18,4,2019,2Q
-Schicht,Abend (18.00),bis 18,3,2019,2Q
-Schicht,Spät (21.00),bis 18,1,2019,2Q
-Schicht,Nacht (23.00),bis 18,0,2019,2Q
-Schicht,Chat Morgen (10.00),bis 18,56,2019,2Q
-Schicht,Chat Nachmittag (14.00),bis 18,55,2019,2Q
-Schicht,Chat Abend (18.00),bis 18,52,2019,2Q
-Schicht,Mail-Beratung,bis 18,13,2019,2Q
-Schicht,Angestel-Team,bis 18,3,2019,2Q
-Geschlecht,Weiblich,bis 18,202,2019,2Q
-Geschlecht,Männlich,bis 18,19,2019,2Q
-Geschlecht,nicht bestimmbar,bis 18,7,2019,2Q
-Kontakthäufigkeit,Erster Kontakt,bis 18,113,2019,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,34,2019,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,58,2019,2Q
-Kontakthäufigkeit,Vereinbarung,bis 18,23,2019,2Q
-Beratungsinhalt,Alltagsbewältigung,bis 18,55,2019,2Q
-Beratungsinhalt,Psychisches Leiden,bis 18,88,2019,2Q
-Beratungsinhalt,Sorge wegen Infektion,bis 18,0,2019,2Q
-Beratungsinhalt,Körperliches Leiden,bis 18,19,2019,2Q
-Beratungsinhalt,Einsamkeit,bis 18,23,2019,2Q
-Beratungsinhalt,Familie / Erziehung,bis 18,46,2019,2Q
-Beratungsinhalt,Beziehung allgemein,bis 18,19,2019,2Q
-Beratungsinhalt,Paarbeziehung,bis 18,11,2019,2Q
-Beratungsinhalt,Arbeit / Ausbildung,bis 18,22,2019,2Q
-Beratungsinhalt,Existenzprobleme,bis 18,7,2019,2Q
-Beratungsinhalt,Gewalt,bis 18,42,2019,2Q
-Beratungsinhalt,Sexualität,bis 18,43,2019,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,9,2019,2Q
-Beratungsinhalt,Suchtverhalten,bis 18,18,2019,2Q
-Beratungsinhalt,Suizidalität,bis 18,26,2019,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,bis 18,8,2019,2Q
-Beratungsinhalt,Verschiedenes,bis 18,29,2019,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,2019,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,2019,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,2019,2Q
-Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,2019,2Q
-Zusätzliche Beanspruchung,Juxanruf,bis 18,0,2019,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,2019,2Q
-Gesprächsdauer,Aritmetisches Mittel,bis 18,0.01875,2019,2Q
-Gesprächsdauer,Median (Zentralwert),bis 18,0.01875,2019,2Q
-Schicht,Umleiter (4.45),19 bis 40,80,2019,2Q
-Schicht,Morgen (08.00),19 bis 40,203,2019,2Q
-Schicht,ZD Morgen (08.00),19 bis 40,0,2019,2Q
-Schicht,Vormit (10.00),19 bis 40,160,2019,2Q
-Schicht,ZD Nachmittag (12.00),19 bis 40,0,2019,2Q
-Schicht,Mittag (13.00),19 bis 40,216,2019,2Q
-Schicht,Vorab (16.00),19 bis 40,227,2019,2Q
-Schicht,Zwischendrin (17.00),19 bis 40,179,2019,2Q
-Schicht,Abend (18.00),19 bis 40,218,2019,2Q
-Schicht,Spät (21.00),19 bis 40,201,2019,2Q
-Schicht,Nacht (23.00),19 bis 40,224,2019,2Q
-Schicht,Chat Morgen (10.00),19 bis 40,77,2019,2Q
-Schicht,Chat Nachmittag (14.00),19 bis 40,61,2019,2Q
-Schicht,Chat Abend (18.00),19 bis 40,25,2019,2Q
-Schicht,Mail-Beratung,19 bis 40,29,2019,2Q
-Schicht,Angestel-Team,19 bis 40,4,2019,2Q
-Geschlecht,Weiblich,19 bis 40,1292,2019,2Q
-Geschlecht,Männlich,19 bis 40,596,2019,2Q
-Geschlecht,nicht bestimmbar,19 bis 40,16,2019,2Q
-Kontakthäufigkeit,Erster Kontakt,19 bis 40,736,2019,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,611,2019,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,426,2019,2Q
-Kontakthäufigkeit,Vereinbarung,19 bis 40,131,2019,2Q
-Beratungsinhalt,Alltagsbewältigung,19 bis 40,724,2019,2Q
-Beratungsinhalt,Psychisches Leiden,19 bis 40,843,2019,2Q
-Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,2019,2Q
-Beratungsinhalt,Körperliches Leiden,19 bis 40,90,2019,2Q
-Beratungsinhalt,Einsamkeit,19 bis 40,233,2019,2Q
-Beratungsinhalt,Familie / Erziehung,19 bis 40,269,2019,2Q
-Beratungsinhalt,Beziehung allgemein,19 bis 40,171,2019,2Q
-Beratungsinhalt,Paarbeziehung,19 bis 40,327,2019,2Q
-Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,206,2019,2Q
-Beratungsinhalt,Existenzprobleme,19 bis 40,63,2019,2Q
-Beratungsinhalt,Gewalt,19 bis 40,105,2019,2Q
-Beratungsinhalt,Sexualität,19 bis 40,39,2019,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,55,2019,2Q
-Beratungsinhalt,Suchtverhalten,19 bis 40,76,2019,2Q
-Beratungsinhalt,Suizidalität,19 bis 40,118,2019,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,21,2019,2Q
-Beratungsinhalt,Verschiedenes,19 bis 40,207,2019,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,2019,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,2019,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,2019,2Q
-Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,2019,2Q
-Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,2019,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,2019,2Q
-Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.012499999999999999,2019,2Q
-Gesprächsdauer,Median (Zentralwert),19 bis 40,0.010416666666666666,2019,2Q
-Schicht,Umleiter (4.45),41 bis 65,250,2019,2Q
-Schicht,Morgen (08.00),41 bis 65,541,2019,2Q
-Schicht,ZD Morgen (08.00),41 bis 65,0,2019,2Q
-Schicht,Vormit (10.00),41 bis 65,359,2019,2Q
-Schicht,ZD Nachmittag (12.00),41 bis 65,0,2019,2Q
-Schicht,Mittag (13.00),41 bis 65,346,2019,2Q
-Schicht,Vorab (16.00),41 bis 65,317,2019,2Q
-Schicht,Zwischendrin (17.00),41 bis 65,263,2019,2Q
-Schicht,Abend (18.00),41 bis 65,367,2019,2Q
-Schicht,Spät (21.00),41 bis 65,412,2019,2Q
-Schicht,Nacht (23.00),41 bis 65,378,2019,2Q
-Schicht,Chat Morgen (10.00),41 bis 65,29,2019,2Q
-Schicht,Chat Nachmittag (14.00),41 bis 65,25,2019,2Q
-Schicht,Chat Abend (18.00),41 bis 65,13,2019,2Q
-Schicht,Mail-Beratung,41 bis 65,8,2019,2Q
-Schicht,Angestel-Team,41 bis 65,2,2019,2Q
-Geschlecht,Weiblich,41 bis 65,2626,2019,2Q
-Geschlecht,Männlich,41 bis 65,683,2019,2Q
-Geschlecht,nicht bestimmbar,41 bis 65,1,2019,2Q
-Kontakthäufigkeit,Erster Kontakt,41 bis 65,779,2019,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1162,2019,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,922,2019,2Q
-Kontakthäufigkeit,Vereinbarung,41 bis 65,447,2019,2Q
-Beratungsinhalt,Alltagsbewältigung,41 bis 65,1644,2019,2Q
-Beratungsinhalt,Psychisches Leiden,41 bis 65,1436,2019,2Q
-Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,2019,2Q
-Beratungsinhalt,Körperliches Leiden,41 bis 65,405,2019,2Q
-Beratungsinhalt,Einsamkeit,41 bis 65,633,2019,2Q
-Beratungsinhalt,Familie / Erziehung,41 bis 65,437,2019,2Q
-Beratungsinhalt,Beziehung allgemein,41 bis 65,259,2019,2Q
-Beratungsinhalt,Paarbeziehung,41 bis 65,310,2019,2Q
-Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,243,2019,2Q
-Beratungsinhalt,Existenzprobleme,41 bis 65,134,2019,2Q
-Beratungsinhalt,Gewalt,41 bis 65,64,2019,2Q
-Beratungsinhalt,Sexualität,41 bis 65,44,2019,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,81,2019,2Q
-Beratungsinhalt,Suchtverhalten,41 bis 65,63,2019,2Q
-Beratungsinhalt,Suizidalität,41 bis 65,75,2019,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,95,2019,2Q
-Beratungsinhalt,Verschiedenes,41 bis 65,319,2019,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,4,2019,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,2019,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,1,2019,2Q
-Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,2019,2Q
-Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,2019,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,2019,2Q
-Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.011111111111111112,2019,2Q
-Gesprächsdauer,Median (Zentralwert),41 bis 65,0.010416666666666666,2019,2Q
-Schicht,Umleiter (4.45),über 65,191,2019,2Q
-Schicht,Morgen (08.00),über 65,379,2019,2Q
-Schicht,ZD Morgen (08.00),über 65,0,2019,2Q
-Schicht,Vormit (10.00),über 65,234,2019,2Q
-Schicht,ZD Nachmittag (12.00),über 65,0,2019,2Q
-Schicht,Mittag (13.00),über 65,268,2019,2Q
-Schicht,Vorab (16.00),über 65,258,2019,2Q
-Schicht,Zwischendrin (17.00),über 65,191,2019,2Q
-Schicht,Abend (18.00),über 65,255,2019,2Q
-Schicht,Spät (21.00),über 65,237,2019,2Q
-Schicht,Nacht (23.00),über 65,267,2019,2Q
-Schicht,Chat Morgen (10.00),über 65,1,2019,2Q
-Schicht,Chat Nachmittag (14.00),über 65,7,2019,2Q
-Schicht,Chat Abend (18.00),über 65,0,2019,2Q
-Schicht,Mail-Beratung,über 65,1,2019,2Q
-Schicht,Angestel-Team,über 65,1,2019,2Q
-Geschlecht,Weiblich,über 65,1918,2019,2Q
-Geschlecht,Männlich,über 65,371,2019,2Q
-Geschlecht,nicht bestimmbar,über 65,1,2019,2Q
-Kontakthäufigkeit,Erster Kontakt,über 65,346,2019,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,617,2019,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,über 65,866,2019,2Q
-Kontakthäufigkeit,Vereinbarung,über 65,461,2019,2Q
-Beratungsinhalt,Alltagsbewältigung,über 65,1358,2019,2Q
-Beratungsinhalt,Psychisches Leiden,über 65,872,2019,2Q
-Beratungsinhalt,Sorge wegen Infektion,über 65,0,2019,2Q
-Beratungsinhalt,Körperliches Leiden,über 65,399,2019,2Q
-Beratungsinhalt,Einsamkeit,über 65,675,2019,2Q
-Beratungsinhalt,Familie / Erziehung,über 65,197,2019,2Q
-Beratungsinhalt,Beziehung allgemein,über 65,179,2019,2Q
-Beratungsinhalt,Paarbeziehung,über 65,99,2019,2Q
-Beratungsinhalt,Arbeit / Ausbildung,über 65,12,2019,2Q
-Beratungsinhalt,Existenzprobleme,über 65,32,2019,2Q
-Beratungsinhalt,Gewalt,über 65,21,2019,2Q
-Beratungsinhalt,Sexualität,über 65,2,2019,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,über 65,32,2019,2Q
-Beratungsinhalt,Suchtverhalten,über 65,41,2019,2Q
-Beratungsinhalt,Suizidalität,über 65,23,2019,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,über 65,49,2019,2Q
-Beratungsinhalt,Verschiedenes,über 65,218,2019,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,über 65,2,2019,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,2019,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,2019,2Q
-Zusätzliche Beanspruchung,Fehlanruf,über 65,0,2019,2Q
-Zusätzliche Beanspruchung,Juxanruf,über 65,0,2019,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,2019,2Q
-Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,2019,2Q
-Gesprächsdauer,Median (Zentralwert),über 65,0.006944444444444444,2019,2Q
-Schicht,Umleiter (4.45),nicht bestimmbar,38,2019,2Q
-Schicht,Morgen (08.00),nicht bestimmbar,83,2019,2Q
-Schicht,ZD Morgen (08.00),nicht bestimmbar,0,2019,2Q
-Schicht,Vormit (10.00),nicht bestimmbar,65,2019,2Q
-Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,2019,2Q
-Schicht,Mittag (13.00),nicht bestimmbar,67,2019,2Q
-Schicht,Vorab (16.00),nicht bestimmbar,76,2019,2Q
-Schicht,Zwischendrin (17.00),nicht bestimmbar,34,2019,2Q
-Schicht,Abend (18.00),nicht bestimmbar,49,2019,2Q
-Schicht,Spät (21.00),nicht bestimmbar,92,2019,2Q
-Schicht,Nacht (23.00),nicht bestimmbar,75,2019,2Q
-Schicht,Chat Morgen (10.00),nicht bestimmbar,39,2019,2Q
-Schicht,Chat Nachmittag (14.00),nicht bestimmbar,28,2019,2Q
-Schicht,Chat Abend (18.00),nicht bestimmbar,26,2019,2Q
-Schicht,Mail-Beratung,nicht bestimmbar,13,2019,2Q
-Schicht,Angestel-Team,nicht bestimmbar,2,2019,2Q
-Geschlecht,Weiblich,nicht bestimmbar,474,2019,2Q
-Geschlecht,Männlich,nicht bestimmbar,148,2019,2Q
-Geschlecht,nicht bestimmbar,nicht bestimmbar,65,2019,2Q
-Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,356,2019,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,262,2019,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,60,2019,2Q
-Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,9,2019,2Q
-Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,273,2019,2Q
-Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,241,2019,2Q
-Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,2019,2Q
-Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,61,2019,2Q
-Beratungsinhalt,Einsamkeit,nicht bestimmbar,104,2019,2Q
-Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,24,2019,2Q
-Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,47,2019,2Q
-Beratungsinhalt,Paarbeziehung,nicht bestimmbar,47,2019,2Q
-Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,36,2019,2Q
-Beratungsinhalt,Existenzprobleme,nicht bestimmbar,16,2019,2Q
-Beratungsinhalt,Gewalt,nicht bestimmbar,31,2019,2Q
-Beratungsinhalt,Sexualität,nicht bestimmbar,8,2019,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,20,2019,2Q
-Beratungsinhalt,Suchtverhalten,nicht bestimmbar,17,2019,2Q
-Beratungsinhalt,Suizidalität,nicht bestimmbar,32,2019,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,10,2019,2Q
-Beratungsinhalt,Verschiedenes,nicht bestimmbar,201,2019,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,2,2019,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,2019,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,2019,2Q
-Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,2019,2Q
-Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,2019,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,2019,2Q
-Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.010416666666666666,2019,2Q
-Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.007638888888888889,2019,2Q
-Schicht,Umleiter (4.45),bis 18,1,2019,3Q
-Schicht,Morgen (08.00),bis 18,6,2019,3Q
-Schicht,ZD Morgen (08.00),bis 18,0,2019,3Q
-Schicht,Vormit (10.00),bis 18,12,2019,3Q
-Schicht,ZD Nachmittag (12.00),bis 18,0,2019,3Q
-Schicht,Mittag (13.00),bis 18,4,2019,3Q
-Schicht,Vorab (16.00),bis 18,7,2019,3Q
-Schicht,Zwischendrin (17.00),bis 18,0,2019,3Q
-Schicht,Abend (18.00),bis 18,7,2019,3Q
-Schicht,Spät (21.00),bis 18,2,2019,3Q
-Schicht,Nacht (23.00),bis 18,7,2019,3Q
-Schicht,Chat Morgen (10.00),bis 18,21,2019,3Q
-Schicht,Chat Nachmittag (14.00),bis 18,24,2019,3Q
-Schicht,Chat Abend (18.00),bis 18,16,2019,3Q
-Schicht,Mail-Beratung,bis 18,14,2019,3Q
-Schicht,Angestel-Team,bis 18,0,2019,3Q
-Geschlecht,Weiblich,bis 18,96,2019,3Q
-Geschlecht,Männlich,bis 18,17,2019,3Q
-Geschlecht,nicht bestimmbar,bis 18,8,2019,3Q
-Kontakthäufigkeit,Erster Kontakt,bis 18,93,2019,3Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,20,2019,3Q
-Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,8,2019,3Q
-Kontakthäufigkeit,Vereinbarung,bis 18,0,2019,3Q
-Beratungsinhalt,Alltagsbewältigung,bis 18,32,2019,3Q
-Beratungsinhalt,Psychisches Leiden,bis 18,29,2019,3Q
-Beratungsinhalt,Sorge wegen Infektion,bis 18,0,2019,3Q
-Beratungsinhalt,Körperliches Leiden,bis 18,6,2019,3Q
-Beratungsinhalt,Einsamkeit,bis 18,11,2019,3Q
-Beratungsinhalt,Familie / Erziehung,bis 18,44,2019,3Q
-Beratungsinhalt,Beziehung allgemein,bis 18,15,2019,3Q
-Beratungsinhalt,Paarbeziehung,bis 18,3,2019,3Q
-Beratungsinhalt,Arbeit / Ausbildung,bis 18,14,2019,3Q
-Beratungsinhalt,Existenzprobleme,bis 18,3,2019,3Q
-Beratungsinhalt,Gewalt,bis 18,14,2019,3Q
-Beratungsinhalt,Sexualität,bis 18,10,2019,3Q
-Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,4,2019,3Q
-Beratungsinhalt,Suchtverhalten,bis 18,8,2019,3Q
-Beratungsinhalt,Suizidalität,bis 18,23,2019,3Q
-Beratungsinhalt,Verlust / Trauer / Tod,bis 18,5,2019,3Q
-Beratungsinhalt,Verschiedenes,bis 18,21,2019,3Q
-Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,2019,3Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,2019,3Q
-Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,2019,3Q
-Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,2019,3Q
-Zusätzliche Beanspruchung,Juxanruf,bis 18,0,2019,3Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,2019,3Q
-Gesprächsdauer,Aritmetisches Mittel,bis 18,0.018055555555555557,2019,3Q
-Gesprächsdauer,Median (Zentralwert),bis 18,0.018055555555555557,2019,3Q
-Schicht,Umleiter (4.45),19 bis 40,90,2019,3Q
-Schicht,Morgen (08.00),19 bis 40,224,2019,3Q
-Schicht,ZD Morgen (08.00),19 bis 40,0,2019,3Q
-Schicht,Vormit (10.00),19 bis 40,165,2019,3Q
-Schicht,ZD Nachmittag (12.00),19 bis 40,0,2019,3Q
-Schicht,Mittag (13.00),19 bis 40,167,2019,3Q
-Schicht,Vorab (16.00),19 bis 40,152,2019,3Q
-Schicht,Zwischendrin (17.00),19 bis 40,45,2019,3Q
-Schicht,Abend (18.00),19 bis 40,218,2019,3Q
-Schicht,Spät (21.00),19 bis 40,207,2019,3Q
-Schicht,Nacht (23.00),19 bis 40,194,2019,3Q
-Schicht,Chat Morgen (10.00),19 bis 40,86,2019,3Q
-Schicht,Chat Nachmittag (14.00),19 bis 40,52,2019,3Q
-Schicht,Chat Abend (18.00),19 bis 40,54,2019,3Q
-Schicht,Mail-Beratung,19 bis 40,51,2019,3Q
-Schicht,Angestel-Team,19 bis 40,2,2019,3Q
-Geschlecht,Weiblich,19 bis 40,1038,2019,3Q
-Geschlecht,Männlich,19 bis 40,647,2019,3Q
-Geschlecht,nicht bestimmbar,19 bis 40,22,2019,3Q
-Kontakthäufigkeit,Erster Kontakt,19 bis 40,740,2019,3Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,466,2019,3Q
-Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,265,2019,3Q
-Kontakthäufigkeit,Vereinbarung,19 bis 40,236,2019,3Q
-Beratungsinhalt,Alltagsbewältigung,19 bis 40,688,2019,3Q
-Beratungsinhalt,Psychisches Leiden,19 bis 40,716,2019,3Q
-Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,2019,3Q
-Beratungsinhalt,Körperliches Leiden,19 bis 40,82,2019,3Q
-Beratungsinhalt,Einsamkeit,19 bis 40,222,2019,3Q
-Beratungsinhalt,Familie / Erziehung,19 bis 40,227,2019,3Q
-Beratungsinhalt,Beziehung allgemein,19 bis 40,215,2019,3Q
-Beratungsinhalt,Paarbeziehung,19 bis 40,277,2019,3Q
-Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,209,2019,3Q
-Beratungsinhalt,Existenzprobleme,19 bis 40,75,2019,3Q
-Beratungsinhalt,Gewalt,19 bis 40,81,2019,3Q
-Beratungsinhalt,Sexualität,19 bis 40,50,2019,3Q
-Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,41,2019,3Q
-Beratungsinhalt,Suchtverhalten,19 bis 40,52,2019,3Q
-Beratungsinhalt,Suizidalität,19 bis 40,104,2019,3Q
-Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,31,2019,3Q
-Beratungsinhalt,Verschiedenes,19 bis 40,192,2019,3Q
-Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,2,2019,3Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,2019,3Q
-Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,2019,3Q
-Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,2019,3Q
-Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,2019,3Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,2019,3Q
-Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013888888888888888,2019,3Q
-Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,2019,3Q
-Schicht,Umleiter (4.45),41 bis 65,256,2019,3Q
-Schicht,Morgen (08.00),41 bis 65,551,2019,3Q
-Schicht,ZD Morgen (08.00),41 bis 65,0,2019,3Q
-Schicht,Vormit (10.00),41 bis 65,339,2019,3Q
-Schicht,ZD Nachmittag (12.00),41 bis 65,0,2019,3Q
-Schicht,Mittag (13.00),41 bis 65,317,2019,3Q
-Schicht,Vorab (16.00),41 bis 65,311,2019,3Q
-Schicht,Zwischendrin (17.00),41 bis 65,69,2019,3Q
-Schicht,Abend (18.00),41 bis 65,406,2019,3Q
-Schicht,Spät (21.00),41 bis 65,344,2019,3Q
-Schicht,Nacht (23.00),41 bis 65,362,2019,3Q
-Schicht,Chat Morgen (10.00),41 bis 65,30,2019,3Q
-Schicht,Chat Nachmittag (14.00),41 bis 65,13,2019,3Q
-Schicht,Chat Abend (18.00),41 bis 65,13,2019,3Q
-Schicht,Mail-Beratung,41 bis 65,3,2019,3Q
-Schicht,Angestel-Team,41 bis 65,3,2019,3Q
-Geschlecht,Weiblich,41 bis 65,2389,2019,3Q
-Geschlecht,Männlich,41 bis 65,625,2019,3Q
-Geschlecht,nicht bestimmbar,41 bis 65,3,2019,3Q
-Kontakthäufigkeit,Erster Kontakt,41 bis 65,788,2019,3Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1053,2019,3Q
-Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,633,2019,3Q
-Kontakthäufigkeit,Vereinbarung,41 bis 65,543,2019,3Q
-Beratungsinhalt,Alltagsbewältigung,41 bis 65,1594,2019,3Q
-Beratungsinhalt,Psychisches Leiden,41 bis 65,1379,2019,3Q
-Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,2019,3Q
-Beratungsinhalt,Körperliches Leiden,41 bis 65,330,2019,3Q
-Beratungsinhalt,Einsamkeit,41 bis 65,400,2019,3Q
-Beratungsinhalt,Familie / Erziehung,41 bis 65,478,2019,3Q
-Beratungsinhalt,Beziehung allgemein,41 bis 65,249,2019,3Q
-Beratungsinhalt,Paarbeziehung,41 bis 65,350,2019,3Q
-Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,231,2019,3Q
-Beratungsinhalt,Existenzprobleme,41 bis 65,111,2019,3Q
-Beratungsinhalt,Gewalt,41 bis 65,63,2019,3Q
-Beratungsinhalt,Sexualität,41 bis 65,50,2019,3Q
-Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,71,2019,3Q
-Beratungsinhalt,Suchtverhalten,41 bis 65,66,2019,3Q
-Beratungsinhalt,Suizidalität,41 bis 65,59,2019,3Q
-Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,74,2019,3Q
-Beratungsinhalt,Verschiedenes,41 bis 65,284,2019,3Q
-Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,0,2019,3Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,1,2019,3Q
-Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,2019,3Q
-Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,2019,3Q
-Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,2019,3Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,2019,3Q
-Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.011805555555555555,2019,3Q
-Gesprächsdauer,Median (Zentralwert),41 bis 65,0.010416666666666666,2019,3Q
-Schicht,Umleiter (4.45),über 65,169,2019,3Q
-Schicht,Morgen (08.00),über 65,394,2019,3Q
-Schicht,ZD Morgen (08.00),über 65,0,2019,3Q
-Schicht,Vormit (10.00),über 65,254,2019,3Q
-Schicht,ZD Nachmittag (12.00),über 65,0,2019,3Q
-Schicht,Mittag (13.00),über 65,262,2019,3Q
-Schicht,Vorab (16.00),über 65,268,2019,3Q
-Schicht,Zwischendrin (17.00),über 65,54,2019,3Q
-Schicht,Abend (18.00),über 65,333,2019,3Q
-Schicht,Spät (21.00),über 65,283,2019,3Q
-Schicht,Nacht (23.00),über 65,240,2019,3Q
-Schicht,Chat Morgen (10.00),über 65,2,2019,3Q
-Schicht,Chat Nachmittag (14.00),über 65,0,2019,3Q
-Schicht,Chat Abend (18.00),über 65,2,2019,3Q
-Schicht,Mail-Beratung,über 65,0,2019,3Q
-Schicht,Angestel-Team,über 65,1,2019,3Q
-Geschlecht,Weiblich,über 65,1855,2019,3Q
-Geschlecht,Männlich,über 65,404,2019,3Q
-Geschlecht,nicht bestimmbar,über 65,3,2019,3Q
-Kontakthäufigkeit,Erster Kontakt,über 65,352,2019,3Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,557,2019,3Q
-Kontakthäufigkeit,Regelmässiger Kontakt,über 65,703,2019,3Q
-Kontakthäufigkeit,Vereinbarung,über 65,650,2019,3Q
-Beratungsinhalt,Alltagsbewältigung,über 65,1394,2019,3Q
-Beratungsinhalt,Psychisches Leiden,über 65,953,2019,3Q
-Beratungsinhalt,Sorge wegen Infektion,über 65,0,2019,3Q
-Beratungsinhalt,Körperliches Leiden,über 65,326,2019,3Q
-Beratungsinhalt,Einsamkeit,über 65,652,2019,3Q
-Beratungsinhalt,Familie / Erziehung,über 65,161,2019,3Q
-Beratungsinhalt,Beziehung allgemein,über 65,109,2019,3Q
-Beratungsinhalt,Paarbeziehung,über 65,122,2019,3Q
-Beratungsinhalt,Arbeit / Ausbildung,über 65,6,2019,3Q
-Beratungsinhalt,Existenzprobleme,über 65,38,2019,3Q
-Beratungsinhalt,Gewalt,über 65,15,2019,3Q
-Beratungsinhalt,Sexualität,über 65,9,2019,3Q
-Beratungsinhalt,Spiritualität / Lebenssinn,über 65,40,2019,3Q
-Beratungsinhalt,Suchtverhalten,über 65,123,2019,3Q
-Beratungsinhalt,Suizidalität,über 65,23,2019,3Q
-Beratungsinhalt,Verlust / Trauer / Tod,über 65,65,2019,3Q
-Beratungsinhalt,Verschiedenes,über 65,200,2019,3Q
-Beratungsinhalt,Medienerziehung/Swisscom,über 65,1,2019,3Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,2019,3Q
-Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,2019,3Q
-Zusätzliche Beanspruchung,Fehlanruf,über 65,0,2019,3Q
-Zusätzliche Beanspruchung,Juxanruf,über 65,0,2019,3Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,2019,3Q
-Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,2019,3Q
-Gesprächsdauer,Median (Zentralwert),über 65,0.007638888888888889,2019,3Q
-Schicht,Umleiter (4.45),nicht bestimmbar,35,2019,3Q
-Schicht,Morgen (08.00),nicht bestimmbar,90,2019,3Q
-Schicht,ZD Morgen (08.00),nicht bestimmbar,0,2019,3Q
-Schicht,Vormit (10.00),nicht bestimmbar,31,2019,3Q
-Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,2019,3Q
-Schicht,Mittag (13.00),nicht bestimmbar,74,2019,3Q
-Schicht,Vorab (16.00),nicht bestimmbar,64,2019,3Q
-Schicht,Zwischendrin (17.00),nicht bestimmbar,23,2019,3Q
-Schicht,Abend (18.00),nicht bestimmbar,42,2019,3Q
-Schicht,Spät (21.00),nicht bestimmbar,60,2019,3Q
-Schicht,Nacht (23.00),nicht bestimmbar,86,2019,3Q
-Schicht,Chat Morgen (10.00),nicht bestimmbar,43,2019,3Q
-Schicht,Chat Nachmittag (14.00),nicht bestimmbar,37,2019,3Q
-Schicht,Chat Abend (18.00),nicht bestimmbar,36,2019,3Q
-Schicht,Mail-Beratung,nicht bestimmbar,28,2019,3Q
-Schicht,Angestel-Team,nicht bestimmbar,0,2019,3Q
-Geschlecht,Weiblich,nicht bestimmbar,426,2019,3Q
-Geschlecht,Männlich,nicht bestimmbar,147,2019,3Q
-Geschlecht,nicht bestimmbar,nicht bestimmbar,76,2019,3Q
-Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,350,2019,3Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,247,2019,3Q
-Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,49,2019,3Q
-Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,3,2019,3Q
-Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,293,2019,3Q
-Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,222,2019,3Q
-Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,2019,3Q
-Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,55,2019,3Q
-Beratungsinhalt,Einsamkeit,nicht bestimmbar,96,2019,3Q
-Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,35,2019,3Q
-Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,42,2019,3Q
-Beratungsinhalt,Paarbeziehung,nicht bestimmbar,58,2019,3Q
-Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,24,2019,3Q
-Beratungsinhalt,Existenzprobleme,nicht bestimmbar,11,2019,3Q
-Beratungsinhalt,Gewalt,nicht bestimmbar,11,2019,3Q
-Beratungsinhalt,Sexualität,nicht bestimmbar,15,2019,3Q
-Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,10,2019,3Q
-Beratungsinhalt,Suchtverhalten,nicht bestimmbar,15,2019,3Q
-Beratungsinhalt,Suizidalität,nicht bestimmbar,32,2019,3Q
-Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,16,2019,3Q
-Beratungsinhalt,Verschiedenes,nicht bestimmbar,195,2019,3Q
-Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,2019,3Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,2019,3Q
-Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,2019,3Q
-Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,2019,3Q
-Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,2019,3Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,2019,3Q
-Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.010416666666666666,2019,3Q
-Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.008333333333333333,2019,3Q
-Schicht,Umleiter (4.45),bis 18,1,2019,4Q
-Schicht,Morgen (08.00),bis 18,7,2019,4Q
-Schicht,ZD Morgen (08.00),bis 18,0,2019,4Q
-Schicht,Vormit (10.00),bis 18,8,2019,4Q
-Schicht,ZD Nachmittag (12.00),bis 18,0,2019,4Q
-Schicht,Mittag (13.00),bis 18,2,2019,4Q
-Schicht,Vorab (16.00),bis 18,8,2019,4Q
-Schicht,Zwischendrin (17.00),bis 18,5,2019,4Q
-Schicht,Abend (18.00),bis 18,4,2019,4Q
-Schicht,Spät (21.00),bis 18,6,2019,4Q
-Schicht,Nacht (23.00),bis 18,4,2019,4Q
-Schicht,Chat Morgen (10.00),bis 18,41,2019,4Q
-Schicht,Chat Nachmittag (14.00),bis 18,28,2019,4Q
-Schicht,Chat Abend (18.00),bis 18,25,2019,4Q
-Schicht,Mail-Beratung,bis 18,8,2019,4Q
-Schicht,Angestel-Team,bis 18,0,2019,4Q
-Geschlecht,Weiblich,bis 18,98,2019,4Q
-Geschlecht,Männlich,bis 18,42,2019,4Q
-Geschlecht,nicht bestimmbar,bis 18,7,2019,4Q
-Kontakthäufigkeit,Erster Kontakt,bis 18,90,2019,4Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,37,2019,4Q
-Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,20,2019,4Q
-Kontakthäufigkeit,Vereinbarung,bis 18,0,2019,4Q
-Beratungsinhalt,Alltagsbewältigung,bis 18,36,2019,4Q
-Beratungsinhalt,Psychisches Leiden,bis 18,51,2019,4Q
-Beratungsinhalt,Sorge wegen Infektion,bis 18,0,2019,4Q
-Beratungsinhalt,Körperliches Leiden,bis 18,5,2019,4Q
-Beratungsinhalt,Einsamkeit,bis 18,16,2019,4Q
-Beratungsinhalt,Familie / Erziehung,bis 18,50,2019,4Q
-Beratungsinhalt,Beziehung allgemein,bis 18,12,2019,4Q
-Beratungsinhalt,Paarbeziehung,bis 18,10,2019,4Q
-Beratungsinhalt,Arbeit / Ausbildung,bis 18,18,2019,4Q
-Beratungsinhalt,Existenzprobleme,bis 18,3,2019,4Q
-Beratungsinhalt,Gewalt,bis 18,14,2019,4Q
-Beratungsinhalt,Sexualität,bis 18,15,2019,4Q
-Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,9,2019,4Q
-Beratungsinhalt,Suchtverhalten,bis 18,13,2019,4Q
-Beratungsinhalt,Suizidalität,bis 18,30,2019,4Q
-Beratungsinhalt,Verlust / Trauer / Tod,bis 18,4,2019,4Q
-Beratungsinhalt,Verschiedenes,bis 18,18,2019,4Q
-Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,2019,4Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,2019,4Q
-Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,2019,4Q
-Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,2019,4Q
-Zusätzliche Beanspruchung,Juxanruf,bis 18,0,2019,4Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,2019,4Q
-Gesprächsdauer,Aritmetisches Mittel,bis 18,0.014583333333333332,2019,4Q
-Gesprächsdauer,Median (Zentralwert),bis 18,0.010416666666666666,2019,4Q
-Schicht,Umleiter (4.45),19 bis 40,92,2019,4Q
-Schicht,Morgen (08.00),19 bis 40,223,2019,4Q
-Schicht,ZD Morgen (08.00),19 bis 40,0,2019,4Q
-Schicht,Vormit (10.00),19 bis 40,171,2019,4Q
-Schicht,ZD Nachmittag (12.00),19 bis 40,0,2019,4Q
-Schicht,Mittag (13.00),19 bis 40,177,2019,4Q
-Schicht,Vorab (16.00),19 bis 40,187,2019,4Q
-Schicht,Zwischendrin (17.00),19 bis 40,147,2019,4Q
-Schicht,Abend (18.00),19 bis 40,197,2019,4Q
-Schicht,Spät (21.00),19 bis 40,168,2019,4Q
-Schicht,Nacht (23.00),19 bis 40,178,2019,4Q
-Schicht,Chat Morgen (10.00),19 bis 40,74,2019,4Q
-Schicht,Chat Nachmittag (14.00),19 bis 40,56,2019,4Q
-Schicht,Chat Abend (18.00),19 bis 40,52,2019,4Q
-Schicht,Mail-Beratung,19 bis 40,53,2019,4Q
-Schicht,Angestel-Team,19 bis 40,3,2019,4Q
-Geschlecht,Weiblich,19 bis 40,1170,2019,4Q
-Geschlecht,Männlich,19 bis 40,587,2019,4Q
-Geschlecht,nicht bestimmbar,19 bis 40,21,2019,4Q
-Kontakthäufigkeit,Erster Kontakt,19 bis 40,757,2019,4Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,585,2019,4Q
-Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,272,2019,4Q
-Kontakthäufigkeit,Vereinbarung,19 bis 40,164,2019,4Q
-Beratungsinhalt,Alltagsbewältigung,19 bis 40,763,2019,4Q
-Beratungsinhalt,Psychisches Leiden,19 bis 40,800,2019,4Q
-Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,2019,4Q
-Beratungsinhalt,Körperliches Leiden,19 bis 40,84,2019,4Q
-Beratungsinhalt,Einsamkeit,19 bis 40,250,2019,4Q
-Beratungsinhalt,Familie / Erziehung,19 bis 40,251,2019,4Q
-Beratungsinhalt,Beziehung allgemein,19 bis 40,195,2019,4Q
-Beratungsinhalt,Paarbeziehung,19 bis 40,267,2019,4Q
-Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,188,2019,4Q
-Beratungsinhalt,Existenzprobleme,19 bis 40,51,2019,4Q
-Beratungsinhalt,Gewalt,19 bis 40,66,2019,4Q
-Beratungsinhalt,Sexualität,19 bis 40,43,2019,4Q
-Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,56,2019,4Q
-Beratungsinhalt,Suchtverhalten,19 bis 40,80,2019,4Q
-Beratungsinhalt,Suizidalität,19 bis 40,139,2019,4Q
-Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,37,2019,4Q
-Beratungsinhalt,Verschiedenes,19 bis 40,199,2019,4Q
-Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,2019,4Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,2019,4Q
-Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,1,2019,4Q
-Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,2019,4Q
-Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,2019,4Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,2019,4Q
-Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013888888888888888,2019,4Q
-Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,2019,4Q
-Schicht,Umleiter (4.45),41 bis 65,251,2019,4Q
-Schicht,Morgen (08.00),41 bis 65,431,2019,4Q
-Schicht,ZD Morgen (08.00),41 bis 65,0,2019,4Q
-Schicht,Vormit (10.00),41 bis 65,329,2019,4Q
-Schicht,ZD Nachmittag (12.00),41 bis 65,0,2019,4Q
-Schicht,Mittag (13.00),41 bis 65,295,2019,4Q
-Schicht,Vorab (16.00),41 bis 65,340,2019,4Q
-Schicht,Zwischendrin (17.00),41 bis 65,217,2019,4Q
-Schicht,Abend (18.00),41 bis 65,328,2019,4Q
-Schicht,Spät (21.00),41 bis 65,351,2019,4Q
-Schicht,Nacht (23.00),41 bis 65,342,2019,4Q
-Schicht,Chat Morgen (10.00),41 bis 65,34,2019,4Q
-Schicht,Chat Nachmittag (14.00),41 bis 65,16,2019,4Q
-Schicht,Chat Abend (18.00),41 bis 65,12,2019,4Q
-Schicht,Mail-Beratung,41 bis 65,4,2019,4Q
-Schicht,Angestel-Team,41 bis 65,2,2019,4Q
-Geschlecht,Weiblich,41 bis 65,2301,2019,4Q
-Geschlecht,Männlich,41 bis 65,648,2019,4Q
-Geschlecht,nicht bestimmbar,41 bis 65,3,2019,4Q
-Kontakthäufigkeit,Erster Kontakt,41 bis 65,880,2019,4Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1145,2019,4Q
-Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,660,2019,4Q
-Kontakthäufigkeit,Vereinbarung,41 bis 65,267,2019,4Q
-Beratungsinhalt,Alltagsbewältigung,41 bis 65,1396,2019,4Q
-Beratungsinhalt,Psychisches Leiden,41 bis 65,1338,2019,4Q
-Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,2019,4Q
-Beratungsinhalt,Körperliches Leiden,41 bis 65,288,2019,4Q
-Beratungsinhalt,Einsamkeit,41 bis 65,417,2019,4Q
-Beratungsinhalt,Familie / Erziehung,41 bis 65,470,2019,4Q
-Beratungsinhalt,Beziehung allgemein,41 bis 65,231,2019,4Q
-Beratungsinhalt,Paarbeziehung,41 bis 65,348,2019,4Q
-Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,300,2019,4Q
-Beratungsinhalt,Existenzprobleme,41 bis 65,124,2019,4Q
-Beratungsinhalt,Gewalt,41 bis 65,69,2019,4Q
-Beratungsinhalt,Sexualität,41 bis 65,59,2019,4Q
-Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,70,2019,4Q
-Beratungsinhalt,Suchtverhalten,41 bis 65,58,2019,4Q
-Beratungsinhalt,Suizidalität,41 bis 65,90,2019,4Q
-Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,137,2019,4Q
-Beratungsinhalt,Verschiedenes,41 bis 65,306,2019,4Q
-Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,1,2019,4Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,2019,4Q
-Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,1,2019,4Q
-Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,2019,4Q
-Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,2019,4Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,2019,4Q
-Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.012499999999999999,2019,4Q
-Gesprächsdauer,Median (Zentralwert),41 bis 65,0.011111111111111112,2019,4Q
-Schicht,Umleiter (4.45),über 65,184,2019,4Q
-Schicht,Morgen (08.00),über 65,362,2019,4Q
-Schicht,ZD Morgen (08.00),über 65,0,2019,4Q
-Schicht,Vormit (10.00),über 65,243,2019,4Q
-Schicht,ZD Nachmittag (12.00),über 65,0,2019,4Q
-Schicht,Mittag (13.00),über 65,246,2019,4Q
-Schicht,Vorab (16.00),über 65,277,2019,4Q
-Schicht,Zwischendrin (17.00),über 65,179,2019,4Q
-Schicht,Abend (18.00),über 65,288,2019,4Q
-Schicht,Spät (21.00),über 65,281,2019,4Q
-Schicht,Nacht (23.00),über 65,310,2019,4Q
-Schicht,Chat Morgen (10.00),über 65,11,2019,4Q
-Schicht,Chat Nachmittag (14.00),über 65,0,2019,4Q
-Schicht,Chat Abend (18.00),über 65,1,2019,4Q
-Schicht,Mail-Beratung,über 65,0,2019,4Q
-Schicht,Angestel-Team,über 65,3,2019,4Q
-Geschlecht,Weiblich,über 65,1948,2019,4Q
-Geschlecht,Männlich,über 65,437,2019,4Q
-Geschlecht,nicht bestimmbar,über 65,0,2019,4Q
-Kontakthäufigkeit,Erster Kontakt,über 65,473,2019,4Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,595,2019,4Q
-Kontakthäufigkeit,Regelmässiger Kontakt,über 65,589,2019,4Q
-Kontakthäufigkeit,Vereinbarung,über 65,728,2019,4Q
-Beratungsinhalt,Alltagsbewältigung,über 65,1513,2019,4Q
-Beratungsinhalt,Psychisches Leiden,über 65,939,2019,4Q
-Beratungsinhalt,Sorge wegen Infektion,über 65,0,2019,4Q
-Beratungsinhalt,Körperliches Leiden,über 65,446,2019,4Q
-Beratungsinhalt,Einsamkeit,über 65,682,2019,4Q
-Beratungsinhalt,Familie / Erziehung,über 65,180,2019,4Q
-Beratungsinhalt,Beziehung allgemein,über 65,117,2019,4Q
-Beratungsinhalt,Paarbeziehung,über 65,112,2019,4Q
-Beratungsinhalt,Arbeit / Ausbildung,über 65,7,2019,4Q
-Beratungsinhalt,Existenzprobleme,über 65,44,2019,4Q
-Beratungsinhalt,Gewalt,über 65,13,2019,4Q
-Beratungsinhalt,Sexualität,über 65,12,2019,4Q
-Beratungsinhalt,Spiritualität / Lebenssinn,über 65,31,2019,4Q
-Beratungsinhalt,Suchtverhalten,über 65,109,2019,4Q
-Beratungsinhalt,Suizidalität,über 65,21,2019,4Q
-Beratungsinhalt,Verlust / Trauer / Tod,über 65,104,2019,4Q
-Beratungsinhalt,Verschiedenes,über 65,213,2019,4Q
-Beratungsinhalt,Medienerziehung/Swisscom,über 65,1,2019,4Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,1,2019,4Q
-Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,2019,4Q
-Zusätzliche Beanspruchung,Fehlanruf,über 65,0,2019,4Q
-Zusätzliche Beanspruchung,Juxanruf,über 65,0,2019,4Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,2019,4Q
-Gesprächsdauer,Aritmetisches Mittel,über 65,0.009722222222222222,2019,4Q
-Gesprächsdauer,Median (Zentralwert),über 65,0.009027777777777779,2019,4Q
-Schicht,Umleiter (4.45),nicht bestimmbar,76,2019,4Q
-Schicht,Morgen (08.00),nicht bestimmbar,52,2019,4Q
-Schicht,ZD Morgen (08.00),nicht bestimmbar,0,2019,4Q
-Schicht,Vormit (10.00),nicht bestimmbar,46,2019,4Q
-Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,2019,4Q
-Schicht,Mittag (13.00),nicht bestimmbar,67,2019,4Q
-Schicht,Vorab (16.00),nicht bestimmbar,44,2019,4Q
-Schicht,Zwischendrin (17.00),nicht bestimmbar,26,2019,4Q
-Schicht,Abend (18.00),nicht bestimmbar,46,2019,4Q
-Schicht,Spät (21.00),nicht bestimmbar,68,2019,4Q
-Schicht,Nacht (23.00),nicht bestimmbar,68,2019,4Q
-Schicht,Chat Morgen (10.00),nicht bestimmbar,30,2019,4Q
-Schicht,Chat Nachmittag (14.00),nicht bestimmbar,33,2019,4Q
-Schicht,Chat Abend (18.00),nicht bestimmbar,38,2019,4Q
-Schicht,Mail-Beratung,nicht bestimmbar,19,2019,4Q
-Schicht,Angestel-Team,nicht bestimmbar,0,2019,4Q
-Geschlecht,Weiblich,nicht bestimmbar,402,2019,4Q
-Geschlecht,Männlich,nicht bestimmbar,130,2019,4Q
-Geschlecht,nicht bestimmbar,nicht bestimmbar,81,2019,4Q
-Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,316,2019,4Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,224,2019,4Q
-Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,73,2019,4Q
-Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,0,2019,4Q
-Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,254,2019,4Q
-Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,228,2019,4Q
-Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,2019,4Q
-Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,64,2019,4Q
-Beratungsinhalt,Einsamkeit,nicht bestimmbar,104,2019,4Q
-Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,33,2019,4Q
-Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,28,2019,4Q
-Beratungsinhalt,Paarbeziehung,nicht bestimmbar,46,2019,4Q
-Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,25,2019,4Q
-Beratungsinhalt,Existenzprobleme,nicht bestimmbar,20,2019,4Q
-Beratungsinhalt,Gewalt,nicht bestimmbar,15,2019,4Q
-Beratungsinhalt,Sexualität,nicht bestimmbar,9,2019,4Q
-Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,18,2019,4Q
-Beratungsinhalt,Suchtverhalten,nicht bestimmbar,12,2019,4Q
-Beratungsinhalt,Suizidalität,nicht bestimmbar,28,2019,4Q
-Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,16,2019,4Q
-Beratungsinhalt,Verschiedenes,nicht bestimmbar,174,2019,4Q
-Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,2019,4Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,2019,4Q
-Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,2019,4Q
-Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,2019,4Q
-Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,2019,4Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,2019,4Q
-Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.010416666666666666,2019,4Q
-Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.007638888888888889,2019,4Q
-Schicht,Umleiter (4.45),bis 18,12,2020,1Q
-Schicht,Morgen (08.00),bis 18,10,2020,1Q
-Schicht,ZD Morgen (08.00),bis 18,0,2020,1Q
-Schicht,Vormit (10.00),bis 18,21,2020,1Q
-Schicht,ZD Nachmittag (12.00),bis 18,0,2020,1Q
-Schicht,Mittag (13.00),bis 18,22,2020,1Q
-Schicht,Vorab (16.00),bis 18,21,2020,1Q
-Schicht,Zwischendrin (17.00),bis 18,20,2020,1Q
-Schicht,Abend (18.00),bis 18,25,2020,1Q
-Schicht,Spät (21.00),bis 18,25,2020,1Q
-Schicht,Nacht (23.00),bis 18,16,2020,1Q
-Schicht,Chat Morgen (10.00),bis 18,45,2020,1Q
-Schicht,Chat Nachmittag (14.00),bis 18,30,2020,1Q
-Schicht,Chat Abend (18.00),bis 18,24,2020,1Q
-Schicht,Mail-Beratung,bis 18,60,2020,1Q
-Schicht,Angestel-Team,bis 18,0,2020,1Q
-Geschlecht,Weiblich,bis 18,283,2020,1Q
-Geschlecht,Männlich,bis 18,33,2020,1Q
-Geschlecht,nicht bestimmbar,bis 18,15,2020,1Q
-Kontakthäufigkeit,Erster Kontakt,bis 18,137,2020,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,79,2020,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,101,2020,1Q
-Kontakthäufigkeit,Vereinbarung,bis 18,14,2020,1Q
-Beratungsinhalt,Alltagsbewältigung,bis 18,91,2020,1Q
-Beratungsinhalt,Psychisches Leiden,bis 18,129,2020,1Q
-Beratungsinhalt,Sorge wegen Infektion,bis 18,3,2020,1Q
-Beratungsinhalt,Körperliches Leiden,bis 18,17,2020,1Q
-Beratungsinhalt,Einsamkeit,bis 18,29,2020,1Q
-Beratungsinhalt,Familie / Erziehung,bis 18,59,2020,1Q
-Beratungsinhalt,Beziehung allgemein,bis 18,19,2020,1Q
-Beratungsinhalt,Paarbeziehung,bis 18,19,2020,1Q
-Beratungsinhalt,Arbeit / Ausbildung,bis 18,29,2020,1Q
-Beratungsinhalt,Existenzprobleme,bis 18,8,2020,1Q
-Beratungsinhalt,Gewalt,bis 18,69,2020,1Q
-Beratungsinhalt,Sexualität,bis 18,75,2020,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,11,2020,1Q
-Beratungsinhalt,Suchtverhalten,bis 18,13,2020,1Q
-Beratungsinhalt,Suizidalität,bis 18,60,2020,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,bis 18,3,2020,1Q
-Beratungsinhalt,Verschiedenes,bis 18,31,2020,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,bis 18,1,2020,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,1,2020,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,2020,1Q
-Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,2020,1Q
-Zusätzliche Beanspruchung,Juxanruf,bis 18,0,2020,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,2020,1Q
-Gesprächsdauer,Aritmetisches Mittel,bis 18,0.013888888888888888,2020,1Q
-Gesprächsdauer,Median (Zentralwert),bis 18,0.011111111111111112,2020,1Q
-Schicht,Umleiter (4.45),19 bis 40,87,2020,1Q
-Schicht,Morgen (08.00),19 bis 40,165,2020,1Q
-Schicht,ZD Morgen (08.00),19 bis 40,0,2020,1Q
-Schicht,Vormit (10.00),19 bis 40,156,2020,1Q
-Schicht,ZD Nachmittag (12.00),19 bis 40,0,2020,1Q
-Schicht,Mittag (13.00),19 bis 40,170,2020,1Q
-Schicht,Vorab (16.00),19 bis 40,165,2020,1Q
-Schicht,Zwischendrin (17.00),19 bis 40,148,2020,1Q
-Schicht,Abend (18.00),19 bis 40,208,2020,1Q
-Schicht,Spät (21.00),19 bis 40,162,2020,1Q
-Schicht,Nacht (23.00),19 bis 40,188,2020,1Q
-Schicht,Chat Morgen (10.00),19 bis 40,43,2020,1Q
-Schicht,Chat Nachmittag (14.00),19 bis 40,62,2020,1Q
-Schicht,Chat Abend (18.00),19 bis 40,42,2020,1Q
-Schicht,Mail-Beratung,19 bis 40,80,2020,1Q
-Schicht,Angestel-Team,19 bis 40,4,2020,1Q
-Geschlecht,Weiblich,19 bis 40,992,2020,1Q
-Geschlecht,Männlich,19 bis 40,670,2020,1Q
-Geschlecht,nicht bestimmbar,19 bis 40,18,2020,1Q
-Kontakthäufigkeit,Erster Kontakt,19 bis 40,706,2020,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,565,2020,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,335,2020,1Q
-Kontakthäufigkeit,Vereinbarung,19 bis 40,74,2020,1Q
-Beratungsinhalt,Alltagsbewältigung,19 bis 40,649,2020,1Q
-Beratungsinhalt,Psychisches Leiden,19 bis 40,667,2020,1Q
-Beratungsinhalt,Sorge wegen Infektion,19 bis 40,52,2020,1Q
-Beratungsinhalt,Körperliches Leiden,19 bis 40,94,2020,1Q
-Beratungsinhalt,Einsamkeit,19 bis 40,242,2020,1Q
-Beratungsinhalt,Familie / Erziehung,19 bis 40,205,2020,1Q
-Beratungsinhalt,Beziehung allgemein,19 bis 40,158,2020,1Q
-Beratungsinhalt,Paarbeziehung,19 bis 40,258,2020,1Q
-Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,202,2020,1Q
-Beratungsinhalt,Existenzprobleme,19 bis 40,55,2020,1Q
-Beratungsinhalt,Gewalt,19 bis 40,76,2020,1Q
-Beratungsinhalt,Sexualität,19 bis 40,61,2020,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,41,2020,1Q
-Beratungsinhalt,Suchtverhalten,19 bis 40,63,2020,1Q
-Beratungsinhalt,Suizidalität,19 bis 40,144,2020,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,40,2020,1Q
-Beratungsinhalt,Verschiedenes,19 bis 40,163,2020,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,1,2020,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,2020,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,2020,1Q
-Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,2020,1Q
-Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,2020,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,2020,1Q
-Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013888888888888888,2020,1Q
-Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,2020,1Q
-Schicht,Umleiter (4.45),41 bis 65,257,2020,1Q
-Schicht,Morgen (08.00),41 bis 65,408,2020,1Q
-Schicht,ZD Morgen (08.00),41 bis 65,0,2020,1Q
-Schicht,Vormit (10.00),41 bis 65,361,2020,1Q
-Schicht,ZD Nachmittag (12.00),41 bis 65,0,2020,1Q
-Schicht,Mittag (13.00),41 bis 65,383,2020,1Q
-Schicht,Vorab (16.00),41 bis 65,350,2020,1Q
-Schicht,Zwischendrin (17.00),41 bis 65,275,2020,1Q
-Schicht,Abend (18.00),41 bis 65,322,2020,1Q
-Schicht,Spät (21.00),41 bis 65,346,2020,1Q
-Schicht,Nacht (23.00),41 bis 65,400,2020,1Q
-Schicht,Chat Morgen (10.00),41 bis 65,19,2020,1Q
-Schicht,Chat Nachmittag (14.00),41 bis 65,16,2020,1Q
-Schicht,Chat Abend (18.00),41 bis 65,8,2020,1Q
-Schicht,Mail-Beratung,41 bis 65,19,2020,1Q
-Schicht,Angestel-Team,41 bis 65,2,2020,1Q
-Geschlecht,Weiblich,41 bis 65,2264,2020,1Q
-Geschlecht,Männlich,41 bis 65,891,2020,1Q
-Geschlecht,nicht bestimmbar,41 bis 65,11,2020,1Q
-Kontakthäufigkeit,Erster Kontakt,41 bis 65,945,2020,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1169,2020,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,781,2020,1Q
-Kontakthäufigkeit,Vereinbarung,41 bis 65,271,2020,1Q
-Beratungsinhalt,Alltagsbewältigung,41 bis 65,1576,2020,1Q
-Beratungsinhalt,Psychisches Leiden,41 bis 65,1393,2020,1Q
-Beratungsinhalt,Sorge wegen Infektion,41 bis 65,134,2020,1Q
-Beratungsinhalt,Körperliches Leiden,41 bis 65,367,2020,1Q
-Beratungsinhalt,Einsamkeit,41 bis 65,460,2020,1Q
-Beratungsinhalt,Familie / Erziehung,41 bis 65,380,2020,1Q
-Beratungsinhalt,Beziehung allgemein,41 bis 65,240,2020,1Q
-Beratungsinhalt,Paarbeziehung,41 bis 65,382,2020,1Q
-Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,316,2020,1Q
-Beratungsinhalt,Existenzprobleme,41 bis 65,137,2020,1Q
-Beratungsinhalt,Gewalt,41 bis 65,44,2020,1Q
-Beratungsinhalt,Sexualität,41 bis 65,55,2020,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,84,2020,1Q
-Beratungsinhalt,Suchtverhalten,41 bis 65,53,2020,1Q
-Beratungsinhalt,Suizidalität,41 bis 65,65,2020,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,98,2020,1Q
-Beratungsinhalt,Verschiedenes,41 bis 65,348,2020,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,1,2020,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,2020,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,2020,1Q
-Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,2,2020,1Q
-Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,2020,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,2020,1Q
-Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.012499999999999999,2020,1Q
-Gesprächsdauer,Median (Zentralwert),41 bis 65,0.011805555555555555,2020,1Q
-Schicht,Umleiter (4.45),über 65,188,2020,1Q
-Schicht,Morgen (08.00),über 65,314,2020,1Q
-Schicht,ZD Morgen (08.00),über 65,0,2020,1Q
-Schicht,Vormit (10.00),über 65,264,2020,1Q
-Schicht,ZD Nachmittag (12.00),über 65,0,2020,1Q
-Schicht,Mittag (13.00),über 65,321,2020,1Q
-Schicht,Vorab (16.00),über 65,262,2020,1Q
-Schicht,Zwischendrin (17.00),über 65,218,2020,1Q
-Schicht,Abend (18.00),über 65,240,2020,1Q
-Schicht,Spät (21.00),über 65,326,2020,1Q
-Schicht,Nacht (23.00),über 65,346,2020,1Q
-Schicht,Chat Morgen (10.00),über 65,5,2020,1Q
-Schicht,Chat Nachmittag (14.00),über 65,0,2020,1Q
-Schicht,Chat Abend (18.00),über 65,0,2020,1Q
-Schicht,Mail-Beratung,über 65,5,2020,1Q
-Schicht,Angestel-Team,über 65,1,2020,1Q
-Geschlecht,Weiblich,über 65,2057,2020,1Q
-Geschlecht,Männlich,über 65,431,2020,1Q
-Geschlecht,nicht bestimmbar,über 65,2,2020,1Q
-Kontakthäufigkeit,Erster Kontakt,über 65,465,2020,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,641,2020,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,über 65,812,2020,1Q
-Kontakthäufigkeit,Vereinbarung,über 65,572,2020,1Q
-Beratungsinhalt,Alltagsbewältigung,über 65,1590,2020,1Q
-Beratungsinhalt,Psychisches Leiden,über 65,987,2020,1Q
-Beratungsinhalt,Sorge wegen Infektion,über 65,130,2020,1Q
-Beratungsinhalt,Körperliches Leiden,über 65,424,2020,1Q
-Beratungsinhalt,Einsamkeit,über 65,658,2020,1Q
-Beratungsinhalt,Familie / Erziehung,über 65,133,2020,1Q
-Beratungsinhalt,Beziehung allgemein,über 65,134,2020,1Q
-Beratungsinhalt,Paarbeziehung,über 65,83,2020,1Q
-Beratungsinhalt,Arbeit / Ausbildung,über 65,13,2020,1Q
-Beratungsinhalt,Existenzprobleme,über 65,32,2020,1Q
-Beratungsinhalt,Gewalt,über 65,11,2020,1Q
-Beratungsinhalt,Sexualität,über 65,6,2020,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,über 65,43,2020,1Q
-Beratungsinhalt,Suchtverhalten,über 65,89,2020,1Q
-Beratungsinhalt,Suizidalität,über 65,33,2020,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,über 65,73,2020,1Q
-Beratungsinhalt,Verschiedenes,über 65,211,2020,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,über 65,0,2020,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,2020,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,2020,1Q
-Zusätzliche Beanspruchung,Fehlanruf,über 65,0,2020,1Q
-Zusätzliche Beanspruchung,Juxanruf,über 65,0,2020,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,2020,1Q
-Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,2020,1Q
-Gesprächsdauer,Median (Zentralwert),über 65,0.006944444444444444,2020,1Q
-Schicht,Umleiter (4.45),nicht bestimmbar,37,2020,1Q
-Schicht,Morgen (08.00),nicht bestimmbar,32,2020,1Q
-Schicht,ZD Morgen (08.00),nicht bestimmbar,0,2020,1Q
-Schicht,Vormit (10.00),nicht bestimmbar,65,2020,1Q
-Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,2020,1Q
-Schicht,Mittag (13.00),nicht bestimmbar,62,2020,1Q
-Schicht,Vorab (16.00),nicht bestimmbar,49,2020,1Q
-Schicht,Zwischendrin (17.00),nicht bestimmbar,22,2020,1Q
-Schicht,Abend (18.00),nicht bestimmbar,78,2020,1Q
-Schicht,Spät (21.00),nicht bestimmbar,56,2020,1Q
-Schicht,Nacht (23.00),nicht bestimmbar,43,2020,1Q
-Schicht,Chat Morgen (10.00),nicht bestimmbar,30,2020,1Q
-Schicht,Chat Nachmittag (14.00),nicht bestimmbar,42,2020,1Q
-Schicht,Chat Abend (18.00),nicht bestimmbar,40,2020,1Q
-Schicht,Mail-Beratung,nicht bestimmbar,25,2020,1Q
-Schicht,Angestel-Team,nicht bestimmbar,1,2020,1Q
-Geschlecht,Weiblich,nicht bestimmbar,345,2020,1Q
-Geschlecht,Männlich,nicht bestimmbar,143,2020,1Q
-Geschlecht,nicht bestimmbar,nicht bestimmbar,94,2020,1Q
-Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,350,2020,1Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,198,2020,1Q
-Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,30,2020,1Q
-Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,4,2020,1Q
-Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,214,2020,1Q
-Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,162,2020,1Q
-Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,19,2020,1Q
-Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,56,2020,1Q
-Beratungsinhalt,Einsamkeit,nicht bestimmbar,63,2020,1Q
-Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,37,2020,1Q
-Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,38,2020,1Q
-Beratungsinhalt,Paarbeziehung,nicht bestimmbar,49,2020,1Q
-Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,39,2020,1Q
-Beratungsinhalt,Existenzprobleme,nicht bestimmbar,17,2020,1Q
-Beratungsinhalt,Gewalt,nicht bestimmbar,24,2020,1Q
-Beratungsinhalt,Sexualität,nicht bestimmbar,17,2020,1Q
-Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,12,2020,1Q
-Beratungsinhalt,Suchtverhalten,nicht bestimmbar,12,2020,1Q
-Beratungsinhalt,Suizidalität,nicht bestimmbar,36,2020,1Q
-Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,13,2020,1Q
-Beratungsinhalt,Verschiedenes,nicht bestimmbar,179,2020,1Q
-Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,2020,1Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,2020,1Q
-Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,1,2020,1Q
-Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,2020,1Q
-Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,2020,1Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,2020,1Q
-Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.009722222222222222,2020,1Q
-Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.006944444444444444,2020,1Q
-Schicht,Umleiter (4.45),bis 18,6,2020,2Q
-Schicht,Morgen (08.00),bis 18,11,2020,2Q
-Schicht,ZD Morgen (08.00),bis 18,5,2020,2Q
-Schicht,Vormit (10.00),bis 18,11,2020,2Q
-Schicht,ZD Nachmittag (12.00),bis 18,9,2020,2Q
-Schicht,Mittag (13.00),bis 18,11,2020,2Q
-Schicht,Vorab (16.00),bis 18,13,2020,2Q
-Schicht,Zwischendrin (17.00),bis 18,21,2020,2Q
-Schicht,Abend (18.00),bis 18,41,2020,2Q
-Schicht,Spät (21.00),bis 18,20,2020,2Q
-Schicht,Nacht (23.00),bis 18,10,2020,2Q
-Schicht,Chat Morgen (10.00),bis 18,11,2020,2Q
-Schicht,Chat Nachmittag (14.00),bis 18,14,2020,2Q
-Schicht,Chat Abend (18.00),bis 18,44,2020,2Q
-Schicht,Mail-Beratung,bis 18,60,2020,2Q
-Schicht,Angestel-Team,bis 18,2,2020,2Q
-Geschlecht,Weiblich,bis 18,239,2020,2Q
-Geschlecht,Männlich,bis 18,27,2020,2Q
-Geschlecht,Divers,bis 18,1,2020,2Q
-Geschlecht,nicht bestimmbar,bis 18,22,2020,2Q
-Kontakthäufigkeit,Erster Kontakt,bis 18,120,2020,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,53,2020,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,108,2020,2Q
-Kontakthäufigkeit,Vereinbarung,bis 18,8,2020,2Q
-Beratungsinhalt,Alltagsbewältigung,bis 18,106,2020,2Q
-Beratungsinhalt,Psychisches Leiden,bis 18,107,2020,2Q
-Beratungsinhalt,Körperliches Leiden,bis 18,16,2020,2Q
-Beratungsinhalt,Sorge wegen Infektion,bis 18,3,2020,2Q
-Beratungsinhalt,Einsamkeit,bis 18,25,2020,2Q
-Beratungsinhalt,Familie / Erziehung,bis 18,61,2020,2Q
-Beratungsinhalt,Beziehung allgemein,bis 18,26,2020,2Q
-Beratungsinhalt,Paarbeziehung,bis 18,20,2020,2Q
-Beratungsinhalt,Arbeit / Ausbildung,bis 18,24,2020,2Q
-Beratungsinhalt,Existenzprobleme,bis 18,8,2020,2Q
-Beratungsinhalt,Gewalt,bis 18,25,2020,2Q
-Beratungsinhalt,Sexualität,bis 18,27,2020,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,8,2020,2Q
-Beratungsinhalt,Suchtverhalten,bis 18,12,2020,2Q
-Beratungsinhalt,Suizidalität,bis 18,42,2020,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,bis 18,8,2020,2Q
-Beratungsinhalt,Verschiedenes,bis 18,40,2020,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,bis 18,1,2020,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,2020,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,2020,2Q
-Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,2020,2Q
-Zusätzliche Beanspruchung,Juxanruf,bis 18,0,2020,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,2020,2Q
-Gesprächsdauer,Aritmetisches Mittel,bis 18,0.014583333333333332,2020,2Q
-Gesprächsdauer,Median (Zentralwert),bis 18,0.010416666666666666,2020,2Q
-Schicht,Umleiter (4.45),19 bis 40,67,2020,2Q
-Schicht,Morgen (08.00),19 bis 40,145,2020,2Q
-Schicht,ZD Morgen (08.00),19 bis 40,108,2020,2Q
-Schicht,Vormit (10.00),19 bis 40,156,2020,2Q
-Schicht,ZD Nachmittag (12.00),19 bis 40,132,2020,2Q
-Schicht,Mittag (13.00),19 bis 40,159,2020,2Q
-Schicht,Vorab (16.00),19 bis 40,181,2020,2Q
-Schicht,Zwischendrin (17.00),19 bis 40,196,2020,2Q
-Schicht,Abend (18.00),19 bis 40,253,2020,2Q
-Schicht,Spät (21.00),19 bis 40,193,2020,2Q
-Schicht,Nacht (23.00),19 bis 40,206,2020,2Q
-Schicht,Chat Morgen (10.00),19 bis 40,32,2020,2Q
-Schicht,Chat Nachmittag (14.00),19 bis 40,45,2020,2Q
-Schicht,Chat Abend (18.00),19 bis 40,95,2020,2Q
-Schicht,Mail-Beratung,19 bis 40,73,2020,2Q
-Schicht,Angestel-Team,19 bis 40,7,2020,2Q
-Geschlecht,Weiblich,19 bis 40,1182,2020,2Q
-Geschlecht,Männlich,19 bis 40,839,2020,2Q
-Geschlecht,Divers,19 bis 40,1,2020,2Q
-Geschlecht,nicht bestimmbar,19 bis 40,26,2020,2Q
-Kontakthäufigkeit,Erster Kontakt,19 bis 40,872,2020,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,681,2020,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,443,2020,2Q
-Kontakthäufigkeit,Vereinbarung,19 bis 40,52,2020,2Q
-Beratungsinhalt,Alltagsbewältigung,19 bis 40,743,2020,2Q
-Beratungsinhalt,Psychisches Leiden,19 bis 40,897,2020,2Q
-Beratungsinhalt,Körperliches Leiden,19 bis 40,112,2020,2Q
-Beratungsinhalt,Sorge wegen Infektion,19 bis 40,132,2020,2Q
-Beratungsinhalt,Einsamkeit,19 bis 40,318,2020,2Q
-Beratungsinhalt,Familie / Erziehung,19 bis 40,245,2020,2Q
-Beratungsinhalt,Beziehung allgemein,19 bis 40,199,2020,2Q
-Beratungsinhalt,Paarbeziehung,19 bis 40,290,2020,2Q
-Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,217,2020,2Q
-Beratungsinhalt,Existenzprobleme,19 bis 40,57,2020,2Q
-Beratungsinhalt,Gewalt,19 bis 40,89,2020,2Q
-Beratungsinhalt,Sexualität,19 bis 40,70,2020,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,52,2020,2Q
-Beratungsinhalt,Suchtverhalten,19 bis 40,87,2020,2Q
-Beratungsinhalt,Suizidalität,19 bis 40,120,2020,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,45,2020,2Q
-Beratungsinhalt,Verschiedenes,19 bis 40,238,2020,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,2020,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,2020,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,2020,2Q
-Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,1,2020,2Q
-Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,2020,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,2020,2Q
-Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.014583333333333332,2020,2Q
-Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,2020,2Q
-Schicht,Umleiter (4.45),41 bis 65,177,2020,2Q
-Schicht,Morgen (08.00),41 bis 65,317,2020,2Q
-Schicht,ZD Morgen (08.00),41 bis 65,192,2020,2Q
-Schicht,Vormit (10.00),41 bis 65,257,2020,2Q
-Schicht,ZD Nachmittag (12.00),41 bis 65,275,2020,2Q
-Schicht,Mittag (13.00),41 bis 65,318,2020,2Q
-Schicht,Vorab (16.00),41 bis 65,337,2020,2Q
-Schicht,Zwischendrin (17.00),41 bis 65,317,2020,2Q
-Schicht,Abend (18.00),41 bis 65,356,2020,2Q
-Schicht,Spät (21.00),41 bis 65,366,2020,2Q
-Schicht,Nacht (23.00),41 bis 65,394,2020,2Q
-Schicht,Chat Morgen (10.00),41 bis 65,4,2020,2Q
-Schicht,Chat Nachmittag (14.00),41 bis 65,14,2020,2Q
-Schicht,Chat Abend (18.00),41 bis 65,14,2020,2Q
-Schicht,Mail-Beratung,41 bis 65,7,2020,2Q
-Schicht,Angestel-Team,41 bis 65,8,2020,2Q
-Geschlecht,Weiblich,41 bis 65,2337,2020,2Q
-Geschlecht,Männlich,41 bis 65,1010,2020,2Q
-Geschlecht,Divers,41 bis 65,0,2020,2Q
-Geschlecht,nicht bestimmbar,41 bis 65,6,2020,2Q
-Kontakthäufigkeit,Erster Kontakt,41 bis 65,957,2020,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1257,2020,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,751,2020,2Q
-Kontakthäufigkeit,Vereinbarung,41 bis 65,387,2020,2Q
-Beratungsinhalt,Alltagsbewältigung,41 bis 65,1643,2020,2Q
-Beratungsinhalt,Psychisches Leiden,41 bis 65,1480,2020,2Q
-Beratungsinhalt,Körperliches Leiden,41 bis 65,330,2020,2Q
-Beratungsinhalt,Sorge wegen Infektion,41 bis 65,328,2020,2Q
-Beratungsinhalt,Einsamkeit,41 bis 65,448,2020,2Q
-Beratungsinhalt,Familie / Erziehung,41 bis 65,463,2020,2Q
-Beratungsinhalt,Beziehung allgemein,41 bis 65,258,2020,2Q
-Beratungsinhalt,Paarbeziehung,41 bis 65,366,2020,2Q
-Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,258,2020,2Q
-Beratungsinhalt,Existenzprobleme,41 bis 65,77,2020,2Q
-Beratungsinhalt,Gewalt,41 bis 65,65,2020,2Q
-Beratungsinhalt,Sexualität,41 bis 65,56,2020,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,89,2020,2Q
-Beratungsinhalt,Suchtverhalten,41 bis 65,71,2020,2Q
-Beratungsinhalt,Suizidalität,41 bis 65,81,2020,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,95,2020,2Q
-Beratungsinhalt,Verschiedenes,41 bis 65,340,2020,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,2,2020,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,1,2020,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,2020,2Q
-Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,2020,2Q
-Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,2020,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,2020,2Q
-Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.012499999999999999,2020,2Q
-Gesprächsdauer,Median (Zentralwert),41 bis 65,0.011111111111111112,2020,2Q
-Schicht,Umleiter (4.45),über 65,140,2020,2Q
-Schicht,Morgen (08.00),über 65,261,2020,2Q
-Schicht,ZD Morgen (08.00),über 65,203,2020,2Q
-Schicht,Vormit (10.00),über 65,237,2020,2Q
-Schicht,ZD Nachmittag (12.00),über 65,223,2020,2Q
-Schicht,Mittag (13.00),über 65,247,2020,2Q
-Schicht,Vorab (16.00),über 65,262,2020,2Q
-Schicht,Zwischendrin (17.00),über 65,259,2020,2Q
-Schicht,Abend (18.00),über 65,330,2020,2Q
-Schicht,Spät (21.00),über 65,300,2020,2Q
-Schicht,Nacht (23.00),über 65,263,2020,2Q
-Schicht,Chat Morgen (10.00),über 65,0,2020,2Q
-Schicht,Chat Nachmittag (14.00),über 65,2,2020,2Q
-Schicht,Chat Abend (18.00),über 65,4,2020,2Q
-Schicht,Mail-Beratung,über 65,0,2020,2Q
-Schicht,Angestel-Team,über 65,7,2020,2Q
-Geschlecht,Weiblich,über 65,2289,2020,2Q
-Geschlecht,Männlich,über 65,448,2020,2Q
-Geschlecht,Divers,über 65,0,2020,2Q
-Geschlecht,nicht bestimmbar,über 65,1,2020,2Q
-Kontakthäufigkeit,Erster Kontakt,über 65,454,2020,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,661,2020,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,über 65,956,2020,2Q
-Kontakthäufigkeit,Vereinbarung,über 65,667,2020,2Q
-Beratungsinhalt,Alltagsbewältigung,über 65,1578,2020,2Q
-Beratungsinhalt,Psychisches Leiden,über 65,1205,2020,2Q
-Beratungsinhalt,Körperliches Leiden,über 65,442,2020,2Q
-Beratungsinhalt,Sorge wegen Infektion,über 65,287,2020,2Q
-Beratungsinhalt,Einsamkeit,über 65,591,2020,2Q
-Beratungsinhalt,Familie / Erziehung,über 65,151,2020,2Q
-Beratungsinhalt,Beziehung allgemein,über 65,127,2020,2Q
-Beratungsinhalt,Paarbeziehung,über 65,67,2020,2Q
-Beratungsinhalt,Arbeit / Ausbildung,über 65,9,2020,2Q
-Beratungsinhalt,Existenzprobleme,über 65,39,2020,2Q
-Beratungsinhalt,Gewalt,über 65,16,2020,2Q
-Beratungsinhalt,Sexualität,über 65,7,2020,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,über 65,77,2020,2Q
-Beratungsinhalt,Suchtverhalten,über 65,158,2020,2Q
-Beratungsinhalt,Suizidalität,über 65,29,2020,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,über 65,48,2020,2Q
-Beratungsinhalt,Verschiedenes,über 65,222,2020,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,über 65,0,2020,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,2020,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,2020,2Q
-Zusätzliche Beanspruchung,Fehlanruf,über 65,0,2020,2Q
-Zusätzliche Beanspruchung,Juxanruf,über 65,0,2020,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,2020,2Q
-Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,2020,2Q
-Gesprächsdauer,Median (Zentralwert),über 65,0.006944444444444444,2020,2Q
-Schicht,Umleiter (4.45),nicht bestimmbar,31,2020,2Q
-Schicht,Morgen (08.00),nicht bestimmbar,55,2020,2Q
-Schicht,ZD Morgen (08.00),nicht bestimmbar,41,2020,2Q
-Schicht,Vormit (10.00),nicht bestimmbar,60,2020,2Q
-Schicht,ZD Nachmittag (12.00),nicht bestimmbar,33,2020,2Q
-Schicht,Mittag (13.00),nicht bestimmbar,70,2020,2Q
-Schicht,Vorab (16.00),nicht bestimmbar,65,2020,2Q
-Schicht,Zwischendrin (17.00),nicht bestimmbar,60,2020,2Q
-Schicht,Abend (18.00),nicht bestimmbar,98,2020,2Q
-Schicht,Spät (21.00),nicht bestimmbar,75,2020,2Q
-Schicht,Nacht (23.00),nicht bestimmbar,49,2020,2Q
-Schicht,Chat Morgen (10.00),nicht bestimmbar,23,2020,2Q
-Schicht,Chat Nachmittag (14.00),nicht bestimmbar,62,2020,2Q
-Schicht,Chat Abend (18.00),nicht bestimmbar,134,2020,2Q
-Schicht,Mail-Beratung,nicht bestimmbar,27,2020,2Q
-Schicht,Angestel-Team,nicht bestimmbar,1,2020,2Q
-Geschlecht,Weiblich,nicht bestimmbar,448,2020,2Q
-Geschlecht,Männlich,nicht bestimmbar,280,2020,2Q
-Geschlecht,Divers,nicht bestimmbar,0,2020,2Q
-Geschlecht,nicht bestimmbar,nicht bestimmbar,156,2020,2Q
-Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,458,2020,2Q
-Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,351,2020,2Q
-Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,69,2020,2Q
-Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,6,2020,2Q
-Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,303,2020,2Q
-Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,269,2020,2Q
-Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,59,2020,2Q
-Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,48,2020,2Q
-Beratungsinhalt,Einsamkeit,nicht bestimmbar,93,2020,2Q
-Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,57,2020,2Q
-Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,50,2020,2Q
-Beratungsinhalt,Paarbeziehung,nicht bestimmbar,68,2020,2Q
-Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,39,2020,2Q
-Beratungsinhalt,Existenzprobleme,nicht bestimmbar,18,2020,2Q
-Beratungsinhalt,Gewalt,nicht bestimmbar,22,2020,2Q
-Beratungsinhalt,Sexualität,nicht bestimmbar,32,2020,2Q
-Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,22,2020,2Q
-Beratungsinhalt,Suchtverhalten,nicht bestimmbar,24,2020,2Q
-Beratungsinhalt,Suizidalität,nicht bestimmbar,68,2020,2Q
-Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,20,2020,2Q
-Beratungsinhalt,Verschiedenes,nicht bestimmbar,236,2020,2Q
-Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,2020,2Q
-Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,2020,2Q
-Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,1,2020,2Q
-Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,2020,2Q
-Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,2020,2Q
-Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,2020,2Q
-Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.011111111111111112,2020,2Q
-Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.006944444444444444,2020,2Q
+kategorie,sub_kategorie,altersklasse,wert,einheit,jahr,quartal
+Schicht,Umleiter (4.45),bis 18,0,anzahl_anrufe,2019,1Q
+Schicht,Morgen (08.00),bis 18,3,anzahl_anrufe,2019,1Q
+Schicht,ZD Morgen (08.00),bis 18,0,anzahl_anrufe,2019,1Q
+Schicht,Vormit (10.00),bis 18,14,anzahl_anrufe,2019,1Q
+Schicht,ZD Nachmittag (12.00),bis 18,0,anzahl_anrufe,2019,1Q
+Schicht,Mittag (13.00),bis 18,10,anzahl_anrufe,2019,1Q
+Schicht,Vorab (16.00),bis 18,8,anzahl_anrufe,2019,1Q
+Schicht,Zwischendrin (17.00),bis 18,8,anzahl_anrufe,2019,1Q
+Schicht,Abend (18.00),bis 18,7,anzahl_anrufe,2019,1Q
+Schicht,Spät (21.00),bis 18,12,anzahl_anrufe,2019,1Q
+Schicht,Nacht (23.00),bis 18,5,anzahl_anrufe,2019,1Q
+Schicht,Chat Morgen (10.00),bis 18,61,anzahl_anrufe,2019,1Q
+Schicht,Chat Nachmittag (14.00),bis 18,52,anzahl_anrufe,2019,1Q
+Schicht,Chat Abend (18.00),bis 18,63,anzahl_anrufe,2019,1Q
+Schicht,Mail-Beratung,bis 18,16,anzahl_anrufe,2019,1Q
+Schicht,Angestel-Team,bis 18,6,anzahl_anrufe,2019,1Q
+Geschlecht,Weiblich,bis 18,216,anzahl_anrufe,2019,1Q
+Geschlecht,Männlich,bis 18,37,anzahl_anrufe,2019,1Q
+Geschlecht,Divers,bis 18,0,anzahl_anrufe,2019,1Q
+Geschlecht,nicht bestimmbar,bis 18,12,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Erster Kontakt,bis 18,128,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,42,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,95,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Vereinbarung,bis 18,0,anzahl_anrufe,2019,1Q
+Beratungsinhalt,Alltagsbewältigung,bis 18,87,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Psychisches Leiden,bis 18,101,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Körperliches Leiden,bis 18,22,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sorge wegen Infektion,bis 18,0,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Einsamkeit,bis 18,37,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Familie / Erziehung,bis 18,72,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Beziehung allgemein,bis 18,25,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Paarbeziehung,bis 18,19,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Arbeit / Ausbildung,bis 18,23,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Existenzprobleme,bis 18,8,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Gewalt,bis 18,31,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sexualität,bis 18,39,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,13,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suchtverhalten,bis 18,15,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suizidalität,bis 18,34,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,bis 18,1,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verschiedenes,bis 18,39,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,anzahl_inhalte,2019,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Juxanruf,bis 18,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,anzahl_anrufe,2019,1Q
+Gesprächsdauer,Aritmetisches Mittel,bis 18,0.016666666666666666,minuten,2019,1Q
+Gesprächsdauer,Median (Zentralwert),bis 18,0.011805555555555555,minuten,2019,1Q
+Schicht,Umleiter (4.45),19 bis 40,76,anzahl_anrufe,2019,1Q
+Schicht,Morgen (08.00),19 bis 40,153,anzahl_anrufe,2019,1Q
+Schicht,ZD Morgen (08.00),19 bis 40,0,anzahl_anrufe,2019,1Q
+Schicht,Vormit (10.00),19 bis 40,204,anzahl_anrufe,2019,1Q
+Schicht,ZD Nachmittag (12.00),19 bis 40,0,anzahl_anrufe,2019,1Q
+Schicht,Mittag (13.00),19 bis 40,183,anzahl_anrufe,2019,1Q
+Schicht,Vorab (16.00),19 bis 40,201,anzahl_anrufe,2019,1Q
+Schicht,Zwischendrin (17.00),19 bis 40,163,anzahl_anrufe,2019,1Q
+Schicht,Abend (18.00),19 bis 40,214,anzahl_anrufe,2019,1Q
+Schicht,Spät (21.00),19 bis 40,192,anzahl_anrufe,2019,1Q
+Schicht,Nacht (23.00),19 bis 40,198,anzahl_anrufe,2019,1Q
+Schicht,Chat Morgen (10.00),19 bis 40,62,anzahl_anrufe,2019,1Q
+Schicht,Chat Nachmittag (14.00),19 bis 40,35,anzahl_anrufe,2019,1Q
+Schicht,Chat Abend (18.00),19 bis 40,68,anzahl_anrufe,2019,1Q
+Schicht,Mail-Beratung,19 bis 40,21,anzahl_anrufe,2019,1Q
+Schicht,Angestel-Team,19 bis 40,21,anzahl_anrufe,2019,1Q
+Geschlecht,Weiblich,19 bis 40,1159,anzahl_anrufe,2019,1Q
+Geschlecht,Männlich,19 bis 40,618,anzahl_anrufe,2019,1Q
+Geschlecht,Divers,19 bis 40,0,anzahl_anrufe,2019,1Q
+Geschlecht,nicht bestimmbar,19 bis 40,14,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Erster Kontakt,19 bis 40,729,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,545,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,517,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Vereinbarung,19 bis 40,0,anzahl_anrufe,2019,1Q
+Beratungsinhalt,Alltagsbewältigung,19 bis 40,644,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Psychisches Leiden,19 bis 40,802,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Körperliches Leiden,19 bis 40,104,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Einsamkeit,19 bis 40,211,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Familie / Erziehung,19 bis 40,265,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Beziehung allgemein,19 bis 40,185,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Paarbeziehung,19 bis 40,314,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,218,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Existenzprobleme,19 bis 40,54,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Gewalt,19 bis 40,79,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sexualität,19 bis 40,39,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,46,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suchtverhalten,19 bis 40,79,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suizidalität,19 bis 40,89,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,23,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verschiedenes,19 bis 40,203,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,anzahl_inhalte,2019,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,1,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,anzahl_anrufe,2019,1Q
+Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013194444444444444,minuten,2019,1Q
+Gesprächsdauer,Median (Zentralwert),19 bis 40,0.011805555555555555,minuten,2019,1Q
+Schicht,Umleiter (4.45),41 bis 65,236,anzahl_anrufe,2019,1Q
+Schicht,Morgen (08.00),41 bis 65,347,anzahl_anrufe,2019,1Q
+Schicht,ZD Morgen (08.00),41 bis 65,0,anzahl_anrufe,2019,1Q
+Schicht,Vormit (10.00),41 bis 65,373,anzahl_anrufe,2019,1Q
+Schicht,ZD Nachmittag (12.00),41 bis 65,0,anzahl_anrufe,2019,1Q
+Schicht,Mittag (13.00),41 bis 65,326,anzahl_anrufe,2019,1Q
+Schicht,Vorab (16.00),41 bis 65,312,anzahl_anrufe,2019,1Q
+Schicht,Zwischendrin (17.00),41 bis 65,281,anzahl_anrufe,2019,1Q
+Schicht,Abend (18.00),41 bis 65,357,anzahl_anrufe,2019,1Q
+Schicht,Spät (21.00),41 bis 65,328,anzahl_anrufe,2019,1Q
+Schicht,Nacht (23.00),41 bis 65,338,anzahl_anrufe,2019,1Q
+Schicht,Chat Morgen (10.00),41 bis 65,14,anzahl_anrufe,2019,1Q
+Schicht,Chat Nachmittag (14.00),41 bis 65,17,anzahl_anrufe,2019,1Q
+Schicht,Chat Abend (18.00),41 bis 65,13,anzahl_anrufe,2019,1Q
+Schicht,Mail-Beratung,41 bis 65,6,anzahl_anrufe,2019,1Q
+Schicht,Angestel-Team,41 bis 65,47,anzahl_anrufe,2019,1Q
+Geschlecht,Weiblich,41 bis 65,2305,anzahl_anrufe,2019,1Q
+Geschlecht,Männlich,41 bis 65,689,anzahl_anrufe,2019,1Q
+Geschlecht,Divers,41 bis 65,0,anzahl_anrufe,2019,1Q
+Geschlecht,nicht bestimmbar,41 bis 65,1,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Erster Kontakt,41 bis 65,802,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1103,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,1090,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Vereinbarung,41 bis 65,0,anzahl_anrufe,2019,1Q
+Beratungsinhalt,Alltagsbewältigung,41 bis 65,1395,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Psychisches Leiden,41 bis 65,1216,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Körperliches Leiden,41 bis 65,411,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Einsamkeit,41 bis 65,526,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Familie / Erziehung,41 bis 65,362,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Beziehung allgemein,41 bis 65,277,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Paarbeziehung,41 bis 65,285,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,224,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Existenzprobleme,41 bis 65,106,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Gewalt,41 bis 65,68,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sexualität,41 bis 65,42,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,70,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suchtverhalten,41 bis 65,66,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suizidalität,41 bis 65,62,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,97,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verschiedenes,41 bis 65,307,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,0,anzahl_inhalte,2019,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,anzahl_anrufe,2019,1Q
+Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.011805555555555555,minuten,2019,1Q
+Gesprächsdauer,Median (Zentralwert),41 bis 65,0.010416666666666666,minuten,2019,1Q
+Schicht,Umleiter (4.45),über 65,224,anzahl_anrufe,2019,1Q
+Schicht,Morgen (08.00),über 65,251,anzahl_anrufe,2019,1Q
+Schicht,ZD Morgen (08.00),über 65,0,anzahl_anrufe,2019,1Q
+Schicht,Vormit (10.00),über 65,284,anzahl_anrufe,2019,1Q
+Schicht,ZD Nachmittag (12.00),über 65,0,anzahl_anrufe,2019,1Q
+Schicht,Mittag (13.00),über 65,284,anzahl_anrufe,2019,1Q
+Schicht,Vorab (16.00),über 65,240,anzahl_anrufe,2019,1Q
+Schicht,Zwischendrin (17.00),über 65,248,anzahl_anrufe,2019,1Q
+Schicht,Abend (18.00),über 65,290,anzahl_anrufe,2019,1Q
+Schicht,Spät (21.00),über 65,288,anzahl_anrufe,2019,1Q
+Schicht,Nacht (23.00),über 65,299,anzahl_anrufe,2019,1Q
+Schicht,Chat Morgen (10.00),über 65,0,anzahl_anrufe,2019,1Q
+Schicht,Chat Nachmittag (14.00),über 65,1,anzahl_anrufe,2019,1Q
+Schicht,Chat Abend (18.00),über 65,0,anzahl_anrufe,2019,1Q
+Schicht,Mail-Beratung,über 65,0,anzahl_anrufe,2019,1Q
+Schicht,Angestel-Team,über 65,29,anzahl_anrufe,2019,1Q
+Geschlecht,Weiblich,über 65,1957,anzahl_anrufe,2019,1Q
+Geschlecht,Männlich,über 65,479,anzahl_anrufe,2019,1Q
+Geschlecht,Divers,über 65,0,anzahl_anrufe,2019,1Q
+Geschlecht,nicht bestimmbar,über 65,2,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Erster Kontakt,über 65,377,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,695,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,über 65,1366,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Vereinbarung,über 65,0,anzahl_anrufe,2019,1Q
+Beratungsinhalt,Alltagsbewältigung,über 65,1375,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Psychisches Leiden,über 65,770,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Körperliches Leiden,über 65,490,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sorge wegen Infektion,über 65,0,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Einsamkeit,über 65,791,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Familie / Erziehung,über 65,200,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Beziehung allgemein,über 65,176,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Paarbeziehung,über 65,69,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Arbeit / Ausbildung,über 65,14,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Existenzprobleme,über 65,48,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Gewalt,über 65,15,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sexualität,über 65,13,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,über 65,61,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suchtverhalten,über 65,35,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suizidalität,über 65,27,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,über 65,52,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verschiedenes,über 65,269,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,über 65,0,anzahl_inhalte,2019,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,2,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Fehlanruf,über 65,1,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Juxanruf,über 65,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,anzahl_anrufe,2019,1Q
+Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,minuten,2019,1Q
+Gesprächsdauer,Median (Zentralwert),über 65,0.007638888888888889,minuten,2019,1Q
+Schicht,Umleiter (4.45),nicht bestimmbar,39,anzahl_anrufe,2019,1Q
+Schicht,Morgen (08.00),nicht bestimmbar,63,anzahl_anrufe,2019,1Q
+Schicht,ZD Morgen (08.00),nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Schicht,Vormit (10.00),nicht bestimmbar,73,anzahl_anrufe,2019,1Q
+Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Schicht,Mittag (13.00),nicht bestimmbar,72,anzahl_anrufe,2019,1Q
+Schicht,Vorab (16.00),nicht bestimmbar,49,anzahl_anrufe,2019,1Q
+Schicht,Zwischendrin (17.00),nicht bestimmbar,64,anzahl_anrufe,2019,1Q
+Schicht,Abend (18.00),nicht bestimmbar,46,anzahl_anrufe,2019,1Q
+Schicht,Spät (21.00),nicht bestimmbar,61,anzahl_anrufe,2019,1Q
+Schicht,Nacht (23.00),nicht bestimmbar,73,anzahl_anrufe,2019,1Q
+Schicht,Chat Morgen (10.00),nicht bestimmbar,25,anzahl_anrufe,2019,1Q
+Schicht,Chat Nachmittag (14.00),nicht bestimmbar,19,anzahl_anrufe,2019,1Q
+Schicht,Chat Abend (18.00),nicht bestimmbar,73,anzahl_anrufe,2019,1Q
+Schicht,Mail-Beratung,nicht bestimmbar,15,anzahl_anrufe,2019,1Q
+Schicht,Angestel-Team,nicht bestimmbar,11,anzahl_anrufe,2019,1Q
+Geschlecht,Weiblich,nicht bestimmbar,442,anzahl_anrufe,2019,1Q
+Geschlecht,Männlich,nicht bestimmbar,166,anzahl_anrufe,2019,1Q
+Geschlecht,Divers,nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Geschlecht,nicht bestimmbar,nicht bestimmbar,75,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,406,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,233,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,44,anzahl_anrufe,2019,1Q
+Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,242,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,269,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,64,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Einsamkeit,nicht bestimmbar,92,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,38,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,45,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Paarbeziehung,nicht bestimmbar,46,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,39,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Existenzprobleme,nicht bestimmbar,16,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Gewalt,nicht bestimmbar,21,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Sexualität,nicht bestimmbar,15,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,19,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suchtverhalten,nicht bestimmbar,10,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Suizidalität,nicht bestimmbar,36,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,15,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Verschiedenes,nicht bestimmbar,220,anzahl_inhalte,2019,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,anzahl_inhalte,2019,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,anzahl_anrufe,2019,1Q
+Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.011111111111111112,minuten,2019,1Q
+Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.008333333333333333,minuten,2019,1Q
+Schicht,Umleiter (4.45),bis 18,0,anzahl_anrufe,2019,2Q
+Schicht,Morgen (08.00),bis 18,2,anzahl_anrufe,2019,2Q
+Schicht,ZD Morgen (08.00),bis 18,0,anzahl_anrufe,2019,2Q
+Schicht,Vormit (10.00),bis 18,28,anzahl_anrufe,2019,2Q
+Schicht,ZD Nachmittag (12.00),bis 18,0,anzahl_anrufe,2019,2Q
+Schicht,Mittag (13.00),bis 18,5,anzahl_anrufe,2019,2Q
+Schicht,Vorab (16.00),bis 18,6,anzahl_anrufe,2019,2Q
+Schicht,Zwischendrin (17.00),bis 18,4,anzahl_anrufe,2019,2Q
+Schicht,Abend (18.00),bis 18,3,anzahl_anrufe,2019,2Q
+Schicht,Spät (21.00),bis 18,1,anzahl_anrufe,2019,2Q
+Schicht,Nacht (23.00),bis 18,0,anzahl_anrufe,2019,2Q
+Schicht,Chat Morgen (10.00),bis 18,56,anzahl_anrufe,2019,2Q
+Schicht,Chat Nachmittag (14.00),bis 18,55,anzahl_anrufe,2019,2Q
+Schicht,Chat Abend (18.00),bis 18,52,anzahl_anrufe,2019,2Q
+Schicht,Mail-Beratung,bis 18,13,anzahl_anrufe,2019,2Q
+Schicht,Angestel-Team,bis 18,3,anzahl_anrufe,2019,2Q
+Geschlecht,Weiblich,bis 18,202,anzahl_anrufe,2019,2Q
+Geschlecht,Männlich,bis 18,19,anzahl_anrufe,2019,2Q
+Geschlecht,nicht bestimmbar,bis 18,7,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Erster Kontakt,bis 18,113,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,34,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,58,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Vereinbarung,bis 18,23,anzahl_anrufe,2019,2Q
+Beratungsinhalt,Alltagsbewältigung,bis 18,55,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Psychisches Leiden,bis 18,88,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sorge wegen Infektion,bis 18,0,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Körperliches Leiden,bis 18,19,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Einsamkeit,bis 18,23,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Familie / Erziehung,bis 18,46,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Beziehung allgemein,bis 18,19,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Paarbeziehung,bis 18,11,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Arbeit / Ausbildung,bis 18,22,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Existenzprobleme,bis 18,7,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Gewalt,bis 18,42,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sexualität,bis 18,43,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,9,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suchtverhalten,bis 18,18,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suizidalität,bis 18,26,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,bis 18,8,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verschiedenes,bis 18,29,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,anzahl_inhalte,2019,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Juxanruf,bis 18,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,anzahl_anrufe,2019,2Q
+Gesprächsdauer,Aritmetisches Mittel,bis 18,0.01875,minuten,2019,2Q
+Gesprächsdauer,Median (Zentralwert),bis 18,0.01875,minuten,2019,2Q
+Schicht,Umleiter (4.45),19 bis 40,80,anzahl_anrufe,2019,2Q
+Schicht,Morgen (08.00),19 bis 40,203,anzahl_anrufe,2019,2Q
+Schicht,ZD Morgen (08.00),19 bis 40,0,anzahl_anrufe,2019,2Q
+Schicht,Vormit (10.00),19 bis 40,160,anzahl_anrufe,2019,2Q
+Schicht,ZD Nachmittag (12.00),19 bis 40,0,anzahl_anrufe,2019,2Q
+Schicht,Mittag (13.00),19 bis 40,216,anzahl_anrufe,2019,2Q
+Schicht,Vorab (16.00),19 bis 40,227,anzahl_anrufe,2019,2Q
+Schicht,Zwischendrin (17.00),19 bis 40,179,anzahl_anrufe,2019,2Q
+Schicht,Abend (18.00),19 bis 40,218,anzahl_anrufe,2019,2Q
+Schicht,Spät (21.00),19 bis 40,201,anzahl_anrufe,2019,2Q
+Schicht,Nacht (23.00),19 bis 40,224,anzahl_anrufe,2019,2Q
+Schicht,Chat Morgen (10.00),19 bis 40,77,anzahl_anrufe,2019,2Q
+Schicht,Chat Nachmittag (14.00),19 bis 40,61,anzahl_anrufe,2019,2Q
+Schicht,Chat Abend (18.00),19 bis 40,25,anzahl_anrufe,2019,2Q
+Schicht,Mail-Beratung,19 bis 40,29,anzahl_anrufe,2019,2Q
+Schicht,Angestel-Team,19 bis 40,4,anzahl_anrufe,2019,2Q
+Geschlecht,Weiblich,19 bis 40,1292,anzahl_anrufe,2019,2Q
+Geschlecht,Männlich,19 bis 40,596,anzahl_anrufe,2019,2Q
+Geschlecht,nicht bestimmbar,19 bis 40,16,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Erster Kontakt,19 bis 40,736,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,611,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,426,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Vereinbarung,19 bis 40,131,anzahl_anrufe,2019,2Q
+Beratungsinhalt,Alltagsbewältigung,19 bis 40,724,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Psychisches Leiden,19 bis 40,843,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Körperliches Leiden,19 bis 40,90,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Einsamkeit,19 bis 40,233,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Familie / Erziehung,19 bis 40,269,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Beziehung allgemein,19 bis 40,171,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Paarbeziehung,19 bis 40,327,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,206,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Existenzprobleme,19 bis 40,63,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Gewalt,19 bis 40,105,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sexualität,19 bis 40,39,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,55,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suchtverhalten,19 bis 40,76,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suizidalität,19 bis 40,118,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,21,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verschiedenes,19 bis 40,207,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,anzahl_inhalte,2019,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,anzahl_anrufe,2019,2Q
+Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.012499999999999999,minuten,2019,2Q
+Gesprächsdauer,Median (Zentralwert),19 bis 40,0.010416666666666666,minuten,2019,2Q
+Schicht,Umleiter (4.45),41 bis 65,250,anzahl_anrufe,2019,2Q
+Schicht,Morgen (08.00),41 bis 65,541,anzahl_anrufe,2019,2Q
+Schicht,ZD Morgen (08.00),41 bis 65,0,anzahl_anrufe,2019,2Q
+Schicht,Vormit (10.00),41 bis 65,359,anzahl_anrufe,2019,2Q
+Schicht,ZD Nachmittag (12.00),41 bis 65,0,anzahl_anrufe,2019,2Q
+Schicht,Mittag (13.00),41 bis 65,346,anzahl_anrufe,2019,2Q
+Schicht,Vorab (16.00),41 bis 65,317,anzahl_anrufe,2019,2Q
+Schicht,Zwischendrin (17.00),41 bis 65,263,anzahl_anrufe,2019,2Q
+Schicht,Abend (18.00),41 bis 65,367,anzahl_anrufe,2019,2Q
+Schicht,Spät (21.00),41 bis 65,412,anzahl_anrufe,2019,2Q
+Schicht,Nacht (23.00),41 bis 65,378,anzahl_anrufe,2019,2Q
+Schicht,Chat Morgen (10.00),41 bis 65,29,anzahl_anrufe,2019,2Q
+Schicht,Chat Nachmittag (14.00),41 bis 65,25,anzahl_anrufe,2019,2Q
+Schicht,Chat Abend (18.00),41 bis 65,13,anzahl_anrufe,2019,2Q
+Schicht,Mail-Beratung,41 bis 65,8,anzahl_anrufe,2019,2Q
+Schicht,Angestel-Team,41 bis 65,2,anzahl_anrufe,2019,2Q
+Geschlecht,Weiblich,41 bis 65,2626,anzahl_anrufe,2019,2Q
+Geschlecht,Männlich,41 bis 65,683,anzahl_anrufe,2019,2Q
+Geschlecht,nicht bestimmbar,41 bis 65,1,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Erster Kontakt,41 bis 65,779,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1162,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,922,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Vereinbarung,41 bis 65,447,anzahl_anrufe,2019,2Q
+Beratungsinhalt,Alltagsbewältigung,41 bis 65,1644,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Psychisches Leiden,41 bis 65,1436,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Körperliches Leiden,41 bis 65,405,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Einsamkeit,41 bis 65,633,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Familie / Erziehung,41 bis 65,437,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Beziehung allgemein,41 bis 65,259,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Paarbeziehung,41 bis 65,310,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,243,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Existenzprobleme,41 bis 65,134,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Gewalt,41 bis 65,64,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sexualität,41 bis 65,44,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,81,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suchtverhalten,41 bis 65,63,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suizidalität,41 bis 65,75,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,95,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verschiedenes,41 bis 65,319,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,4,anzahl_inhalte,2019,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,1,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,anzahl_anrufe,2019,2Q
+Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.011111111111111112,minuten,2019,2Q
+Gesprächsdauer,Median (Zentralwert),41 bis 65,0.010416666666666666,minuten,2019,2Q
+Schicht,Umleiter (4.45),über 65,191,anzahl_anrufe,2019,2Q
+Schicht,Morgen (08.00),über 65,379,anzahl_anrufe,2019,2Q
+Schicht,ZD Morgen (08.00),über 65,0,anzahl_anrufe,2019,2Q
+Schicht,Vormit (10.00),über 65,234,anzahl_anrufe,2019,2Q
+Schicht,ZD Nachmittag (12.00),über 65,0,anzahl_anrufe,2019,2Q
+Schicht,Mittag (13.00),über 65,268,anzahl_anrufe,2019,2Q
+Schicht,Vorab (16.00),über 65,258,anzahl_anrufe,2019,2Q
+Schicht,Zwischendrin (17.00),über 65,191,anzahl_anrufe,2019,2Q
+Schicht,Abend (18.00),über 65,255,anzahl_anrufe,2019,2Q
+Schicht,Spät (21.00),über 65,237,anzahl_anrufe,2019,2Q
+Schicht,Nacht (23.00),über 65,267,anzahl_anrufe,2019,2Q
+Schicht,Chat Morgen (10.00),über 65,1,anzahl_anrufe,2019,2Q
+Schicht,Chat Nachmittag (14.00),über 65,7,anzahl_anrufe,2019,2Q
+Schicht,Chat Abend (18.00),über 65,0,anzahl_anrufe,2019,2Q
+Schicht,Mail-Beratung,über 65,1,anzahl_anrufe,2019,2Q
+Schicht,Angestel-Team,über 65,1,anzahl_anrufe,2019,2Q
+Geschlecht,Weiblich,über 65,1918,anzahl_anrufe,2019,2Q
+Geschlecht,Männlich,über 65,371,anzahl_anrufe,2019,2Q
+Geschlecht,nicht bestimmbar,über 65,1,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Erster Kontakt,über 65,346,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,617,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,über 65,866,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Vereinbarung,über 65,461,anzahl_anrufe,2019,2Q
+Beratungsinhalt,Alltagsbewältigung,über 65,1358,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Psychisches Leiden,über 65,872,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sorge wegen Infektion,über 65,0,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Körperliches Leiden,über 65,399,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Einsamkeit,über 65,675,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Familie / Erziehung,über 65,197,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Beziehung allgemein,über 65,179,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Paarbeziehung,über 65,99,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Arbeit / Ausbildung,über 65,12,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Existenzprobleme,über 65,32,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Gewalt,über 65,21,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sexualität,über 65,2,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,über 65,32,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suchtverhalten,über 65,41,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suizidalität,über 65,23,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,über 65,49,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verschiedenes,über 65,218,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,über 65,2,anzahl_inhalte,2019,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Fehlanruf,über 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Juxanruf,über 65,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,anzahl_anrufe,2019,2Q
+Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,minuten,2019,2Q
+Gesprächsdauer,Median (Zentralwert),über 65,0.006944444444444444,minuten,2019,2Q
+Schicht,Umleiter (4.45),nicht bestimmbar,38,anzahl_anrufe,2019,2Q
+Schicht,Morgen (08.00),nicht bestimmbar,83,anzahl_anrufe,2019,2Q
+Schicht,ZD Morgen (08.00),nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Schicht,Vormit (10.00),nicht bestimmbar,65,anzahl_anrufe,2019,2Q
+Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Schicht,Mittag (13.00),nicht bestimmbar,67,anzahl_anrufe,2019,2Q
+Schicht,Vorab (16.00),nicht bestimmbar,76,anzahl_anrufe,2019,2Q
+Schicht,Zwischendrin (17.00),nicht bestimmbar,34,anzahl_anrufe,2019,2Q
+Schicht,Abend (18.00),nicht bestimmbar,49,anzahl_anrufe,2019,2Q
+Schicht,Spät (21.00),nicht bestimmbar,92,anzahl_anrufe,2019,2Q
+Schicht,Nacht (23.00),nicht bestimmbar,75,anzahl_anrufe,2019,2Q
+Schicht,Chat Morgen (10.00),nicht bestimmbar,39,anzahl_anrufe,2019,2Q
+Schicht,Chat Nachmittag (14.00),nicht bestimmbar,28,anzahl_anrufe,2019,2Q
+Schicht,Chat Abend (18.00),nicht bestimmbar,26,anzahl_anrufe,2019,2Q
+Schicht,Mail-Beratung,nicht bestimmbar,13,anzahl_anrufe,2019,2Q
+Schicht,Angestel-Team,nicht bestimmbar,2,anzahl_anrufe,2019,2Q
+Geschlecht,Weiblich,nicht bestimmbar,474,anzahl_anrufe,2019,2Q
+Geschlecht,Männlich,nicht bestimmbar,148,anzahl_anrufe,2019,2Q
+Geschlecht,nicht bestimmbar,nicht bestimmbar,65,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,356,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,262,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,60,anzahl_anrufe,2019,2Q
+Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,9,anzahl_anrufe,2019,2Q
+Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,273,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,241,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,61,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Einsamkeit,nicht bestimmbar,104,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,24,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,47,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Paarbeziehung,nicht bestimmbar,47,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,36,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Existenzprobleme,nicht bestimmbar,16,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Gewalt,nicht bestimmbar,31,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Sexualität,nicht bestimmbar,8,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,20,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suchtverhalten,nicht bestimmbar,17,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Suizidalität,nicht bestimmbar,32,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,10,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Verschiedenes,nicht bestimmbar,201,anzahl_inhalte,2019,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,2,anzahl_inhalte,2019,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,anzahl_anrufe,2019,2Q
+Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.010416666666666666,minuten,2019,2Q
+Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.007638888888888889,minuten,2019,2Q
+Schicht,Umleiter (4.45),bis 18,1,anzahl_anrufe,2019,3Q
+Schicht,Morgen (08.00),bis 18,6,anzahl_anrufe,2019,3Q
+Schicht,ZD Morgen (08.00),bis 18,0,anzahl_anrufe,2019,3Q
+Schicht,Vormit (10.00),bis 18,12,anzahl_anrufe,2019,3Q
+Schicht,ZD Nachmittag (12.00),bis 18,0,anzahl_anrufe,2019,3Q
+Schicht,Mittag (13.00),bis 18,4,anzahl_anrufe,2019,3Q
+Schicht,Vorab (16.00),bis 18,7,anzahl_anrufe,2019,3Q
+Schicht,Zwischendrin (17.00),bis 18,0,anzahl_anrufe,2019,3Q
+Schicht,Abend (18.00),bis 18,7,anzahl_anrufe,2019,3Q
+Schicht,Spät (21.00),bis 18,2,anzahl_anrufe,2019,3Q
+Schicht,Nacht (23.00),bis 18,7,anzahl_anrufe,2019,3Q
+Schicht,Chat Morgen (10.00),bis 18,21,anzahl_anrufe,2019,3Q
+Schicht,Chat Nachmittag (14.00),bis 18,24,anzahl_anrufe,2019,3Q
+Schicht,Chat Abend (18.00),bis 18,16,anzahl_anrufe,2019,3Q
+Schicht,Mail-Beratung,bis 18,14,anzahl_anrufe,2019,3Q
+Schicht,Angestel-Team,bis 18,0,anzahl_anrufe,2019,3Q
+Geschlecht,Weiblich,bis 18,96,anzahl_anrufe,2019,3Q
+Geschlecht,Männlich,bis 18,17,anzahl_anrufe,2019,3Q
+Geschlecht,nicht bestimmbar,bis 18,8,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Erster Kontakt,bis 18,93,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,20,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,8,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Vereinbarung,bis 18,0,anzahl_anrufe,2019,3Q
+Beratungsinhalt,Alltagsbewältigung,bis 18,32,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Psychisches Leiden,bis 18,29,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sorge wegen Infektion,bis 18,0,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Körperliches Leiden,bis 18,6,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Einsamkeit,bis 18,11,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Familie / Erziehung,bis 18,44,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Beziehung allgemein,bis 18,15,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Paarbeziehung,bis 18,3,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Arbeit / Ausbildung,bis 18,14,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Existenzprobleme,bis 18,3,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Gewalt,bis 18,14,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sexualität,bis 18,10,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,4,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suchtverhalten,bis 18,8,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suizidalität,bis 18,23,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verlust / Trauer / Tod,bis 18,5,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verschiedenes,bis 18,21,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,anzahl_inhalte,2019,3Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Juxanruf,bis 18,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,anzahl_anrufe,2019,3Q
+Gesprächsdauer,Aritmetisches Mittel,bis 18,0.018055555555555557,minuten,2019,3Q
+Gesprächsdauer,Median (Zentralwert),bis 18,0.018055555555555557,minuten,2019,3Q
+Schicht,Umleiter (4.45),19 bis 40,90,anzahl_anrufe,2019,3Q
+Schicht,Morgen (08.00),19 bis 40,224,anzahl_anrufe,2019,3Q
+Schicht,ZD Morgen (08.00),19 bis 40,0,anzahl_anrufe,2019,3Q
+Schicht,Vormit (10.00),19 bis 40,165,anzahl_anrufe,2019,3Q
+Schicht,ZD Nachmittag (12.00),19 bis 40,0,anzahl_anrufe,2019,3Q
+Schicht,Mittag (13.00),19 bis 40,167,anzahl_anrufe,2019,3Q
+Schicht,Vorab (16.00),19 bis 40,152,anzahl_anrufe,2019,3Q
+Schicht,Zwischendrin (17.00),19 bis 40,45,anzahl_anrufe,2019,3Q
+Schicht,Abend (18.00),19 bis 40,218,anzahl_anrufe,2019,3Q
+Schicht,Spät (21.00),19 bis 40,207,anzahl_anrufe,2019,3Q
+Schicht,Nacht (23.00),19 bis 40,194,anzahl_anrufe,2019,3Q
+Schicht,Chat Morgen (10.00),19 bis 40,86,anzahl_anrufe,2019,3Q
+Schicht,Chat Nachmittag (14.00),19 bis 40,52,anzahl_anrufe,2019,3Q
+Schicht,Chat Abend (18.00),19 bis 40,54,anzahl_anrufe,2019,3Q
+Schicht,Mail-Beratung,19 bis 40,51,anzahl_anrufe,2019,3Q
+Schicht,Angestel-Team,19 bis 40,2,anzahl_anrufe,2019,3Q
+Geschlecht,Weiblich,19 bis 40,1038,anzahl_anrufe,2019,3Q
+Geschlecht,Männlich,19 bis 40,647,anzahl_anrufe,2019,3Q
+Geschlecht,nicht bestimmbar,19 bis 40,22,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Erster Kontakt,19 bis 40,740,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,466,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,265,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Vereinbarung,19 bis 40,236,anzahl_anrufe,2019,3Q
+Beratungsinhalt,Alltagsbewältigung,19 bis 40,688,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Psychisches Leiden,19 bis 40,716,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Körperliches Leiden,19 bis 40,82,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Einsamkeit,19 bis 40,222,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Familie / Erziehung,19 bis 40,227,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Beziehung allgemein,19 bis 40,215,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Paarbeziehung,19 bis 40,277,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,209,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Existenzprobleme,19 bis 40,75,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Gewalt,19 bis 40,81,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sexualität,19 bis 40,50,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,41,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suchtverhalten,19 bis 40,52,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suizidalität,19 bis 40,104,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,31,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verschiedenes,19 bis 40,192,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,2,anzahl_inhalte,2019,3Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,anzahl_anrufe,2019,3Q
+Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013888888888888888,minuten,2019,3Q
+Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,minuten,2019,3Q
+Schicht,Umleiter (4.45),41 bis 65,256,anzahl_anrufe,2019,3Q
+Schicht,Morgen (08.00),41 bis 65,551,anzahl_anrufe,2019,3Q
+Schicht,ZD Morgen (08.00),41 bis 65,0,anzahl_anrufe,2019,3Q
+Schicht,Vormit (10.00),41 bis 65,339,anzahl_anrufe,2019,3Q
+Schicht,ZD Nachmittag (12.00),41 bis 65,0,anzahl_anrufe,2019,3Q
+Schicht,Mittag (13.00),41 bis 65,317,anzahl_anrufe,2019,3Q
+Schicht,Vorab (16.00),41 bis 65,311,anzahl_anrufe,2019,3Q
+Schicht,Zwischendrin (17.00),41 bis 65,69,anzahl_anrufe,2019,3Q
+Schicht,Abend (18.00),41 bis 65,406,anzahl_anrufe,2019,3Q
+Schicht,Spät (21.00),41 bis 65,344,anzahl_anrufe,2019,3Q
+Schicht,Nacht (23.00),41 bis 65,362,anzahl_anrufe,2019,3Q
+Schicht,Chat Morgen (10.00),41 bis 65,30,anzahl_anrufe,2019,3Q
+Schicht,Chat Nachmittag (14.00),41 bis 65,13,anzahl_anrufe,2019,3Q
+Schicht,Chat Abend (18.00),41 bis 65,13,anzahl_anrufe,2019,3Q
+Schicht,Mail-Beratung,41 bis 65,3,anzahl_anrufe,2019,3Q
+Schicht,Angestel-Team,41 bis 65,3,anzahl_anrufe,2019,3Q
+Geschlecht,Weiblich,41 bis 65,2389,anzahl_anrufe,2019,3Q
+Geschlecht,Männlich,41 bis 65,625,anzahl_anrufe,2019,3Q
+Geschlecht,nicht bestimmbar,41 bis 65,3,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Erster Kontakt,41 bis 65,788,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1053,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,633,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Vereinbarung,41 bis 65,543,anzahl_anrufe,2019,3Q
+Beratungsinhalt,Alltagsbewältigung,41 bis 65,1594,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Psychisches Leiden,41 bis 65,1379,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Körperliches Leiden,41 bis 65,330,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Einsamkeit,41 bis 65,400,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Familie / Erziehung,41 bis 65,478,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Beziehung allgemein,41 bis 65,249,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Paarbeziehung,41 bis 65,350,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,231,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Existenzprobleme,41 bis 65,111,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Gewalt,41 bis 65,63,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sexualität,41 bis 65,50,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,71,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suchtverhalten,41 bis 65,66,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suizidalität,41 bis 65,59,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,74,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verschiedenes,41 bis 65,284,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,0,anzahl_inhalte,2019,3Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,1,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,anzahl_anrufe,2019,3Q
+Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.011805555555555555,minuten,2019,3Q
+Gesprächsdauer,Median (Zentralwert),41 bis 65,0.010416666666666666,minuten,2019,3Q
+Schicht,Umleiter (4.45),über 65,169,anzahl_anrufe,2019,3Q
+Schicht,Morgen (08.00),über 65,394,anzahl_anrufe,2019,3Q
+Schicht,ZD Morgen (08.00),über 65,0,anzahl_anrufe,2019,3Q
+Schicht,Vormit (10.00),über 65,254,anzahl_anrufe,2019,3Q
+Schicht,ZD Nachmittag (12.00),über 65,0,anzahl_anrufe,2019,3Q
+Schicht,Mittag (13.00),über 65,262,anzahl_anrufe,2019,3Q
+Schicht,Vorab (16.00),über 65,268,anzahl_anrufe,2019,3Q
+Schicht,Zwischendrin (17.00),über 65,54,anzahl_anrufe,2019,3Q
+Schicht,Abend (18.00),über 65,333,anzahl_anrufe,2019,3Q
+Schicht,Spät (21.00),über 65,283,anzahl_anrufe,2019,3Q
+Schicht,Nacht (23.00),über 65,240,anzahl_anrufe,2019,3Q
+Schicht,Chat Morgen (10.00),über 65,2,anzahl_anrufe,2019,3Q
+Schicht,Chat Nachmittag (14.00),über 65,0,anzahl_anrufe,2019,3Q
+Schicht,Chat Abend (18.00),über 65,2,anzahl_anrufe,2019,3Q
+Schicht,Mail-Beratung,über 65,0,anzahl_anrufe,2019,3Q
+Schicht,Angestel-Team,über 65,1,anzahl_anrufe,2019,3Q
+Geschlecht,Weiblich,über 65,1855,anzahl_anrufe,2019,3Q
+Geschlecht,Männlich,über 65,404,anzahl_anrufe,2019,3Q
+Geschlecht,nicht bestimmbar,über 65,3,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Erster Kontakt,über 65,352,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,557,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Regelmässiger Kontakt,über 65,703,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Vereinbarung,über 65,650,anzahl_anrufe,2019,3Q
+Beratungsinhalt,Alltagsbewältigung,über 65,1394,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Psychisches Leiden,über 65,953,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sorge wegen Infektion,über 65,0,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Körperliches Leiden,über 65,326,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Einsamkeit,über 65,652,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Familie / Erziehung,über 65,161,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Beziehung allgemein,über 65,109,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Paarbeziehung,über 65,122,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Arbeit / Ausbildung,über 65,6,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Existenzprobleme,über 65,38,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Gewalt,über 65,15,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sexualität,über 65,9,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Spiritualität / Lebenssinn,über 65,40,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suchtverhalten,über 65,123,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suizidalität,über 65,23,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verlust / Trauer / Tod,über 65,65,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verschiedenes,über 65,200,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Medienerziehung/Swisscom,über 65,1,anzahl_inhalte,2019,3Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Fehlanruf,über 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Juxanruf,über 65,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,anzahl_anrufe,2019,3Q
+Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,minuten,2019,3Q
+Gesprächsdauer,Median (Zentralwert),über 65,0.007638888888888889,minuten,2019,3Q
+Schicht,Umleiter (4.45),nicht bestimmbar,35,anzahl_anrufe,2019,3Q
+Schicht,Morgen (08.00),nicht bestimmbar,90,anzahl_anrufe,2019,3Q
+Schicht,ZD Morgen (08.00),nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Schicht,Vormit (10.00),nicht bestimmbar,31,anzahl_anrufe,2019,3Q
+Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Schicht,Mittag (13.00),nicht bestimmbar,74,anzahl_anrufe,2019,3Q
+Schicht,Vorab (16.00),nicht bestimmbar,64,anzahl_anrufe,2019,3Q
+Schicht,Zwischendrin (17.00),nicht bestimmbar,23,anzahl_anrufe,2019,3Q
+Schicht,Abend (18.00),nicht bestimmbar,42,anzahl_anrufe,2019,3Q
+Schicht,Spät (21.00),nicht bestimmbar,60,anzahl_anrufe,2019,3Q
+Schicht,Nacht (23.00),nicht bestimmbar,86,anzahl_anrufe,2019,3Q
+Schicht,Chat Morgen (10.00),nicht bestimmbar,43,anzahl_anrufe,2019,3Q
+Schicht,Chat Nachmittag (14.00),nicht bestimmbar,37,anzahl_anrufe,2019,3Q
+Schicht,Chat Abend (18.00),nicht bestimmbar,36,anzahl_anrufe,2019,3Q
+Schicht,Mail-Beratung,nicht bestimmbar,28,anzahl_anrufe,2019,3Q
+Schicht,Angestel-Team,nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Geschlecht,Weiblich,nicht bestimmbar,426,anzahl_anrufe,2019,3Q
+Geschlecht,Männlich,nicht bestimmbar,147,anzahl_anrufe,2019,3Q
+Geschlecht,nicht bestimmbar,nicht bestimmbar,76,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,350,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,247,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,49,anzahl_anrufe,2019,3Q
+Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,3,anzahl_anrufe,2019,3Q
+Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,293,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,222,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,55,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Einsamkeit,nicht bestimmbar,96,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,35,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,42,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Paarbeziehung,nicht bestimmbar,58,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,24,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Existenzprobleme,nicht bestimmbar,11,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Gewalt,nicht bestimmbar,11,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Sexualität,nicht bestimmbar,15,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,10,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suchtverhalten,nicht bestimmbar,15,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Suizidalität,nicht bestimmbar,32,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,16,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Verschiedenes,nicht bestimmbar,195,anzahl_inhalte,2019,3Q
+Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,anzahl_inhalte,2019,3Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,anzahl_anrufe,2019,3Q
+Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.010416666666666666,minuten,2019,3Q
+Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.008333333333333333,minuten,2019,3Q
+Schicht,Umleiter (4.45),bis 18,1,anzahl_anrufe,2019,4Q
+Schicht,Morgen (08.00),bis 18,7,anzahl_anrufe,2019,4Q
+Schicht,ZD Morgen (08.00),bis 18,0,anzahl_anrufe,2019,4Q
+Schicht,Vormit (10.00),bis 18,8,anzahl_anrufe,2019,4Q
+Schicht,ZD Nachmittag (12.00),bis 18,0,anzahl_anrufe,2019,4Q
+Schicht,Mittag (13.00),bis 18,2,anzahl_anrufe,2019,4Q
+Schicht,Vorab (16.00),bis 18,8,anzahl_anrufe,2019,4Q
+Schicht,Zwischendrin (17.00),bis 18,5,anzahl_anrufe,2019,4Q
+Schicht,Abend (18.00),bis 18,4,anzahl_anrufe,2019,4Q
+Schicht,Spät (21.00),bis 18,6,anzahl_anrufe,2019,4Q
+Schicht,Nacht (23.00),bis 18,4,anzahl_anrufe,2019,4Q
+Schicht,Chat Morgen (10.00),bis 18,41,anzahl_anrufe,2019,4Q
+Schicht,Chat Nachmittag (14.00),bis 18,28,anzahl_anrufe,2019,4Q
+Schicht,Chat Abend (18.00),bis 18,25,anzahl_anrufe,2019,4Q
+Schicht,Mail-Beratung,bis 18,8,anzahl_anrufe,2019,4Q
+Schicht,Angestel-Team,bis 18,0,anzahl_anrufe,2019,4Q
+Geschlecht,Weiblich,bis 18,98,anzahl_anrufe,2019,4Q
+Geschlecht,Männlich,bis 18,42,anzahl_anrufe,2019,4Q
+Geschlecht,nicht bestimmbar,bis 18,7,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Erster Kontakt,bis 18,90,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,37,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,20,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Vereinbarung,bis 18,0,anzahl_anrufe,2019,4Q
+Beratungsinhalt,Alltagsbewältigung,bis 18,36,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Psychisches Leiden,bis 18,51,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sorge wegen Infektion,bis 18,0,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Körperliches Leiden,bis 18,5,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Einsamkeit,bis 18,16,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Familie / Erziehung,bis 18,50,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Beziehung allgemein,bis 18,12,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Paarbeziehung,bis 18,10,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Arbeit / Ausbildung,bis 18,18,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Existenzprobleme,bis 18,3,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Gewalt,bis 18,14,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sexualität,bis 18,15,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,9,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suchtverhalten,bis 18,13,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suizidalität,bis 18,30,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verlust / Trauer / Tod,bis 18,4,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verschiedenes,bis 18,18,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Medienerziehung/Swisscom,bis 18,0,anzahl_inhalte,2019,4Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Juxanruf,bis 18,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,anzahl_anrufe,2019,4Q
+Gesprächsdauer,Aritmetisches Mittel,bis 18,0.014583333333333332,minuten,2019,4Q
+Gesprächsdauer,Median (Zentralwert),bis 18,0.010416666666666666,minuten,2019,4Q
+Schicht,Umleiter (4.45),19 bis 40,92,anzahl_anrufe,2019,4Q
+Schicht,Morgen (08.00),19 bis 40,223,anzahl_anrufe,2019,4Q
+Schicht,ZD Morgen (08.00),19 bis 40,0,anzahl_anrufe,2019,4Q
+Schicht,Vormit (10.00),19 bis 40,171,anzahl_anrufe,2019,4Q
+Schicht,ZD Nachmittag (12.00),19 bis 40,0,anzahl_anrufe,2019,4Q
+Schicht,Mittag (13.00),19 bis 40,177,anzahl_anrufe,2019,4Q
+Schicht,Vorab (16.00),19 bis 40,187,anzahl_anrufe,2019,4Q
+Schicht,Zwischendrin (17.00),19 bis 40,147,anzahl_anrufe,2019,4Q
+Schicht,Abend (18.00),19 bis 40,197,anzahl_anrufe,2019,4Q
+Schicht,Spät (21.00),19 bis 40,168,anzahl_anrufe,2019,4Q
+Schicht,Nacht (23.00),19 bis 40,178,anzahl_anrufe,2019,4Q
+Schicht,Chat Morgen (10.00),19 bis 40,74,anzahl_anrufe,2019,4Q
+Schicht,Chat Nachmittag (14.00),19 bis 40,56,anzahl_anrufe,2019,4Q
+Schicht,Chat Abend (18.00),19 bis 40,52,anzahl_anrufe,2019,4Q
+Schicht,Mail-Beratung,19 bis 40,53,anzahl_anrufe,2019,4Q
+Schicht,Angestel-Team,19 bis 40,3,anzahl_anrufe,2019,4Q
+Geschlecht,Weiblich,19 bis 40,1170,anzahl_anrufe,2019,4Q
+Geschlecht,Männlich,19 bis 40,587,anzahl_anrufe,2019,4Q
+Geschlecht,nicht bestimmbar,19 bis 40,21,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Erster Kontakt,19 bis 40,757,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,585,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,272,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Vereinbarung,19 bis 40,164,anzahl_anrufe,2019,4Q
+Beratungsinhalt,Alltagsbewältigung,19 bis 40,763,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Psychisches Leiden,19 bis 40,800,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sorge wegen Infektion,19 bis 40,0,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Körperliches Leiden,19 bis 40,84,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Einsamkeit,19 bis 40,250,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Familie / Erziehung,19 bis 40,251,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Beziehung allgemein,19 bis 40,195,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Paarbeziehung,19 bis 40,267,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,188,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Existenzprobleme,19 bis 40,51,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Gewalt,19 bis 40,66,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sexualität,19 bis 40,43,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,56,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suchtverhalten,19 bis 40,80,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suizidalität,19 bis 40,139,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,37,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verschiedenes,19 bis 40,199,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,anzahl_inhalte,2019,4Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,1,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,anzahl_anrufe,2019,4Q
+Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013888888888888888,minuten,2019,4Q
+Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,minuten,2019,4Q
+Schicht,Umleiter (4.45),41 bis 65,251,anzahl_anrufe,2019,4Q
+Schicht,Morgen (08.00),41 bis 65,431,anzahl_anrufe,2019,4Q
+Schicht,ZD Morgen (08.00),41 bis 65,0,anzahl_anrufe,2019,4Q
+Schicht,Vormit (10.00),41 bis 65,329,anzahl_anrufe,2019,4Q
+Schicht,ZD Nachmittag (12.00),41 bis 65,0,anzahl_anrufe,2019,4Q
+Schicht,Mittag (13.00),41 bis 65,295,anzahl_anrufe,2019,4Q
+Schicht,Vorab (16.00),41 bis 65,340,anzahl_anrufe,2019,4Q
+Schicht,Zwischendrin (17.00),41 bis 65,217,anzahl_anrufe,2019,4Q
+Schicht,Abend (18.00),41 bis 65,328,anzahl_anrufe,2019,4Q
+Schicht,Spät (21.00),41 bis 65,351,anzahl_anrufe,2019,4Q
+Schicht,Nacht (23.00),41 bis 65,342,anzahl_anrufe,2019,4Q
+Schicht,Chat Morgen (10.00),41 bis 65,34,anzahl_anrufe,2019,4Q
+Schicht,Chat Nachmittag (14.00),41 bis 65,16,anzahl_anrufe,2019,4Q
+Schicht,Chat Abend (18.00),41 bis 65,12,anzahl_anrufe,2019,4Q
+Schicht,Mail-Beratung,41 bis 65,4,anzahl_anrufe,2019,4Q
+Schicht,Angestel-Team,41 bis 65,2,anzahl_anrufe,2019,4Q
+Geschlecht,Weiblich,41 bis 65,2301,anzahl_anrufe,2019,4Q
+Geschlecht,Männlich,41 bis 65,648,anzahl_anrufe,2019,4Q
+Geschlecht,nicht bestimmbar,41 bis 65,3,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Erster Kontakt,41 bis 65,880,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1145,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,660,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Vereinbarung,41 bis 65,267,anzahl_anrufe,2019,4Q
+Beratungsinhalt,Alltagsbewältigung,41 bis 65,1396,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Psychisches Leiden,41 bis 65,1338,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sorge wegen Infektion,41 bis 65,0,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Körperliches Leiden,41 bis 65,288,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Einsamkeit,41 bis 65,417,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Familie / Erziehung,41 bis 65,470,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Beziehung allgemein,41 bis 65,231,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Paarbeziehung,41 bis 65,348,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,300,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Existenzprobleme,41 bis 65,124,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Gewalt,41 bis 65,69,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sexualität,41 bis 65,59,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,70,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suchtverhalten,41 bis 65,58,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suizidalität,41 bis 65,90,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,137,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verschiedenes,41 bis 65,306,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,1,anzahl_inhalte,2019,4Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,1,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,anzahl_anrufe,2019,4Q
+Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.012499999999999999,minuten,2019,4Q
+Gesprächsdauer,Median (Zentralwert),41 bis 65,0.011111111111111112,minuten,2019,4Q
+Schicht,Umleiter (4.45),über 65,184,anzahl_anrufe,2019,4Q
+Schicht,Morgen (08.00),über 65,362,anzahl_anrufe,2019,4Q
+Schicht,ZD Morgen (08.00),über 65,0,anzahl_anrufe,2019,4Q
+Schicht,Vormit (10.00),über 65,243,anzahl_anrufe,2019,4Q
+Schicht,ZD Nachmittag (12.00),über 65,0,anzahl_anrufe,2019,4Q
+Schicht,Mittag (13.00),über 65,246,anzahl_anrufe,2019,4Q
+Schicht,Vorab (16.00),über 65,277,anzahl_anrufe,2019,4Q
+Schicht,Zwischendrin (17.00),über 65,179,anzahl_anrufe,2019,4Q
+Schicht,Abend (18.00),über 65,288,anzahl_anrufe,2019,4Q
+Schicht,Spät (21.00),über 65,281,anzahl_anrufe,2019,4Q
+Schicht,Nacht (23.00),über 65,310,anzahl_anrufe,2019,4Q
+Schicht,Chat Morgen (10.00),über 65,11,anzahl_anrufe,2019,4Q
+Schicht,Chat Nachmittag (14.00),über 65,0,anzahl_anrufe,2019,4Q
+Schicht,Chat Abend (18.00),über 65,1,anzahl_anrufe,2019,4Q
+Schicht,Mail-Beratung,über 65,0,anzahl_anrufe,2019,4Q
+Schicht,Angestel-Team,über 65,3,anzahl_anrufe,2019,4Q
+Geschlecht,Weiblich,über 65,1948,anzahl_anrufe,2019,4Q
+Geschlecht,Männlich,über 65,437,anzahl_anrufe,2019,4Q
+Geschlecht,nicht bestimmbar,über 65,0,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Erster Kontakt,über 65,473,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,595,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Regelmässiger Kontakt,über 65,589,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Vereinbarung,über 65,728,anzahl_anrufe,2019,4Q
+Beratungsinhalt,Alltagsbewältigung,über 65,1513,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Psychisches Leiden,über 65,939,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sorge wegen Infektion,über 65,0,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Körperliches Leiden,über 65,446,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Einsamkeit,über 65,682,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Familie / Erziehung,über 65,180,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Beziehung allgemein,über 65,117,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Paarbeziehung,über 65,112,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Arbeit / Ausbildung,über 65,7,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Existenzprobleme,über 65,44,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Gewalt,über 65,13,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sexualität,über 65,12,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Spiritualität / Lebenssinn,über 65,31,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suchtverhalten,über 65,109,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suizidalität,über 65,21,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verlust / Trauer / Tod,über 65,104,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verschiedenes,über 65,213,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Medienerziehung/Swisscom,über 65,1,anzahl_inhalte,2019,4Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,1,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Fehlanruf,über 65,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Juxanruf,über 65,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,anzahl_anrufe,2019,4Q
+Gesprächsdauer,Aritmetisches Mittel,über 65,0.009722222222222222,minuten,2019,4Q
+Gesprächsdauer,Median (Zentralwert),über 65,0.009027777777777779,minuten,2019,4Q
+Schicht,Umleiter (4.45),nicht bestimmbar,76,anzahl_anrufe,2019,4Q
+Schicht,Morgen (08.00),nicht bestimmbar,52,anzahl_anrufe,2019,4Q
+Schicht,ZD Morgen (08.00),nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Schicht,Vormit (10.00),nicht bestimmbar,46,anzahl_anrufe,2019,4Q
+Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Schicht,Mittag (13.00),nicht bestimmbar,67,anzahl_anrufe,2019,4Q
+Schicht,Vorab (16.00),nicht bestimmbar,44,anzahl_anrufe,2019,4Q
+Schicht,Zwischendrin (17.00),nicht bestimmbar,26,anzahl_anrufe,2019,4Q
+Schicht,Abend (18.00),nicht bestimmbar,46,anzahl_anrufe,2019,4Q
+Schicht,Spät (21.00),nicht bestimmbar,68,anzahl_anrufe,2019,4Q
+Schicht,Nacht (23.00),nicht bestimmbar,68,anzahl_anrufe,2019,4Q
+Schicht,Chat Morgen (10.00),nicht bestimmbar,30,anzahl_anrufe,2019,4Q
+Schicht,Chat Nachmittag (14.00),nicht bestimmbar,33,anzahl_anrufe,2019,4Q
+Schicht,Chat Abend (18.00),nicht bestimmbar,38,anzahl_anrufe,2019,4Q
+Schicht,Mail-Beratung,nicht bestimmbar,19,anzahl_anrufe,2019,4Q
+Schicht,Angestel-Team,nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Geschlecht,Weiblich,nicht bestimmbar,402,anzahl_anrufe,2019,4Q
+Geschlecht,Männlich,nicht bestimmbar,130,anzahl_anrufe,2019,4Q
+Geschlecht,nicht bestimmbar,nicht bestimmbar,81,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,316,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,224,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,73,anzahl_anrufe,2019,4Q
+Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,254,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,228,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,0,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,64,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Einsamkeit,nicht bestimmbar,104,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,33,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,28,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Paarbeziehung,nicht bestimmbar,46,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,25,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Existenzprobleme,nicht bestimmbar,20,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Gewalt,nicht bestimmbar,15,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Sexualität,nicht bestimmbar,9,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,18,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suchtverhalten,nicht bestimmbar,12,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Suizidalität,nicht bestimmbar,28,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,16,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Verschiedenes,nicht bestimmbar,174,anzahl_inhalte,2019,4Q
+Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,anzahl_inhalte,2019,4Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,anzahl_anrufe,2019,4Q
+Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.010416666666666666,minuten,2019,4Q
+Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.007638888888888889,minuten,2019,4Q
+Schicht,Umleiter (4.45),bis 18,12,anzahl_anrufe,2020,1Q
+Schicht,Morgen (08.00),bis 18,10,anzahl_anrufe,2020,1Q
+Schicht,ZD Morgen (08.00),bis 18,0,anzahl_anrufe,2020,1Q
+Schicht,Vormit (10.00),bis 18,21,anzahl_anrufe,2020,1Q
+Schicht,ZD Nachmittag (12.00),bis 18,0,anzahl_anrufe,2020,1Q
+Schicht,Mittag (13.00),bis 18,22,anzahl_anrufe,2020,1Q
+Schicht,Vorab (16.00),bis 18,21,anzahl_anrufe,2020,1Q
+Schicht,Zwischendrin (17.00),bis 18,20,anzahl_anrufe,2020,1Q
+Schicht,Abend (18.00),bis 18,25,anzahl_anrufe,2020,1Q
+Schicht,Spät (21.00),bis 18,25,anzahl_anrufe,2020,1Q
+Schicht,Nacht (23.00),bis 18,16,anzahl_anrufe,2020,1Q
+Schicht,Chat Morgen (10.00),bis 18,45,anzahl_anrufe,2020,1Q
+Schicht,Chat Nachmittag (14.00),bis 18,30,anzahl_anrufe,2020,1Q
+Schicht,Chat Abend (18.00),bis 18,24,anzahl_anrufe,2020,1Q
+Schicht,Mail-Beratung,bis 18,60,anzahl_anrufe,2020,1Q
+Schicht,Angestel-Team,bis 18,0,anzahl_anrufe,2020,1Q
+Geschlecht,Weiblich,bis 18,283,anzahl_anrufe,2020,1Q
+Geschlecht,Männlich,bis 18,33,anzahl_anrufe,2020,1Q
+Geschlecht,nicht bestimmbar,bis 18,15,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Erster Kontakt,bis 18,137,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,79,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,101,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Vereinbarung,bis 18,14,anzahl_anrufe,2020,1Q
+Beratungsinhalt,Alltagsbewältigung,bis 18,91,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Psychisches Leiden,bis 18,129,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sorge wegen Infektion,bis 18,3,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Körperliches Leiden,bis 18,17,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Einsamkeit,bis 18,29,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Familie / Erziehung,bis 18,59,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Beziehung allgemein,bis 18,19,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Paarbeziehung,bis 18,19,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Arbeit / Ausbildung,bis 18,29,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Existenzprobleme,bis 18,8,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Gewalt,bis 18,69,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sexualität,bis 18,75,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,11,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suchtverhalten,bis 18,13,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suizidalität,bis 18,60,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,bis 18,3,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verschiedenes,bis 18,31,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,bis 18,1,anzahl_inhalte,2020,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,1,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Juxanruf,bis 18,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,anzahl_anrufe,2020,1Q
+Gesprächsdauer,Aritmetisches Mittel,bis 18,0.013888888888888888,minuten,2020,1Q
+Gesprächsdauer,Median (Zentralwert),bis 18,0.011111111111111112,minuten,2020,1Q
+Schicht,Umleiter (4.45),19 bis 40,87,anzahl_anrufe,2020,1Q
+Schicht,Morgen (08.00),19 bis 40,165,anzahl_anrufe,2020,1Q
+Schicht,ZD Morgen (08.00),19 bis 40,0,anzahl_anrufe,2020,1Q
+Schicht,Vormit (10.00),19 bis 40,156,anzahl_anrufe,2020,1Q
+Schicht,ZD Nachmittag (12.00),19 bis 40,0,anzahl_anrufe,2020,1Q
+Schicht,Mittag (13.00),19 bis 40,170,anzahl_anrufe,2020,1Q
+Schicht,Vorab (16.00),19 bis 40,165,anzahl_anrufe,2020,1Q
+Schicht,Zwischendrin (17.00),19 bis 40,148,anzahl_anrufe,2020,1Q
+Schicht,Abend (18.00),19 bis 40,208,anzahl_anrufe,2020,1Q
+Schicht,Spät (21.00),19 bis 40,162,anzahl_anrufe,2020,1Q
+Schicht,Nacht (23.00),19 bis 40,188,anzahl_anrufe,2020,1Q
+Schicht,Chat Morgen (10.00),19 bis 40,43,anzahl_anrufe,2020,1Q
+Schicht,Chat Nachmittag (14.00),19 bis 40,62,anzahl_anrufe,2020,1Q
+Schicht,Chat Abend (18.00),19 bis 40,42,anzahl_anrufe,2020,1Q
+Schicht,Mail-Beratung,19 bis 40,80,anzahl_anrufe,2020,1Q
+Schicht,Angestel-Team,19 bis 40,4,anzahl_anrufe,2020,1Q
+Geschlecht,Weiblich,19 bis 40,992,anzahl_anrufe,2020,1Q
+Geschlecht,Männlich,19 bis 40,670,anzahl_anrufe,2020,1Q
+Geschlecht,nicht bestimmbar,19 bis 40,18,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Erster Kontakt,19 bis 40,706,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,565,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,335,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Vereinbarung,19 bis 40,74,anzahl_anrufe,2020,1Q
+Beratungsinhalt,Alltagsbewältigung,19 bis 40,649,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Psychisches Leiden,19 bis 40,667,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sorge wegen Infektion,19 bis 40,52,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Körperliches Leiden,19 bis 40,94,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Einsamkeit,19 bis 40,242,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Familie / Erziehung,19 bis 40,205,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Beziehung allgemein,19 bis 40,158,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Paarbeziehung,19 bis 40,258,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,202,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Existenzprobleme,19 bis 40,55,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Gewalt,19 bis 40,76,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sexualität,19 bis 40,61,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,41,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suchtverhalten,19 bis 40,63,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suizidalität,19 bis 40,144,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,40,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verschiedenes,19 bis 40,163,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,1,anzahl_inhalte,2020,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,anzahl_anrufe,2020,1Q
+Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.013888888888888888,minuten,2020,1Q
+Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,minuten,2020,1Q
+Schicht,Umleiter (4.45),41 bis 65,257,anzahl_anrufe,2020,1Q
+Schicht,Morgen (08.00),41 bis 65,408,anzahl_anrufe,2020,1Q
+Schicht,ZD Morgen (08.00),41 bis 65,0,anzahl_anrufe,2020,1Q
+Schicht,Vormit (10.00),41 bis 65,361,anzahl_anrufe,2020,1Q
+Schicht,ZD Nachmittag (12.00),41 bis 65,0,anzahl_anrufe,2020,1Q
+Schicht,Mittag (13.00),41 bis 65,383,anzahl_anrufe,2020,1Q
+Schicht,Vorab (16.00),41 bis 65,350,anzahl_anrufe,2020,1Q
+Schicht,Zwischendrin (17.00),41 bis 65,275,anzahl_anrufe,2020,1Q
+Schicht,Abend (18.00),41 bis 65,322,anzahl_anrufe,2020,1Q
+Schicht,Spät (21.00),41 bis 65,346,anzahl_anrufe,2020,1Q
+Schicht,Nacht (23.00),41 bis 65,400,anzahl_anrufe,2020,1Q
+Schicht,Chat Morgen (10.00),41 bis 65,19,anzahl_anrufe,2020,1Q
+Schicht,Chat Nachmittag (14.00),41 bis 65,16,anzahl_anrufe,2020,1Q
+Schicht,Chat Abend (18.00),41 bis 65,8,anzahl_anrufe,2020,1Q
+Schicht,Mail-Beratung,41 bis 65,19,anzahl_anrufe,2020,1Q
+Schicht,Angestel-Team,41 bis 65,2,anzahl_anrufe,2020,1Q
+Geschlecht,Weiblich,41 bis 65,2264,anzahl_anrufe,2020,1Q
+Geschlecht,Männlich,41 bis 65,891,anzahl_anrufe,2020,1Q
+Geschlecht,nicht bestimmbar,41 bis 65,11,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Erster Kontakt,41 bis 65,945,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1169,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,781,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Vereinbarung,41 bis 65,271,anzahl_anrufe,2020,1Q
+Beratungsinhalt,Alltagsbewältigung,41 bis 65,1576,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Psychisches Leiden,41 bis 65,1393,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sorge wegen Infektion,41 bis 65,134,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Körperliches Leiden,41 bis 65,367,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Einsamkeit,41 bis 65,460,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Familie / Erziehung,41 bis 65,380,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Beziehung allgemein,41 bis 65,240,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Paarbeziehung,41 bis 65,382,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,316,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Existenzprobleme,41 bis 65,137,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Gewalt,41 bis 65,44,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sexualität,41 bis 65,55,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,84,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suchtverhalten,41 bis 65,53,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suizidalität,41 bis 65,65,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,98,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verschiedenes,41 bis 65,348,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,1,anzahl_inhalte,2020,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,2,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,anzahl_anrufe,2020,1Q
+Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.012499999999999999,minuten,2020,1Q
+Gesprächsdauer,Median (Zentralwert),41 bis 65,0.011805555555555555,minuten,2020,1Q
+Schicht,Umleiter (4.45),über 65,188,anzahl_anrufe,2020,1Q
+Schicht,Morgen (08.00),über 65,314,anzahl_anrufe,2020,1Q
+Schicht,ZD Morgen (08.00),über 65,0,anzahl_anrufe,2020,1Q
+Schicht,Vormit (10.00),über 65,264,anzahl_anrufe,2020,1Q
+Schicht,ZD Nachmittag (12.00),über 65,0,anzahl_anrufe,2020,1Q
+Schicht,Mittag (13.00),über 65,321,anzahl_anrufe,2020,1Q
+Schicht,Vorab (16.00),über 65,262,anzahl_anrufe,2020,1Q
+Schicht,Zwischendrin (17.00),über 65,218,anzahl_anrufe,2020,1Q
+Schicht,Abend (18.00),über 65,240,anzahl_anrufe,2020,1Q
+Schicht,Spät (21.00),über 65,326,anzahl_anrufe,2020,1Q
+Schicht,Nacht (23.00),über 65,346,anzahl_anrufe,2020,1Q
+Schicht,Chat Morgen (10.00),über 65,5,anzahl_anrufe,2020,1Q
+Schicht,Chat Nachmittag (14.00),über 65,0,anzahl_anrufe,2020,1Q
+Schicht,Chat Abend (18.00),über 65,0,anzahl_anrufe,2020,1Q
+Schicht,Mail-Beratung,über 65,5,anzahl_anrufe,2020,1Q
+Schicht,Angestel-Team,über 65,1,anzahl_anrufe,2020,1Q
+Geschlecht,Weiblich,über 65,2057,anzahl_anrufe,2020,1Q
+Geschlecht,Männlich,über 65,431,anzahl_anrufe,2020,1Q
+Geschlecht,nicht bestimmbar,über 65,2,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Erster Kontakt,über 65,465,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,641,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,über 65,812,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Vereinbarung,über 65,572,anzahl_anrufe,2020,1Q
+Beratungsinhalt,Alltagsbewältigung,über 65,1590,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Psychisches Leiden,über 65,987,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sorge wegen Infektion,über 65,130,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Körperliches Leiden,über 65,424,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Einsamkeit,über 65,658,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Familie / Erziehung,über 65,133,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Beziehung allgemein,über 65,134,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Paarbeziehung,über 65,83,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Arbeit / Ausbildung,über 65,13,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Existenzprobleme,über 65,32,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Gewalt,über 65,11,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sexualität,über 65,6,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,über 65,43,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suchtverhalten,über 65,89,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suizidalität,über 65,33,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,über 65,73,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verschiedenes,über 65,211,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,über 65,0,anzahl_inhalte,2020,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Fehlanruf,über 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Juxanruf,über 65,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,anzahl_anrufe,2020,1Q
+Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,minuten,2020,1Q
+Gesprächsdauer,Median (Zentralwert),über 65,0.006944444444444444,minuten,2020,1Q
+Schicht,Umleiter (4.45),nicht bestimmbar,37,anzahl_anrufe,2020,1Q
+Schicht,Morgen (08.00),nicht bestimmbar,32,anzahl_anrufe,2020,1Q
+Schicht,ZD Morgen (08.00),nicht bestimmbar,0,anzahl_anrufe,2020,1Q
+Schicht,Vormit (10.00),nicht bestimmbar,65,anzahl_anrufe,2020,1Q
+Schicht,ZD Nachmittag (12.00),nicht bestimmbar,0,anzahl_anrufe,2020,1Q
+Schicht,Mittag (13.00),nicht bestimmbar,62,anzahl_anrufe,2020,1Q
+Schicht,Vorab (16.00),nicht bestimmbar,49,anzahl_anrufe,2020,1Q
+Schicht,Zwischendrin (17.00),nicht bestimmbar,22,anzahl_anrufe,2020,1Q
+Schicht,Abend (18.00),nicht bestimmbar,78,anzahl_anrufe,2020,1Q
+Schicht,Spät (21.00),nicht bestimmbar,56,anzahl_anrufe,2020,1Q
+Schicht,Nacht (23.00),nicht bestimmbar,43,anzahl_anrufe,2020,1Q
+Schicht,Chat Morgen (10.00),nicht bestimmbar,30,anzahl_anrufe,2020,1Q
+Schicht,Chat Nachmittag (14.00),nicht bestimmbar,42,anzahl_anrufe,2020,1Q
+Schicht,Chat Abend (18.00),nicht bestimmbar,40,anzahl_anrufe,2020,1Q
+Schicht,Mail-Beratung,nicht bestimmbar,25,anzahl_anrufe,2020,1Q
+Schicht,Angestel-Team,nicht bestimmbar,1,anzahl_anrufe,2020,1Q
+Geschlecht,Weiblich,nicht bestimmbar,345,anzahl_anrufe,2020,1Q
+Geschlecht,Männlich,nicht bestimmbar,143,anzahl_anrufe,2020,1Q
+Geschlecht,nicht bestimmbar,nicht bestimmbar,94,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,350,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,198,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,30,anzahl_anrufe,2020,1Q
+Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,4,anzahl_anrufe,2020,1Q
+Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,214,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,162,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,19,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,56,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Einsamkeit,nicht bestimmbar,63,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,37,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,38,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Paarbeziehung,nicht bestimmbar,49,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,39,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Existenzprobleme,nicht bestimmbar,17,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Gewalt,nicht bestimmbar,24,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Sexualität,nicht bestimmbar,17,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,12,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suchtverhalten,nicht bestimmbar,12,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Suizidalität,nicht bestimmbar,36,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,13,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Verschiedenes,nicht bestimmbar,179,anzahl_inhalte,2020,1Q
+Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,anzahl_inhalte,2020,1Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,1,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,anzahl_anrufe,2020,1Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,anzahl_anrufe,2020,1Q
+Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.009722222222222222,minuten,2020,1Q
+Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.006944444444444444,minuten,2020,1Q
+Schicht,Umleiter (4.45),bis 18,6,anzahl_anrufe,2020,2Q
+Schicht,Morgen (08.00),bis 18,11,anzahl_anrufe,2020,2Q
+Schicht,ZD Morgen (08.00),bis 18,5,anzahl_anrufe,2020,2Q
+Schicht,Vormit (10.00),bis 18,11,anzahl_anrufe,2020,2Q
+Schicht,ZD Nachmittag (12.00),bis 18,9,anzahl_anrufe,2020,2Q
+Schicht,Mittag (13.00),bis 18,11,anzahl_anrufe,2020,2Q
+Schicht,Vorab (16.00),bis 18,13,anzahl_anrufe,2020,2Q
+Schicht,Zwischendrin (17.00),bis 18,21,anzahl_anrufe,2020,2Q
+Schicht,Abend (18.00),bis 18,41,anzahl_anrufe,2020,2Q
+Schicht,Spät (21.00),bis 18,20,anzahl_anrufe,2020,2Q
+Schicht,Nacht (23.00),bis 18,10,anzahl_anrufe,2020,2Q
+Schicht,Chat Morgen (10.00),bis 18,11,anzahl_anrufe,2020,2Q
+Schicht,Chat Nachmittag (14.00),bis 18,14,anzahl_anrufe,2020,2Q
+Schicht,Chat Abend (18.00),bis 18,44,anzahl_anrufe,2020,2Q
+Schicht,Mail-Beratung,bis 18,60,anzahl_anrufe,2020,2Q
+Schicht,Angestel-Team,bis 18,2,anzahl_anrufe,2020,2Q
+Geschlecht,Weiblich,bis 18,239,anzahl_anrufe,2020,2Q
+Geschlecht,Männlich,bis 18,27,anzahl_anrufe,2020,2Q
+Geschlecht,Divers,bis 18,1,anzahl_anrufe,2020,2Q
+Geschlecht,nicht bestimmbar,bis 18,22,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Erster Kontakt,bis 18,120,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",bis 18,53,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,bis 18,108,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Vereinbarung,bis 18,8,anzahl_anrufe,2020,2Q
+Beratungsinhalt,Alltagsbewältigung,bis 18,106,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Psychisches Leiden,bis 18,107,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Körperliches Leiden,bis 18,16,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sorge wegen Infektion,bis 18,3,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Einsamkeit,bis 18,25,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Familie / Erziehung,bis 18,61,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Beziehung allgemein,bis 18,26,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Paarbeziehung,bis 18,20,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Arbeit / Ausbildung,bis 18,24,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Existenzprobleme,bis 18,8,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Gewalt,bis 18,25,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sexualität,bis 18,27,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,bis 18,8,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suchtverhalten,bis 18,12,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suizidalität,bis 18,42,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,bis 18,8,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verschiedenes,bis 18,40,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,bis 18,1,anzahl_inhalte,2020,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,bis 18,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,bis 18,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Fehlanruf,bis 18,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Juxanruf,bis 18,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",bis 18,0,anzahl_anrufe,2020,2Q
+Gesprächsdauer,Aritmetisches Mittel,bis 18,0.014583333333333332,minuten,2020,2Q
+Gesprächsdauer,Median (Zentralwert),bis 18,0.010416666666666666,minuten,2020,2Q
+Schicht,Umleiter (4.45),19 bis 40,67,anzahl_anrufe,2020,2Q
+Schicht,Morgen (08.00),19 bis 40,145,anzahl_anrufe,2020,2Q
+Schicht,ZD Morgen (08.00),19 bis 40,108,anzahl_anrufe,2020,2Q
+Schicht,Vormit (10.00),19 bis 40,156,anzahl_anrufe,2020,2Q
+Schicht,ZD Nachmittag (12.00),19 bis 40,132,anzahl_anrufe,2020,2Q
+Schicht,Mittag (13.00),19 bis 40,159,anzahl_anrufe,2020,2Q
+Schicht,Vorab (16.00),19 bis 40,181,anzahl_anrufe,2020,2Q
+Schicht,Zwischendrin (17.00),19 bis 40,196,anzahl_anrufe,2020,2Q
+Schicht,Abend (18.00),19 bis 40,253,anzahl_anrufe,2020,2Q
+Schicht,Spät (21.00),19 bis 40,193,anzahl_anrufe,2020,2Q
+Schicht,Nacht (23.00),19 bis 40,206,anzahl_anrufe,2020,2Q
+Schicht,Chat Morgen (10.00),19 bis 40,32,anzahl_anrufe,2020,2Q
+Schicht,Chat Nachmittag (14.00),19 bis 40,45,anzahl_anrufe,2020,2Q
+Schicht,Chat Abend (18.00),19 bis 40,95,anzahl_anrufe,2020,2Q
+Schicht,Mail-Beratung,19 bis 40,73,anzahl_anrufe,2020,2Q
+Schicht,Angestel-Team,19 bis 40,7,anzahl_anrufe,2020,2Q
+Geschlecht,Weiblich,19 bis 40,1182,anzahl_anrufe,2020,2Q
+Geschlecht,Männlich,19 bis 40,839,anzahl_anrufe,2020,2Q
+Geschlecht,Divers,19 bis 40,1,anzahl_anrufe,2020,2Q
+Geschlecht,nicht bestimmbar,19 bis 40,26,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Erster Kontakt,19 bis 40,872,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",19 bis 40,681,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,19 bis 40,443,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Vereinbarung,19 bis 40,52,anzahl_anrufe,2020,2Q
+Beratungsinhalt,Alltagsbewältigung,19 bis 40,743,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Psychisches Leiden,19 bis 40,897,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Körperliches Leiden,19 bis 40,112,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sorge wegen Infektion,19 bis 40,132,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Einsamkeit,19 bis 40,318,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Familie / Erziehung,19 bis 40,245,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Beziehung allgemein,19 bis 40,199,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Paarbeziehung,19 bis 40,290,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Arbeit / Ausbildung,19 bis 40,217,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Existenzprobleme,19 bis 40,57,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Gewalt,19 bis 40,89,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sexualität,19 bis 40,70,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,19 bis 40,52,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suchtverhalten,19 bis 40,87,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suizidalität,19 bis 40,120,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,19 bis 40,45,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verschiedenes,19 bis 40,238,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,19 bis 40,0,anzahl_inhalte,2020,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,19 bis 40,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,19 bis 40,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Fehlanruf,19 bis 40,1,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Juxanruf,19 bis 40,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",19 bis 40,0,anzahl_anrufe,2020,2Q
+Gesprächsdauer,Aritmetisches Mittel,19 bis 40,0.014583333333333332,minuten,2020,2Q
+Gesprächsdauer,Median (Zentralwert),19 bis 40,0.012499999999999999,minuten,2020,2Q
+Schicht,Umleiter (4.45),41 bis 65,177,anzahl_anrufe,2020,2Q
+Schicht,Morgen (08.00),41 bis 65,317,anzahl_anrufe,2020,2Q
+Schicht,ZD Morgen (08.00),41 bis 65,192,anzahl_anrufe,2020,2Q
+Schicht,Vormit (10.00),41 bis 65,257,anzahl_anrufe,2020,2Q
+Schicht,ZD Nachmittag (12.00),41 bis 65,275,anzahl_anrufe,2020,2Q
+Schicht,Mittag (13.00),41 bis 65,318,anzahl_anrufe,2020,2Q
+Schicht,Vorab (16.00),41 bis 65,337,anzahl_anrufe,2020,2Q
+Schicht,Zwischendrin (17.00),41 bis 65,317,anzahl_anrufe,2020,2Q
+Schicht,Abend (18.00),41 bis 65,356,anzahl_anrufe,2020,2Q
+Schicht,Spät (21.00),41 bis 65,366,anzahl_anrufe,2020,2Q
+Schicht,Nacht (23.00),41 bis 65,394,anzahl_anrufe,2020,2Q
+Schicht,Chat Morgen (10.00),41 bis 65,4,anzahl_anrufe,2020,2Q
+Schicht,Chat Nachmittag (14.00),41 bis 65,14,anzahl_anrufe,2020,2Q
+Schicht,Chat Abend (18.00),41 bis 65,14,anzahl_anrufe,2020,2Q
+Schicht,Mail-Beratung,41 bis 65,7,anzahl_anrufe,2020,2Q
+Schicht,Angestel-Team,41 bis 65,8,anzahl_anrufe,2020,2Q
+Geschlecht,Weiblich,41 bis 65,2337,anzahl_anrufe,2020,2Q
+Geschlecht,Männlich,41 bis 65,1010,anzahl_anrufe,2020,2Q
+Geschlecht,Divers,41 bis 65,0,anzahl_anrufe,2020,2Q
+Geschlecht,nicht bestimmbar,41 bis 65,6,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Erster Kontakt,41 bis 65,957,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",41 bis 65,1257,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,41 bis 65,751,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Vereinbarung,41 bis 65,387,anzahl_anrufe,2020,2Q
+Beratungsinhalt,Alltagsbewältigung,41 bis 65,1643,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Psychisches Leiden,41 bis 65,1480,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Körperliches Leiden,41 bis 65,330,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sorge wegen Infektion,41 bis 65,328,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Einsamkeit,41 bis 65,448,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Familie / Erziehung,41 bis 65,463,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Beziehung allgemein,41 bis 65,258,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Paarbeziehung,41 bis 65,366,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Arbeit / Ausbildung,41 bis 65,258,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Existenzprobleme,41 bis 65,77,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Gewalt,41 bis 65,65,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sexualität,41 bis 65,56,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,41 bis 65,89,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suchtverhalten,41 bis 65,71,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suizidalität,41 bis 65,81,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,41 bis 65,95,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verschiedenes,41 bis 65,340,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,41 bis 65,2,anzahl_inhalte,2020,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,41 bis 65,1,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,41 bis 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Fehlanruf,41 bis 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Juxanruf,41 bis 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",41 bis 65,0,anzahl_anrufe,2020,2Q
+Gesprächsdauer,Aritmetisches Mittel,41 bis 65,0.012499999999999999,minuten,2020,2Q
+Gesprächsdauer,Median (Zentralwert),41 bis 65,0.011111111111111112,minuten,2020,2Q
+Schicht,Umleiter (4.45),über 65,140,anzahl_anrufe,2020,2Q
+Schicht,Morgen (08.00),über 65,261,anzahl_anrufe,2020,2Q
+Schicht,ZD Morgen (08.00),über 65,203,anzahl_anrufe,2020,2Q
+Schicht,Vormit (10.00),über 65,237,anzahl_anrufe,2020,2Q
+Schicht,ZD Nachmittag (12.00),über 65,223,anzahl_anrufe,2020,2Q
+Schicht,Mittag (13.00),über 65,247,anzahl_anrufe,2020,2Q
+Schicht,Vorab (16.00),über 65,262,anzahl_anrufe,2020,2Q
+Schicht,Zwischendrin (17.00),über 65,259,anzahl_anrufe,2020,2Q
+Schicht,Abend (18.00),über 65,330,anzahl_anrufe,2020,2Q
+Schicht,Spät (21.00),über 65,300,anzahl_anrufe,2020,2Q
+Schicht,Nacht (23.00),über 65,263,anzahl_anrufe,2020,2Q
+Schicht,Chat Morgen (10.00),über 65,0,anzahl_anrufe,2020,2Q
+Schicht,Chat Nachmittag (14.00),über 65,2,anzahl_anrufe,2020,2Q
+Schicht,Chat Abend (18.00),über 65,4,anzahl_anrufe,2020,2Q
+Schicht,Mail-Beratung,über 65,0,anzahl_anrufe,2020,2Q
+Schicht,Angestel-Team,über 65,7,anzahl_anrufe,2020,2Q
+Geschlecht,Weiblich,über 65,2289,anzahl_anrufe,2020,2Q
+Geschlecht,Männlich,über 65,448,anzahl_anrufe,2020,2Q
+Geschlecht,Divers,über 65,0,anzahl_anrufe,2020,2Q
+Geschlecht,nicht bestimmbar,über 65,1,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Erster Kontakt,über 65,454,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",über 65,661,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,über 65,956,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Vereinbarung,über 65,667,anzahl_anrufe,2020,2Q
+Beratungsinhalt,Alltagsbewältigung,über 65,1578,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Psychisches Leiden,über 65,1205,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Körperliches Leiden,über 65,442,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sorge wegen Infektion,über 65,287,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Einsamkeit,über 65,591,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Familie / Erziehung,über 65,151,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Beziehung allgemein,über 65,127,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Paarbeziehung,über 65,67,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Arbeit / Ausbildung,über 65,9,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Existenzprobleme,über 65,39,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Gewalt,über 65,16,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sexualität,über 65,7,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,über 65,77,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suchtverhalten,über 65,158,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suizidalität,über 65,29,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,über 65,48,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verschiedenes,über 65,222,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,über 65,0,anzahl_inhalte,2020,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,über 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,über 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Fehlanruf,über 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Juxanruf,über 65,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",über 65,0,anzahl_anrufe,2020,2Q
+Gesprächsdauer,Aritmetisches Mittel,über 65,0.009027777777777779,minuten,2020,2Q
+Gesprächsdauer,Median (Zentralwert),über 65,0.006944444444444444,minuten,2020,2Q
+Schicht,Umleiter (4.45),nicht bestimmbar,31,anzahl_anrufe,2020,2Q
+Schicht,Morgen (08.00),nicht bestimmbar,55,anzahl_anrufe,2020,2Q
+Schicht,ZD Morgen (08.00),nicht bestimmbar,41,anzahl_anrufe,2020,2Q
+Schicht,Vormit (10.00),nicht bestimmbar,60,anzahl_anrufe,2020,2Q
+Schicht,ZD Nachmittag (12.00),nicht bestimmbar,33,anzahl_anrufe,2020,2Q
+Schicht,Mittag (13.00),nicht bestimmbar,70,anzahl_anrufe,2020,2Q
+Schicht,Vorab (16.00),nicht bestimmbar,65,anzahl_anrufe,2020,2Q
+Schicht,Zwischendrin (17.00),nicht bestimmbar,60,anzahl_anrufe,2020,2Q
+Schicht,Abend (18.00),nicht bestimmbar,98,anzahl_anrufe,2020,2Q
+Schicht,Spät (21.00),nicht bestimmbar,75,anzahl_anrufe,2020,2Q
+Schicht,Nacht (23.00),nicht bestimmbar,49,anzahl_anrufe,2020,2Q
+Schicht,Chat Morgen (10.00),nicht bestimmbar,23,anzahl_anrufe,2020,2Q
+Schicht,Chat Nachmittag (14.00),nicht bestimmbar,62,anzahl_anrufe,2020,2Q
+Schicht,Chat Abend (18.00),nicht bestimmbar,134,anzahl_anrufe,2020,2Q
+Schicht,Mail-Beratung,nicht bestimmbar,27,anzahl_anrufe,2020,2Q
+Schicht,Angestel-Team,nicht bestimmbar,1,anzahl_anrufe,2020,2Q
+Geschlecht,Weiblich,nicht bestimmbar,448,anzahl_anrufe,2020,2Q
+Geschlecht,Männlich,nicht bestimmbar,280,anzahl_anrufe,2020,2Q
+Geschlecht,Divers,nicht bestimmbar,0,anzahl_anrufe,2020,2Q
+Geschlecht,nicht bestimmbar,nicht bestimmbar,156,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Erster Kontakt,nicht bestimmbar,458,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",nicht bestimmbar,351,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Regelmässiger Kontakt,nicht bestimmbar,69,anzahl_anrufe,2020,2Q
+Kontakthäufigkeit,Vereinbarung,nicht bestimmbar,6,anzahl_anrufe,2020,2Q
+Beratungsinhalt,Alltagsbewältigung,nicht bestimmbar,303,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Psychisches Leiden,nicht bestimmbar,269,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Körperliches Leiden,nicht bestimmbar,59,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sorge wegen Infektion,nicht bestimmbar,48,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Einsamkeit,nicht bestimmbar,93,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Familie / Erziehung,nicht bestimmbar,57,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Beziehung allgemein,nicht bestimmbar,50,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Paarbeziehung,nicht bestimmbar,68,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Arbeit / Ausbildung,nicht bestimmbar,39,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Existenzprobleme,nicht bestimmbar,18,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Gewalt,nicht bestimmbar,22,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Sexualität,nicht bestimmbar,32,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Spiritualität / Lebenssinn,nicht bestimmbar,22,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suchtverhalten,nicht bestimmbar,24,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Suizidalität,nicht bestimmbar,68,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verlust / Trauer / Tod,nicht bestimmbar,20,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Verschiedenes,nicht bestimmbar,236,anzahl_inhalte,2020,2Q
+Beratungsinhalt,Medienerziehung/Swisscom,nicht bestimmbar,0,anzahl_inhalte,2020,2Q
+Zusätzliche Beanspruchung,Verschobenes Gespräch,nicht bestimmbar,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Schweigeanruf,nicht bestimmbar,1,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Fehlanruf,nicht bestimmbar,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,Juxanruf,nicht bestimmbar,0,anzahl_anrufe,2020,2Q
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",nicht bestimmbar,0,anzahl_anrufe,2020,2Q
+Gesprächsdauer,Aritmetisches Mittel,nicht bestimmbar,0.011111111111111112,minuten,2020,2Q
+Gesprächsdauer,Median (Zentralwert),nicht bestimmbar,0.006944444444444444,minuten,2020,2Q

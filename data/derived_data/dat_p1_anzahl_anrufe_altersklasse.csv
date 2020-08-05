@@ -1,4 +1,4 @@
-jahr,kategorie,altersklasse,sum_anzahl
+jahr,sub_kategorie,altersklasse,anzahl_anrufe
 2019,Frauen,bis 18,418
 2019,Frauen,19 bis 65,7382
 2019,Frauen,über 65,3875

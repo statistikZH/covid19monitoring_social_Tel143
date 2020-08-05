@@ -3,7 +3,10 @@ title: "Mitteilung: Dargebotene Hand"
 description: ""
 author: "Details siehe [GitHub repo](https://github.com/statistikZH/covid19monitoring_social_Tel143)"
 date: "`r Sys.Date()`"
-output: html_document 
+output:
+  bookdown::word_document2:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -100,32 +103,32 @@ my_dpi = 300
 dat_by_month <- dat_by_month_raw %>% 
   mutate(monat_label = lubridate::month(monat, label = TRUE, abbr = FALSE, locale = Sys.getlocale("LC_TIME"))) %>% 
   
-  ## Remove Merkmale der kategorie "Beratungsinhalt"
-  filter(kategorie != "Medienerziehung/Swisscom") %>% 
+  ## Remove Merkmale der sub_kategorie "Beratungsinhalt"
+  filter(sub_kategorie != "Medienerziehung/Swisscom") %>% 
   
-  ## Remove Merkmale der kategorie Geschlecht 
-  # filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  ## Remove Merkmale der sub_kategorie Geschlecht 
+  # filter(!sub_kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
   
   ## Filter monat smaller six, as we have data only until end of June
   filter(monat <= 6)  %>% 
   
   ## Rename männlich und weiblich zu Männer und Frauen
   mutate(
-    kategorie = case_when(
-      kategorie == "Weiblich" ~ "Frauen",
-      kategorie == "Männlich" ~ "Männer",
-      TRUE ~ kategorie
+    sub_kategorie = case_when(
+      sub_kategorie == "Weiblich" ~ "Frauen",
+      sub_kategorie == "Männlich" ~ "Männer",
+      TRUE ~ sub_kategorie
     ) 
   )
 
 # Main data manipulation for data by quartal
 
 dat_by_quartal <- dat_by_quartal_raw %>% 
-  ## Remove Merkmale der kategorie "Beratungsinhalt"
-  filter(kategorie != "Medienerziehung/Swisscom") %>% 
+  ## Remove Merkmale der sub_kategorie "Beratungsinhalt"
+  filter(sub_kategorie != "Medienerziehung/Swisscom") %>% 
   
-  ## Remove Merkmale der kategorie Geschlecht 
-  #filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  ## Remove Merkmale der sub_kategorie Geschlecht 
+  #filter(!sub_kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
   
   ## 
   ## filter(altersklasse != "nicht bestimmbar") %>% 
@@ -135,10 +138,10 @@ dat_by_quartal <- dat_by_quartal_raw %>%
   
   ## Rename männlich und weiblich zu Männer und Frauen
   mutate(
-    kategorie = case_when(
-      kategorie == "Weiblich" ~ "Frauen",
-      kategorie == "Männlich" ~ "Männer",
-      TRUE ~ kategorie
+    sub_kategorie = case_when(
+      sub_kategorie == "Weiblich" ~ "Frauen",
+      sub_kategorie == "Männlich" ~ "Männer",
+      TRUE ~ sub_kategorie
     ) 
   )
 
@@ -154,7 +157,7 @@ dat_by_quartal <- dat_by_quartal_raw %>%
 dat_bm_przt_diff_total <- dat_by_month %>% 
   
   ## filter for Schicht as this is the total count of calls
-  filter(variable == "Geschlecht") %>% 
+  filter(kategorie == "Geschlecht") %>% 
   
   group_by(jahr, monat) %>% 
   summarise(
@@ -178,7 +181,7 @@ anzahl_anrufe_2019 <- filter(dat_bm_przt_diff_total, jahr == 2019)$total_anzahl
 dat_bm_przt_diff_month <- dat_by_month %>% 
   
   ## filter for Schicht as this is the total count of calls
-  filter(variable == "Geschlecht") %>% 
+  filter(kategorie == "Geschlecht") %>% 
   
   group_by(jahr, monat, monat_label) %>% 
   summarise(
@@ -204,7 +207,7 @@ anzahl_anrufe_przt_diff_month <- dat_bm_przt_diff_month %>%
 
 dat_bm_total <- dat_by_month %>% 
   
-  group_by(monat_label, jahr, variable, kategorie) %>% 
+  group_by(monat, monat_label, jahr, kategorie, sub_kategorie) %>% 
   summarise(
     sum_anzahl = sum(wert)
   ) 
@@ -212,12 +215,12 @@ dat_bm_total <- dat_by_month %>%
 ## Indexiert auf 2019 in prozent pro Inhalt ------------
 
 dat_bm_diff_vorjahr_przt <- dat_bm_total %>% 
-  group_by(jahr, variable, kategorie) %>% 
+  group_by(jahr, kategorie, sub_kategorie) %>% 
   summarise(
     sum_anzahl = sum(sum_anzahl)
   ) %>% 
-  arrange(kategorie, jahr) %>% 
-  group_by(variable, kategorie) %>%
+  arrange(sub_kategorie, jahr) %>% 
+  group_by(kategorie, sub_kategorie) %>%
   mutate(
     diff_vorjahr_przt = (sum_anzahl / lag(sum_anzahl) - 1) * 100
   )
@@ -225,8 +228,8 @@ dat_bm_diff_vorjahr_przt <- dat_bm_total %>%
 ## Indexiert auf 2019 in total pro Inhalt ------------
 
 dat_bm_diff_vorjahr_total <- dat_bm_total %>% 
-  arrange(monat_label, kategorie, jahr) %>% 
-  group_by(monat_label, variable, kategorie) %>%
+  arrange(monat_label, sub_kategorie, jahr) %>% 
+  group_by(monat_label, kategorie, sub_kategorie) %>%
   mutate(
     diff_vorjahr_total = sum_anzahl - lag(sum_anzahl)
   )
@@ -241,12 +244,12 @@ dat_bq_diff_vorjahr <- dat_by_quartal %>%
   
   filter(altersklasse %in% aggregation_alter) %>%
   mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
-  group_by(jahr, variable, kategorie, altersklasse) %>% 
+  group_by(jahr, kategorie, sub_kategorie, altersklasse) %>% 
   summarise(
     sum_anzahl = sum(wert)
   ) %>% 
-  arrange(variable, kategorie, altersklasse, jahr) %>% 
-  group_by(altersklasse, variable, kategorie) %>%
+  arrange(kategorie, sub_kategorie, altersklasse, jahr) %>% 
+  group_by(altersklasse, kategorie, sub_kategorie) %>%
   mutate(
     diff_vorjahr_przt = (sum_anzahl / lag(sum_anzahl) - 1) * 100,
     diff_vorjahr_total = sum_anzahl - lag(sum_anzahl)
@@ -259,30 +262,30 @@ dat_bq_diff_vorjahr <- dat_by_quartal %>%
 # Paragraph 1: Wieviel häufiger haben Frauen angerufen als Männer?
 
 para1_geschlecht <- dat_bm_total %>% 
-  filter(variable == "Geschlecht") %>% 
-  filter(!kategorie %in% c("nicht bestimmbar", "Divers")) %>% 
+  filter(kategorie == "Geschlecht") %>% 
+  filter(!sub_kategorie %in% c("nicht bestimmbar", "Divers")) %>% 
   #filter(jahr == 2020) %>% 
-  group_by(jahr, kategorie) %>% 
+  group_by(jahr, sub_kategorie) %>% 
   summarise(
     sum_anzahl = sum(sum_anzahl)
   ) %>% 
-  spread(key = kategorie, value = sum_anzahl) %>% 
+  spread(key = sub_kategorie, value = sum_anzahl) %>% 
   mutate(multiple = Frauen / Männer)
 
 # Paragraph 1: Zunahme/Abnahme Männer Frauen 2020 ggü 2019
 
 para1_geschlecht_zu_abhname <- dat_bm_diff_vorjahr_przt %>% 
-  filter(variable == "Geschlecht") %>% 
-  filter(!kategorie %in% c("nicht bestimmbar", "Divers")) %>% 
+  filter(kategorie == "Geschlecht") %>% 
+  filter(!sub_kategorie %in% c("nicht bestimmbar", "Divers")) %>% 
   filter(jahr == 2020)
 
 ## Männer
 
-para1_Maenner <- filter(para1_geschlecht_zu_abhname, kategorie == "Männer")$diff_vorjahr_przt
+para1_Maenner <- filter(para1_geschlecht_zu_abhname, sub_kategorie == "Männer")$diff_vorjahr_przt
 
 ## Frauen
 
-para1_Frauen <- filter(para1_geschlecht_zu_abhname, kategorie == "Frauen")$diff_vorjahr_przt
+para1_Frauen <- filter(para1_geschlecht_zu_abhname, sub_kategorie == "Frauen")$diff_vorjahr_przt
 
 ```
 
@@ -291,15 +294,15 @@ para1_Frauen <- filter(para1_geschlecht_zu_abhname, kategorie == "Frauen")$diff_
 # Parapgraph 2: Zunahme Altersklasse zwischen 2019 und 2020
 
 para2_geschlecht_alter_diff <- dat_bq_diff_vorjahr %>% 
-  filter(variable == "Geschlecht") %>% 
-  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  filter(kategorie == "Geschlecht") %>% 
+  filter(!sub_kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
   filter(altersklasse != "nicht bestimmbar") 
 
 ## Männer
 
 para2_Maenner <- para2_geschlecht_alter_diff %>% 
   filter(jahr == 2020) %>% 
-  filter(kategorie == "Männer")
+  filter(sub_kategorie == "Männer")
 
 para2_Maenner_18 <- filter(para2_Maenner, altersklasse == "bis 18")$diff_vorjahr_przt
 para2_Maenner_1940 <- filter(para2_Maenner, altersklasse == "19 bis 40")$diff_vorjahr_przt
@@ -310,7 +313,7 @@ para2_Maenner_65 <- filter(para2_Maenner, altersklasse == "über 65")$diff_vorja
 
 para2_Frauen <- para2_geschlecht_alter_diff %>% 
   filter(jahr == 2020) %>% 
-  filter(kategorie == "Frauen")
+  filter(sub_kategorie == "Frauen")
 
 para2_Frauen_18 <- filter(para2_Frauen, altersklasse == "bis 18")$diff_vorjahr_przt
 para2_Frauen_1940 <- filter(para2_Frauen, altersklasse == "19 bis 40")$diff_vorjahr_przt
@@ -325,10 +328,10 @@ para2_Frauen_65 <- filter(para2_Frauen, altersklasse == "über 65")$diff_vorjahr
 # Paragraph 3: Ein durchschnittlicher Anruf dauert
 
 para3_gespraechsdauer <- dat_bm_total %>% 
-  filter(variable == "Gesprächsdauer") %>% 
-  group_by(jahr, kategorie) %>% 
+  filter(kategorie == "Gesprächsdauer") %>% 
+  group_by(jahr, sub_kategorie) %>% 
   mutate(minuten = sum_anzahl * 24 * 60) %>% 
-  filter(kategorie == "Aritmetisches Mittel") %>% 
+  filter(sub_kategorie == "Aritmetisches Mittel") %>% 
   summarise(
     mean_minuten = mean(minuten)
   ) %>% 
@@ -347,8 +350,8 @@ para3_gespraechsdauer <- dat_bm_total %>%
 
 dat_bm_total_beratungsinhalte <- dat_bm_total %>% 
   filter(jahr == 2020) %>% 
-  #filter(kategorie != "Sorge wegen Infektion") %>% 
-  filter(variable == "Beratungsinhalt") %>% 
+  #filter(sub_kategorie != "Sorge wegen Infektion") %>% 
+  filter(kategorie == "Beratungsinhalt") %>% 
   group_by(jahr, monat_label) %>% 
   summarise(
     sum_anzahl_beratungsinhalte = sum(sum_anzahl)
@@ -359,7 +362,7 @@ dat_bm_total_beratungsinhalte <- dat_bm_total %>%
 dat_bm_total_anrufe <- dat_bm_total %>% 
   
   ## filter for Schicht as this is the total count of calls
-  filter(variable == "Geschlecht") %>% 
+  filter(kategorie == "Geschlecht") %>% 
   
   group_by(jahr, monat_label) %>% 
   summarise(
@@ -387,8 +390,8 @@ para3_beratungsinhalte_multiple <- dat_bm_total_anrufe %>%
 
 dat_bm_beratungsinhalt_przt <- dat_bm_total %>% 
   filter(jahr == 2020) %>% 
-  filter(variable == "Beratungsinhalt") %>%
-  group_by(jahr, variable, kategorie) %>% 
+  filter(kategorie == "Beratungsinhalt") %>%
+  group_by(jahr, kategorie, sub_kategorie) %>% 
   summarise(
     sum_anzahl = sum(sum_anzahl)
   ) %>% 
@@ -407,8 +410,8 @@ para3_beratungsinhalte_top3 <- dat_bm_beratungsinhalt_przt %>%
   .$sum_przt_top3
 
 # t <- dat_bm_total %>% 
-#   filter(variable == "Geschlecht") %>% 
-#   filter(kategorie %in% c("nicht bestimmbar", "Divers")) %>%
+#   filter(kategorie == "Geschlecht") %>% 
+#   filter(sub_kategorie %in% c("nicht bestimmbar", "Divers")) %>%
 #   group_by(jahr) %>% 
 #   summarize(sum_anzahl = sum(sum_anzahl)) %>%
 #   ungroup
@@ -427,8 +430,8 @@ para3_beratungsinhalte_top3 <- dat_bm_beratungsinhalt_przt %>%
 dat_bm_beratungsinhalt_przt2 <- dat_bm_total %>% 
   filter(jahr == 2020) %>% 
   #filter(monat_label == "April") %>% 
-  filter(variable == "Beratungsinhalt") %>%
-  group_by(jahr, monat_label, variable, kategorie) %>% 
+  filter(kategorie == "Beratungsinhalt") %>%
+  group_by(jahr, monat_label, kategorie, sub_kategorie) %>% 
   summarise(
     sum_anzahl = sum(sum_anzahl)
   ) %>% 
@@ -439,13 +442,13 @@ dat_bm_beratungsinhalt_przt2 <- dat_bm_total %>%
 ## Sorge wegen Infektion im April
 
 para3_sorge_infektion_april <- dat_bm_beratungsinhalt_przt2 %>% 
-  filter(kategorie == "Sorge wegen Infektion") %>% 
+  filter(sub_kategorie == "Sorge wegen Infektion") %>% 
   filter(monat_label == "April")
 
 ## Sorge wegen Infektion im Juni
 
 para3_sorge_infektion_juni <- dat_bm_beratungsinhalt_przt2 %>% 
-  filter(kategorie == "Sorge wegen Infektion") %>% 
+  filter(sub_kategorie == "Sorge wegen Infektion") %>% 
   filter(monat_label == "Juni")
 
 ```
@@ -476,8 +479,8 @@ Im Vergleich zum Vorjahr sind die Zahl der Anrufe und die durchschnittliche Gesp
 ```{r plot-geschlecht1}
 
 p1 <- dat_bm_total %>% 
-  filter(variable == "Geschlecht") %>% 
-  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) 
+  filter(kategorie == "Geschlecht") %>% 
+  filter(!sub_kategorie %in% c("Divers", "nicht bestimmbar")) 
 
 ## plot
 
@@ -493,7 +496,7 @@ p1 %>%
     fill = NULL
     #caption = "Datenquelle: Dargebotene Hand (143.ch)"
   ) +
-  facet_wrap(~kategorie) +
+  facet_wrap(~sub_kategorie) +
   scale_y_continuous(breaks = seq(0, 2500, 250)) +
   theme(panel.grid.minor = element_blank()) 
 
@@ -507,27 +510,14 @@ ggsave(here::here("plots/plot1_anzahl_anrufe.png"),
 
 # save derived data
 
-readr::write_csv(p1, path = here::here("data/derived_data/dat_p1_anzahl_anrufe.csv"))
+p1 %>% 
+  ungroup() %>% 
+  select(-monat_label, -kategorie) %>% 
+  rename(anzahl_anrufe = sum_anzahl) %>% 
+  readr::write_csv(path = here::here("data/derived_data/dat_p1_anzahl_anrufe.csv"))
 
 ```
 
-```{r, eval=FALSE}
-
-## Prozent Anrufe Divers und nicht bestimmbar
-
-dat_bm_total %>% 
-  filter(variable == "Geschlecht") %>% 
-  group_by(jahr, variable, kategorie) %>%
-  summarise(
-    sum_anzahl = sum(sum_anzahl)
-  ) %>% 
-  group_by(jahr) %>% 
-  mutate( 
-    przt = sum_anzahl / sum(sum_anzahl) * 100
-  ) %>% 
-  filter(kategorie %in% c("nicht bestimmbar", "Divers"))
-
-```
 
 ## Gegenläufige Veränderung bei Männern und Frauen 
 
@@ -538,7 +528,7 @@ Weshalb es zu diesen Verlagerungen kam, ist nicht bekannt. Besonders das veränd
 **Visualisierung:** Grafik 2  
 **Titel:** Anzahl Anrufe pro Altersklasse  
 **Untertitel:** Nach Geschlecht und Jahr   
-**Datenquelle:** Dargebotene Hand (143.ch) 
+**Datenquelle:** Dargebotene Hand (143.ch)   
 **Legende:** Anzahl Anrufe pro Altersklasse nach Geschlecht und Jahr (2019-2020).  
 **Alternativtext:** Balkendiagramm mit drei Altersklassen (bis 18-Jährige, 19 bis 65-Jährige, über 65-Jährige) auf der horizontalen Achse. Anzahl Anrufe als Total zwischen Januar und Juni auf der vertikalen Achse. Bei Frauen in 2019 und 2020, 418 und 522 Anrufe in der unteren Altersklasse; 7382 und 6775 Anrufe in der mittleren Altersklasse; 3875 und 4346 Anrufe in der oberen Altersklasse. Bei Männern in 2019 und 2020, 56 und 60 Anrufe in der unteren Altersklasse; 2586 und 3410 in der mittleren Altersklasse; 850 und 879 in der oberen Altersklasse. 
 
@@ -548,9 +538,9 @@ Weshalb es zu diesen Verlagerungen kam, ist nicht bekannt. Besonders das veränd
 p2 <- dat_by_quartal %>%
   
   filter(quartal %in% c("1Q", "2Q")) %>% 
-  filter(variable == "Geschlecht") %>% 
+  filter(kategorie == "Geschlecht") %>% 
   
-  filter(!kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
+  filter(!sub_kategorie %in% c("Divers", "nicht bestimmbar")) %>% 
   filter(altersklasse != "nicht bestimmbar") %>% 
   
   filter(altersklasse %in% aggregation_alter) %>%
@@ -565,7 +555,7 @@ p2 <- dat_by_quartal %>%
     )
   ) %>% 
   mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
-  group_by(jahr, kategorie, altersklasse) %>% 
+  group_by(jahr, sub_kategorie, altersklasse) %>% 
   summarise(
     sum_anzahl = sum(wert)
   )  
@@ -576,7 +566,7 @@ p2 <- dat_by_quartal %>%
 p2 %>% 
   ggplot(aes(x = altersklasse, y = sum_anzahl, group = factor(jahr), fill = factor(jahr))) +
   geom_col(position = position_dodge()) +
-  facet_wrap(~kategorie, ncol = 4) +
+  facet_wrap(~sub_kategorie, ncol = 4) +
   labs(
     #title = "Anzahl Anrufe",
     #subtitle = "Nach Geschlecht, Alter und Jahr (Q1 und Q2)",
@@ -598,30 +588,10 @@ ggsave(here::here("plots/plot2_anzahl_anrufe_alterklasse.png"),
 
 # save derived data
 
-readr::write_csv(p2, path = here::here("data/derived_data/dat_p1_anzahl_anrufe_altersklasse.csv"))
+p2 %>% 
+  rename(anzahl_anrufe = sum_anzahl) %>% 
+  readr::write_csv(path = here::here("data/derived_data/dat_p1_anzahl_anrufe_altersklasse.csv"))
 
-```
-
-```{r, eval=FALSE}
-
-## Prozent Anrufe Divers und nicht bestimmbar
-
-dat_by_quartal %>%
-  
-  filter(quartal %in% c("1Q", "2Q")) %>% 
-  filter(variable == "Geschlecht") %>% 
-  
-  filter(altersklasse %in% aggregation_alter) %>%
-  mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
-  group_by(jahr, kategorie, altersklasse) %>% 
-  summarise(
-    sum_anzahl = sum(wert)
-  )  %>% 
-  group_by(jahr, altersklasse) %>% 
-  mutate( 
-    przt = sum_anzahl / sum(sum_anzahl) * 100
-  ) %>% 
-  filter(kategorie %in% c("nicht bestimmbar", "Divers")) 
 ```
 
 ## Immer noch dieselben Themen
@@ -632,7 +602,7 @@ Die während der Beratungsgespräche am häufigsten angesprochenen Themen sind �
 
 Neu seit März gibt es die Kategorie «Sorge wegen Infektion». Dieses Thema hatte besonders im April Konjunktur:  `r round(para3_sorge_infektion_april$sum_anzahl)` oder `r round(para3_sorge_infektion_april$przt, 0)`% der Anrufe gingen damals unter anderem wegen der Corona-Pandemie ein. Schon im Mai und besonders im Juni verlor das Thema dann wieder an Brisanz. Im Juni zählte das Sorgentelefon nur noch `r round(para3_sorge_infektion_juni$sum_anzahl)` Anrufe zu diesem Thema ein.  
 
-Eindrücklich ist die Veränderung beim Thema «Suchtverhalten»: Die über 65-Jährigen riefen im ersten Halbjahr 2020 deswegen mehr als dreimal so häufig an wie im Vorjahr, während die Zahl der Anrufe bei den übrigen Alterskategorien stabil blieb. Ein möglicher Erklärungsansatz sind die Verhaltensempfehlungen der Behörden wegen der Pandemie. Angehörige der Risikogruppe, zu der Menschen im Pensionsalter gehören, wurden aufgefordert, zuhause zu bleiben und zwischenmenschliche Kontakte möglichst zu meiden. Diese «verordnete» Isolation dürfte bei vielen älteren Menschen ein Gefühl der Einsamkeit geweckt haben, dem sie wiederum mit Suchtmitteln zu begegnen versuchten.
+Eindrücklich ist die Veränderung beim Thema «Suchtverhalten»: Die über 65-Jährigen riefen im ersten Halbjahr 2020 deswegen mehr als dreimal so häufig an wie im Vorjahr, während die Zahl der Anrufe bei den übrigen Altersklassen stabil blieb. Ein möglicher Erklärungsansatz sind die Verhaltensempfehlungen der Behörden wegen der Pandemie. Angehörige der Risikogruppe, zu der Menschen im Pensionsalter gehören, wurden aufgefordert, zuhause zu bleiben und zwischenmenschliche Kontakte möglichst zu meiden. Diese «verordnete» Isolation dürfte bei vielen älteren Menschen ein Gefühl der Einsamkeit geweckt haben, dem sie wiederum mit Suchtmitteln zu begegnen versuchten.
 
 **Visualisierung:** Grafik 3   
 **Titel:** Anzahl Anrufe pro Monat  
@@ -647,9 +617,9 @@ Eindrücklich ist die Veränderung beim Thema «Suchtverhalten»: Die über 65-J
 
 beratungsinhalt_size_group <- dat_bm_total %>% 
   
-  filter(variable == "Beratungsinhalt") %>% 
-  filter(kategorie != "Sorge wegen Infektion") %>% 
-  group_by(kategorie) %>% 
+  filter(kategorie == "Beratungsinhalt") %>% 
+  filter(sub_kategorie != "Sorge wegen Infektion") %>% 
+  group_by(sub_kategorie) %>% 
   summarise(
     sum_anzahl = sum(sum_anzahl)
   ) %>%  
@@ -662,9 +632,9 @@ beratungsinhalt_size_group <- dat_bm_total %>%
       TRUE ~ 4 
     )
   ) %>% 
-  select(kategorie, size_group) 
+  select(sub_kategorie, size_group) 
 
-beratungsinhalt_size_group$kategorie <- factor(beratungsinhalt_size_group$kategorie, levels = beratungsinhalt_size_group$kategorie)
+beratungsinhalt_size_group$sub_kategorie <- factor(beratungsinhalt_size_group$sub_kategorie, levels = beratungsinhalt_size_group$sub_kategorie)
 
 ## helper dataframe to set scale on y axis equal for each row on plot 
 ## help from: https://stackoverflow.com/a/33455480/6816220
@@ -672,7 +642,7 @@ beratungsinhalt_size_group$kategorie <- factor(beratungsinhalt_size_group$katego
 df_helper <- tibble(
   jahr = c(rep("2020", 16), rep("2019", 16)),
   monat_label = "Januar",
-  kategorie = rep(beratungsinhalt_size_group$kategorie, 2),
+  sub_kategorie = rep(beratungsinhalt_size_group$sub_kategorie, 2),
   sum_anzahl = c(
     rep(1700, 4), rep(500, 4), rep(230, 4), rep(110, 4),
     rep(200, 4), rep(100, 4), rep(50, 4), rep(30, 4)
@@ -685,9 +655,9 @@ df_helper <- tibble(
 
 p3 <- dat_bm_total %>% 
   
-  filter(variable == "Beratungsinhalt") %>% 
-  filter(kategorie != "Sorge wegen Infektion") %>%
-  mutate(kategorie = factor(kategorie, levels = beratungsinhalt_size_group$kategorie)) 
+  filter(kategorie == "Beratungsinhalt") %>% 
+  filter(sub_kategorie != "Sorge wegen Infektion") %>%
+  mutate(sub_kategorie = factor(sub_kategorie, levels = beratungsinhalt_size_group$sub_kategorie)) 
 
 ## plot
 
@@ -704,7 +674,7 @@ p3 %>%
     color = NULL
     #caption = "Datenquelle: Dargebotene Hand (143.ch)"
   ) +
-  facet_wrap(~kategorie, scales = "free_y", ncol = 4) +
+  facet_wrap(~sub_kategorie, scales = "free_y", ncol = 4) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) 
 
 ## save plot for web
@@ -718,47 +688,12 @@ ggsave(here::here("plots/plot2_anzahl_anrufe_beratungsinhalt.png"),
 
 # save derived data
 
-readr::write_csv(p3, path = here::here("data/derived_data/dat_p1_anzahl_anrufe_beratungsinhalt.csv"))
+p3 %>% 
+  ungroup() %>% 
+  select(-monat_label, -kategorie) %>% 
+  rename(anzahl_inhalte = sum_anzahl) %>% 
+  readr::write_csv(path = here::here("data/derived_data/dat_p1_anzahl_anrufe_beratungsinhalt.csv"))
 
-
-```
-
-```{r, eval=FALSE}
-
-dat_by_quartal  %>% 
-  filter(variable == "Beratungsinhalt") %>% 
-  filter(kategorie != "Sorge wegen Infektion") %>% 
-  filter(altersklasse %in% aggregation_alter) %>%
-  mutate(altersklasse = factor(altersklasse, levels = aggregation_alter)) %>% 
-  
-  ## remove Alter nicht bestimmbar
-  mutate(jahr = factor(jahr)) %>% 
-  group_by(jahr, kategorie, altersklasse) %>% 
-  summarise(
-    sum_anzahl = sum(wert)
-  ) %>% 
-  mutate( 
-    przt = sum_anzahl / sum(sum_anzahl) * 100
-  ) %>% 
-  filter(altersklasse == "nicht bestimmbar") %>% 
-  arrange(desc(przt))
-
-
-```
-
-```{r, eval=FALSE}
-
-dat_by_month %>%
-  
-  ## filter for Schicht as this is the total count of calls
-  filter(variable %in% c("Geschlecht", "Zusätzliche Beanspruchung")) %>% 
-  group_by(jahr, monat, variable) %>% 
-  summarise(
-    sum_anzahl = sum(anzahl)
-  ) %>% 
-  mutate(
-    przt = sum_anzahl / sum(sum_anzahl) * 100
-  )
 
 ```
 
@@ -768,6 +703,6 @@ Bei den Kategorien Geschlecht und Alter gibt es jeweils die Merkmal «nicht best
 
 # Datengrundlage
 
-Die Daten und der Quellcode für diesen Artikel stehen öffenlich auf [GitHub](https://github.com/statistikZH/covid19monitoring_social_Tel143) zur Verfügung.
+Die Daten und der Quellcode für diese Mitteilung stehen öffentlich auf [GitHub](https://github.com/statistikZH/covid19monitoring_social_Tel143) zur Verfügung.
 
 
