@@ -8,7 +8,7 @@
 
 ## Projektbeschreibung
 
-Dieses Repository enthält Daten und Code um die Mitteilung [Corona verändert Alltagssorgen nur wenig](zh.ch) des Statistischen Amt des Kantons Zürich zu reproduzieren. Daten wurden von dem Schweizer Sorgentelefon «Dargebotene Hand» zur Verfügung gestellt. Die bereinigten Rohdaten werden gemeinsam mit dem Source Skript im R Markdown (Rmd) Format zur Verfügung gestellt. 
+Dieses Repository enthält Daten und Quellcode um die Mitteilung [Corona verändert Alltagssorgen nur wenig](zh.ch) des Statistischen Amt des Kantons Zürich zu reproduzieren. Daten wurden von dem Schweizer Sorgentelefon «Dargebotene Hand» zur Verfügung gestellt. Die bereinigten Rohdaten werden gemeinsam mit dem Quellcode im R Markdown (Rmd) Format zur Verfügung gestellt. 
 
 ## Daten
 
