@@ -8,13 +8,17 @@
 
 ## Projektbeschreibung
 
-Dieses Repository enthält Daten und Quellcode um die Mitteilung [Corona verändert Alltagssorgen nur wenig](zh.ch) des Statistischen Amt des Kantons Zürich zu reproduzieren. Daten wurden von dem Schweizer Sorgentelefon «Dargebotene Hand» zur Verfügung gestellt. Die bereinigten Rohdaten werden gemeinsam mit dem Quellcode im R Markdown (Rmd) Format zur Verfügung gestellt. 
+Dieses Repository enthält Daten und Quellcode um die Mitteilung «[Corona verändert Alltagssorgen nur wenig](zh.ch)» des Statistischen Amt des Kantons Zürich zu reproduzieren. Daten wurden von dem Schweizer Sorgentelefon «[Dargebotene Hand](https://www.143.ch/)» zur Verfügung gestellt. Die bereinigten Rohdaten werden gemeinsam mit dem Quellcode im R Markdown (Rmd) Format zur Verfügung gestellt. 
 
-## Daten
+## Rohdaten
 
-### ../raw_data/
+### ../data/raw_data/
+
+Hier sind die bereinigten Rohdaten zu finden. 
 
 **Social_Tel143_nach_monat.csv**
+
+Für die Jahre 2019 und 2020 stehen hier monatliche Daten zur Verfügung. 
 
 |Spaltenname   |Beschreibung                                                                                      |Format |
 |:------------ |:-------------------------------------------------------------------------------------------------|:------|
@@ -27,6 +31,8 @@ Dieses Repository enthält Daten und Quellcode um die Mitteilung [Corona veränd
 
 **Social_Tel143_nach_quartal.csv**
 
+Für die Jahre 2019 und 2020 stehen hier quartalsweise Daten zur Verfügung. Im Gegensatz zu den monatlichen Daten stehen hier die `variable` "Schicht", "Geschlecht", "Kontakthäufigkeit", "Beratungsinahlt", "Zusätzliche Beanspruchung" sowie "Gesprächsdauer" stehen hier für jede Altersklasse zur Verfügung. 
+
 |Spaltenname    |Beschreibung                                                                             |Format |
 |:------------- |:----------------------------------------------------------------------------------------|:------|
 |`variable`     |Variablen zu welchen bei einem Anruf Informationen aufgenommen werden                    |Text   |
@@ -36,11 +42,37 @@ Dieses Repository enthält Daten und Quellcode um die Mitteilung [Corona veränd
 |`jahr`         |Kalenderjahr                                                                             |Zahl   |
 |`quartal`      |Quartal des Kalenderjahres                                                               |Text   |
 
-**Wichtige Anmerkung** Zu beachten ist, dass `wert` summiert nach `variable` nicht die gleiche Summe für jede Variable ergibt. Die totale Anzahl Anrufe ist die Summe der `variable` "Schicht". Falls ein Anruf in die `variable` "Zusätzliche Beanspruchung" fällt, werden keine weiteren Details für `variable` "Alter", "Geschlecht" und "Kontakthäufigkeit" aufgenommen. Zum Beispiel: die Summe aus `wert` für "Alter" und "Zusätzliche Beanspruchung" ist gleich der Summe aus `wert` für "Schicht". Die `variable` "Gesprächsdauer" gibt den median und mittelwert an. Die `variable` "Beratungsinhalt" ist die Anzahl der Inhalte, welche aufgenommen wurde. Pro Anruf können mehrere Beratungsinhalte gewählt werden.
+**Wichtige Anmerkung** 
 
-### ../derived_data/
+TODO
+Zu beachten ist, dass das Summieren des Attributs `wert` nach `variable` nicht für jede `variable` dieselbe Summe gibt. Grund hierfür ist, dass 
 
-Tabellen in diesem Ordner sind zusammengefasste Hintergrunddaten der drei Grafiken. Der Quellcode für die Daten ist im [Skript](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd). 
+- Das Aufsummieren des Attributs `wert` nach `variable` gibt nicht für jede `variable` dieselbe Summe. Grund hierfür ist, dass für verschobene Gespräche, Schweigeanrufe, Fehlanrufe und Juxanrufe ('variable' = Zusätzliche Beanspruchung) keine Informationen für die `variable` "Alter", "Geschlecht" und "Kontakthäufigkeit" erfasst werden. Die Anzahl totaler Anrufe errechnet sich durch das Aufsummieren der `variable` "Schicht" oder duch das Aufsummieren der 'variable' Alter" und "Zusätzliche Beanspruchung". 
+
+- `variable` "Gesprächsdauer": Median und Mittelwert der Gesprächsdauer wird angegeben.  
+
+- `variable` "Beratungsinhalt": Pro Anruf können mehrere Beratungsinhalte gewählt werden.
+
+## Plots
+
+### ../data/derived_data/
+
+Hier sind die Daten die für die Aufbereitung der drei Grafiken die  in der «[Medienmitteilung](zh.ch) zu sehen sind aufbereitet. Der Quellcode für die Daten ist in diesem [Skript](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd) zu finden. 
+
+### ../plots/
+Hier sind die Grafiken die  in der «[Medienmitteilung](zh.ch) zu sehen sind als *.png* abgelegt.
+
+
+
+## Skripts
+
+### ../article/Social_Tel143_article.Rmd 
+
+## Plots
+
+### ../plots/... 
+
+Hier sind die Plots zu finden 
 
 ## Voraussetzungen
 
