@@ -457,17 +457,17 @@ para3_sorge_infektion_juni <- dat_bm_beratungsinhalt_przt2 %>%
 
 **Kurze Zusammenfassung**
 
-Die «Dargebotene Hand» bietet als Sorgentelefon Unterstützung für die Bevölkerung. Während  seit jeher die Mehrheit der Anrufenden weiterhin Frauen sind, melden sich im Corona-Jahr 2020 mehr Männer im Jahr 2020 mehr als im Vorjahr. Kaum etwas geverändert hat sich bei den Beratungsinhalten, wobei das Thema «Suchtverhalten» die grösste Veränderung aufweist.
+Die «Dargebotene Hand» bietet als Sorgentelefon Unterstützung für die Bevölkerung. Während seit jeher die Mehrheit der Anrufenden Frauen sind, melden sich im Corona-Jahr 2020 mehr Männer als im Vorjahr. Kaum etwas geändert hat sich bei den Beratungsinhalten, wobei das Thema «Suchtverhalten» die grösste Veränderung aufweist.
 
 # Erster Paragraph (Einleitung) 
 
-Das Schweizer Sorgentelefon «Dargebotene Hand», auch bekannt als Telefon 143, ist rund um die Uhr für Menschen da, die helfende und unterstützende Gespräche benötigen. Die Gespräche finden via Chat oder Telefon statt, wobei das Telefon mit 93% den Löwenanteil der Kontakte ausmacht. Das regionale Sorgentelefon kümmert sich um den Kanton Zürich ohne die Bezirke Winterthur und Andelfingen, den st. gallischen Bezirk Gaster und See und den Bezirk Höfe im Kanton Schwyz. Aus aktuellem Anlass der Corona-Pandemie zeigen wir in der vorliegenden Kurzanalyse, wer bei der Nummer 143 anruft und welche Beratungsinhalte gefragt sind. 
+Das Schweizer Sorgentelefon «Dargebotene Hand», auch bekannt als Telefon 143, ist rund um die Uhr für Menschen da, die helfende und unterstützende Gespräche benötigen. Die Gespräche finden via Chat oder Telefon statt, wobei Telefongespräche mit 93% den Löwenanteil der Kontakte ausmacht. Das regionale Sorgentelefon kümmert sich um den Kanton Zürich ohne die Bezirke Winterthur und Andelfingen, den st. gallischen Bezirk Gaster und See und den Bezirk Höfe im Kanton Schwyz. Aus aktuellem Anlass der Corona-Pandemie zeigt das Statistische Amt des Kantons Zürich  in der vorliegenden Kurzanalyse, wer bei der Nummer 143 anruft und welche Beratungsinhalte gefragt sind. 
 
 ## Männer rufen vermehrt an
 
 Das Sorgentelefon hat im ersten Halbjahr 2020 rund `r prettyNum(round(anzahl_anrufe_2020, -2))` Anrufe mit einer durchschnittlichen Gesprächsdauer von `r round(para3_gespraechsdauer, 0)` Minuten entgegengenommen.. Dies entspricht fast `r prettyNum(round(anzahl_anrufe_2020 / 180, -1))` Anrufen pro Tag mit insgesamt `r prettyNum(round(anzahl_anrufe_2020 / 180 * 17 / 60, 0))` Stunden Betreuungszeit. Die Mehrheit der Anrufenden waren Frauen: Sie riefen rund zweieinhalb Mal mehr an als die Männer. Dieses Muster zeigt sich gemäss der Dargebotenen Hand schon seit Jahren: Frauen reden vermehrt über ihre Probleme, während Männer eher dazu tendieren, ihre Sorgen für sich zu behalten oder Belastungen anders zu kompensieren.
 
-Im Vergleich zum Vorjahr sind die Zahl der Anrufe und die durchschnittliche Gesprächsdauer im ersten Halbjahr 2020 stabil geblieben. Was sich verändert hat, ist die Verteilung nach Monaten und Geschlechtern: Im Januar und im Februar nahm die Zahl der Anrufe leicht ab. Von März bis Juni nahm sie dagegen zu. Vor allem bei den Männern fällt die Zunahme deutlich aus: sie riefen rund `r round(para1_Maenner, 0)`% mhäufiger an als im selben Vorjahreszeitraum. Die Frauen meldeten sich hingegen etwas seltener beim Sorgentelefon, die Zahl ihrer Anrufe ist um  `r round(para1_Frauen * -1, 1)`% gesunken.
+Im Vergleich zum Vorjahr sind die Zahl der Anrufe und die durchschnittliche Gesprächsdauer im ersten Halbjahr 2020 stabil geblieben. Was sich verändert hat, ist die Verteilung nach Monaten und Geschlechtern: Im Januar und im Februar nahm die Zahl der Anrufe leicht ab. Von März bis Juni nahm sie dagegen zu. Vor allem bei den Männern fällt die Zunahme deutlich aus: sie riefen rund `r round(para1_Maenner, 0)`% häufiger an als im selben Vorjahreszeitraum. Die Frauen meldeten sich hingegen etwas seltener beim Sorgentelefon, die Zahl ihrer Anrufe ist um  `r round(para1_Frauen * -1, 1)`% gesunken.
 
 **Visualisierung:** Grafik 1   
 **Titel:** Anzahl Anrufe pro Monat  
@@ -701,7 +701,7 @@ p3 %>%
 
 Bei den Kategorien Geschlecht und Alter gibt es jeweils die Merkmal «nicht bestimmbar». Dies bedeutet, dass die Anrufenden ihr Geschlecht und/oder Alter nicht angegeben haben. Insgesamt machen diese Anrufe sowohl 2019 als auch 2020 weniger als 2% aus. Werden die Kategorien jedoch miteinander oder mit bestimmten Beratungsinhalten gekreuzt, kann der Anteil auf bis zu 20% steigen. Diese Fälle wurden aus der Analyse ausgeschlossen. Dasselbe gilt für die Kategorie «divers» beim Geschlecht, die insgesamt zwei Anrufe betrifft. In den Rohdaten sind jedoch alle Kategorien enthalten.
 
-# Datengrundlage
+# Datengrundlage und Reproduzierbarkeit
 
 Die Daten und der Quellcode für diese Mitteilung stehen öffentlich auf [GitHub](https://github.com/statistikZH/covid19monitoring_social_Tel143) zur Verfügung.
 
