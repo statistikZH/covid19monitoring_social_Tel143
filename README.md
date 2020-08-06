@@ -3,7 +3,7 @@
 # Datenanalyse Dargebotene Hand
 
 **Datenquelle:** [Dargebotene Hand](https://www.143.ch/)  
-**Mitteilung**: [Corona verändert Alltagssorgen nur wenig](zh.ch)  
+**Mitteilung**: [Corona verändert Alltagssorgen nur wenig](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)  
 **Code**: [R Markdown](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd)  
 
 ## Projektbeschreibung
