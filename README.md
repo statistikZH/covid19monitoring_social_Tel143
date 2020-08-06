@@ -92,8 +92,7 @@ Dependencies:
 
 Vielen Dank an folgende Personen die mitgewirkt haben: 
 
-[@kalakaru](https://github.com/kalakaru)  
-[@larnsce](https://github.com/larnsce)  
+[@kalakaru](https://github.com/kalakaru) | [@larnsce](https://github.com/larnsce) | [@thomhofer](https://github.com/thomhofer)
 
 ## Kontakt
 
