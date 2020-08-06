@@ -8,7 +8,7 @@
 
 ## Projektbeschreibung
 
-Dieses Repository enthält Daten und Quellcode um die Mitteilung «[Corona verändert Alltagssorgen nur wenig](zh.ch)» des Statistischen Amt des Kantons Zürich zu reproduzieren. Daten wurden von dem Schweizer Sorgentelefon «[Dargebotene Hand](https://www.143.ch/)» zur Verfügung gestellt. Die bereinigten Rohdaten werden gemeinsam mit dem Quellcode im R Markdown (Rmd) Format zur Verfügung gestellt. 
+Dieses Repository enthält Daten und Quellcode um die Mitteilung «[Corona verändert Alltagssorgen nur wenig](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)» des Statistischen Amt des Kantons Zürich zu reproduzieren. Daten wurden von dem Schweizer Sorgentelefon «[Dargebotene Hand](https://www.143.ch/)» zur Verfügung gestellt. Die bereinigten Rohdaten werden gemeinsam mit dem Quellcode im R Markdown (.Rmd) Format zur Verfügung gestellt. 
 
 ## Rohdaten
 
@@ -55,17 +55,17 @@ Zu beachten ist, dass das Summieren des Attributs `wert` nach `variable` nicht f
 
 ### ../data/derived_data/
 
-Hier sind die aufbereiteten Daten für die drei Grafiken der «[Medienmitteilung](zh.ch)». Der Quellcode für die Daten ist in diesem [Skript](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd) zu finden. 
+Hier sind die aufbereiteten Daten für die drei Grafiken der «[Medienmitteilung](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)». Der Quellcode für die Daten ist in diesem [Skript](https://github.com/statistikZH/covid19monitoring_social_Tel143/blob/main/article/Social_Tel143_article.Rmd) zu finden. 
 
 ### ../plots/
 
-Hier sind die Grafiken der «[Medienmitteilung](zh.ch)» als *.png* abgelegt.
+Hier sind die Grafiken der «[Medienmitteilung](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)» als *.png* abgelegt.
 
 ## Skript
 
 ### ../article/Social_Tel143_article.Rmd 
 
-Hier ist das Skript für der  «[Medienmitteilung](zh.ch)» als *.Rmd* abgelegt. Mit diesem Skript kann der gesame Artikel mit den folgenden Vorraussetzungen reproduziert werden. 
+Hier ist das Skript der «[Medienmitteilung](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)» als *.Rmd* abgelegt. Mit diesem Skript kann der gesame Artikel mit den folgenden Vorraussetzungen reproduziert werden. 
 
 ## Voraussetzungen
 
