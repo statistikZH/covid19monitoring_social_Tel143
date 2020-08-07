@@ -92,7 +92,7 @@ Dependencies:
 
 Vielen Dank an folgende Personen die mitgewirkt haben: 
 
-[@kalakaru](https://github.com/kalakaru) | [@larnsce](https://github.com/larnsce) | [@thomhofer](https://github.com/thomhofer)
+[@kalakaru](https://github.com/kalakaru) | [@larnsce](https://github.com/larnsce) | [@thomhofer](https://github.com/thomhofer) | [Matthias Herren (143.ch)](https://zuerich.143.ch/Organisation/Team) | [Urs Kälin (143.ch)](https://zuerich.143.ch/Organisation/Team)
 
 ## Kontakt
 
