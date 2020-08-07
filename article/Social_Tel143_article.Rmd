@@ -3,10 +3,7 @@ title: "Mitteilung: Dargebotene Hand"
 description: ""
 author: "Details siehe [GitHub repo](https://github.com/statistikZH/covid19monitoring_social_Tel143)"
 date: "`r Sys.Date()`"
-output:
-  bookdown::word_document2:
-    toc: true
-    toc_depth: 2
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
