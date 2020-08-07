@@ -511,7 +511,7 @@ p1 %>%
   ungroup() %>% 
   select(-monat_label, -kategorie) %>% 
   rename(anzahl_anrufe = sum_anzahl) %>% 
-  readr::write_csv(path = here::here("data/derived_data/dat_p1_anzahl_anrufe.csv"))
+  readr::write_csv(path = here::here("data/derived_data/dat_plot1_anzahl_anrufe.csv"))
 
 ```
 
@@ -587,7 +587,7 @@ ggsave(here::here("plots/plot2_anzahl_anrufe_alterklasse.png"),
 
 p2 %>% 
   rename(anzahl_anrufe = sum_anzahl) %>% 
-  readr::write_csv(path = here::here("data/derived_data/dat_p1_anzahl_anrufe_altersklasse.csv"))
+  readr::write_csv(path = here::here("data/derived_data/dat_plot2_anzahl_anrufe_altersklasse.csv"))
 
 ```
 
@@ -689,7 +689,7 @@ p3 %>%
   ungroup() %>% 
   select(-monat_label, -kategorie) %>% 
   rename(anzahl_inhalte = sum_anzahl) %>% 
-  readr::write_csv(path = here::here("data/derived_data/dat_p1_anzahl_anrufe_beratungsinhalt.csv"))
+  readr::write_csv(path = here::here("data/derived_data/dat_plot3_anzahl_anrufe_beratungsinhalt.csv"))
 
 
 ```
