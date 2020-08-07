@@ -45,11 +45,9 @@ Für die Jahre 2019 und 2020 stehen hier quartalsweise Daten zur Verfügung. Im 
 
 **Wichtige Anmerkung** 
 
-Zu beachten ist, dass das Summieren des Attributs `wert` nach `variable` nicht für jede `variable` dieselbe Summe gibt. Grund hierfür ist, dass 
-
-- für verschobene Gespräche, Schweigeanrufe, Fehlanrufe und Juxanrufe (`variable` = "Zusätzliche Beanspruchung") keine Informationen für die `variable` "Alter", "Geschlecht" und "Kontakthäufigkeit" erfasst werden. Die Anzahl totaler Anrufe errechnet sich durch das Aufsummieren der `variable` "Schicht" oder duch das Aufsummieren der 'variable' Alter" und "Zusätzliche Beanspruchung";
-- die `variable` "Gesprächsdauer": Median und Mittelwert der Gesprächsdauer wird angegeben; 
-- die`variable` "Beratungsinhalt": Pro Anruf können mehrere Beratungsinhalte gewählt werden.
+- Zu beachten ist, dass das Summieren des Attributs `wert` nach `variable` nicht für jede `variable` dieselbe Summe gibt. Grund hierfür ist, dass für verschobene Gespräche, Schweigeanrufe, Fehlanrufe und Juxanrufe (`variable` = "Zusätzliche Beanspruchung") keine Informationen für die `variable` "Alter", "Geschlecht" und "Kontakthäufigkeit" erfasst werden. Die Anzahl totaler Anrufe errechnet sich durch das Aufsummieren der `variable` "Schicht" oder duch das Aufsummieren der 'variable' Alter" und "Zusätzliche Beanspruchung".
+- `variable` "Gesprächsdauer": Median und Mittelwert der Gesprächsdauer 
+- `variable` "Beratungsinhalt": Pro Anruf können mehrere Beratungsinhalte gewählt werden
 
 ## Plots
 
