@@ -955,3 +955,219 @@ Zusätzliche Beanspruchung,Juxanruf,6,anzahl_anrufe,2020,6
 Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",2,anzahl_anrufe,2020,6
 Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,minuten,2020,6
 Gesprächsdauer,Median (Zentralwert),0.010416666666666666,minuten,2020,6
+Schicht,Umleiter (4.45),231,anzahl_anrufe,2020,7
+Schicht,Morgen (08.00),477,anzahl_anrufe,2020,7
+Schicht,ZD Morgen (08.00),14,anzahl_anrufe,2020,7
+Schicht,Vormit (10.00),358,anzahl_anrufe,2020,7
+Schicht,ZD Nachmittag (12.00),212,anzahl_anrufe,2020,7
+Schicht,Mittag (13.00),372,anzahl_anrufe,2020,7
+Schicht,Vorab (16.00),407,anzahl_anrufe,2020,7
+Schicht,Zwischendrin (17.00),339,anzahl_anrufe,2020,7
+Schicht,Abend (18.00),476,anzahl_anrufe,2020,7
+Schicht,Spät (21.00),483,anzahl_anrufe,2020,7
+Schicht,Nacht (23.00),472,anzahl_anrufe,2020,7
+Schicht,Chat Morgen (10.00),32,anzahl_anrufe,2020,7
+Schicht,Chat Nachmittag (14.00),47,anzahl_anrufe,2020,7
+Schicht,Chat Abend (18.00),143,anzahl_anrufe,2020,7
+Schicht,Mail-Beratung,57,anzahl_anrufe,2020,7
+Schicht,Angestel-Team,5,anzahl_anrufe,2020,7
+Geschlecht,Weiblich,2201,anzahl_anrufe,2020,7
+Geschlecht,Männlich,807,anzahl_anrufe,2020,7
+Geschlecht,Divers,2,anzahl_anrufe,2020,7
+Geschlecht,nicht bestimmbar,64,anzahl_anrufe,2020,7
+Alter,bis 18 J.,101,anzahl_anrufe,2020,7
+Alter,19 - 40 J.,731,anzahl_anrufe,2020,7
+Alter,41 - 65 J.,1147,anzahl_anrufe,2020,7
+Alter,über 65 J.,789,anzahl_anrufe,2020,7
+Alter,nicht bestimmbar,306,anzahl_anrufe,2020,7
+Kontakthäufigkeit,Erster Kontakt,909,anzahl_anrufe,2020,7
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",979,anzahl_anrufe,2020,7
+Kontakthäufigkeit,Regelmässiger Kontakt,835,anzahl_anrufe,2020,7
+Kontakthäufigkeit,Vereinbarung,351,anzahl_anrufe,2020,7
+Beratungsinhalt,Alltagsbewältigung,1319,anzahl_inhalte,2020,7
+Beratungsinhalt,Psychisches Leiden,1402,anzahl_inhalte,2020,7
+Beratungsinhalt,Körperliches Leiden,354,anzahl_inhalte,2020,7
+Beratungsinhalt,Sorge wegen Infektion,103,anzahl_inhalte,2020,7
+Beratungsinhalt,Einsamkeit,490,anzahl_inhalte,2020,7
+Beratungsinhalt,Familie / Erziehung,371,anzahl_inhalte,2020,7
+Beratungsinhalt,Beziehung allgemein,224,anzahl_inhalte,2020,7
+Beratungsinhalt,Paarbeziehung,358,anzahl_inhalte,2020,7
+Beratungsinhalt,Arbeit / Ausbildung,191,anzahl_inhalte,2020,7
+Beratungsinhalt,Existenzprobleme,80,anzahl_inhalte,2020,7
+Beratungsinhalt,Gewalt,112,anzahl_inhalte,2020,7
+Beratungsinhalt,Sexualität,85,anzahl_inhalte,2020,7
+Beratungsinhalt,Spiritualität / Lebenssinn,100,anzahl_inhalte,2020,7
+Beratungsinhalt,Suchtverhalten,93,anzahl_inhalte,2020,7
+Beratungsinhalt,Suizidalität,102,anzahl_inhalte,2020,7
+Beratungsinhalt,Verlust / Trauer / Tod,75,anzahl_inhalte,2020,7
+Beratungsinhalt,Verschiedenes,337,anzahl_inhalte,2020,7
+Beratungsinhalt,Medienerziehung/Swisscom,0,anzahl_inhalte,2020,7
+Zusätzliche Beanspruchung,Verschobenes Gespräch,673,anzahl_anrufe,2020,7
+Zusätzliche Beanspruchung,Schweigeanruf,231,anzahl_anrufe,2020,7
+Zusätzliche Beanspruchung,Fehlanruf,122,anzahl_anrufe,2020,7
+Zusätzliche Beanspruchung,Juxanruf,25,anzahl_anrufe,2020,7
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",1,anzahl_anrufe,2020,7
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,minuten,2020,7
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,minuten,2020,7
+Schicht,Umleiter (4.45),227,anzahl_anrufe,2020,8
+Schicht,Morgen (08.00),438,anzahl_anrufe,2020,8
+Schicht,ZD Morgen (08.00),14,anzahl_anrufe,2020,8
+Schicht,Vormit (10.00),369,anzahl_anrufe,2020,8
+Schicht,ZD Nachmittag (12.00),1,anzahl_anrufe,2020,8
+Schicht,Mittag (13.00),478,anzahl_anrufe,2020,8
+Schicht,Vorab (16.00),361,anzahl_anrufe,2020,8
+Schicht,Zwischendrin (17.00),441,anzahl_anrufe,2020,8
+Schicht,Abend (18.00),518,anzahl_anrufe,2020,8
+Schicht,Spät (21.00),485,anzahl_anrufe,2020,8
+Schicht,Nacht (23.00),501,anzahl_anrufe,2020,8
+Schicht,Chat Morgen (10.00),16,anzahl_anrufe,2020,8
+Schicht,Chat Nachmittag (14.00),22,anzahl_anrufe,2020,8
+Schicht,Chat Abend (18.00),141,anzahl_anrufe,2020,8
+Schicht,Mail-Beratung,73,anzahl_anrufe,2020,8
+Schicht,Angestel-Team,5,anzahl_anrufe,2020,8
+Geschlecht,Weiblich,2080,anzahl_anrufe,2020,8
+Geschlecht,Männlich,856,anzahl_anrufe,2020,8
+Geschlecht,Divers,2,anzahl_anrufe,2020,8
+Geschlecht,nicht bestimmbar,84,anzahl_anrufe,2020,8
+Alter,bis 18 J.,106,anzahl_anrufe,2020,8
+Alter,19 - 40 J.,646,anzahl_anrufe,2020,8
+Alter,41 - 65 J.,1197,anzahl_anrufe,2020,8
+Alter,über 65 J.,776,anzahl_anrufe,2020,8
+Alter,nicht bestimmbar,297,anzahl_anrufe,2020,8
+Kontakthäufigkeit,Erster Kontakt,829,anzahl_anrufe,2020,8
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",965,anzahl_anrufe,2020,8
+Kontakthäufigkeit,Regelmässiger Kontakt,879,anzahl_anrufe,2020,8
+Kontakthäufigkeit,Vereinbarung,349,anzahl_anrufe,2020,8
+Beratungsinhalt,Alltagsbewältigung,1368,anzahl_inhalte,2020,8
+Beratungsinhalt,Psychisches Leiden,1317,anzahl_inhalte,2020,8
+Beratungsinhalt,Körperliches Leiden,338,anzahl_inhalte,2020,8
+Beratungsinhalt,Sorge wegen Infektion,88,anzahl_inhalte,2020,8
+Beratungsinhalt,Einsamkeit,460,anzahl_inhalte,2020,8
+Beratungsinhalt,Familie / Erziehung,374,anzahl_inhalte,2020,8
+Beratungsinhalt,Beziehung allgemein,244,anzahl_inhalte,2020,8
+Beratungsinhalt,Paarbeziehung,298,anzahl_inhalte,2020,8
+Beratungsinhalt,Arbeit / Ausbildung,191,anzahl_inhalte,2020,8
+Beratungsinhalt,Existenzprobleme,91,anzahl_inhalte,2020,8
+Beratungsinhalt,Gewalt,75,anzahl_inhalte,2020,8
+Beratungsinhalt,Sexualität,83,anzahl_inhalte,2020,8
+Beratungsinhalt,Spiritualität / Lebenssinn,87,anzahl_inhalte,2020,8
+Beratungsinhalt,Suchtverhalten,112,anzahl_inhalte,2020,8
+Beratungsinhalt,Suizidalität,132,anzahl_inhalte,2020,8
+Beratungsinhalt,Verlust / Trauer / Tod,52,anzahl_inhalte,2020,8
+Beratungsinhalt,Verschiedenes,340,anzahl_inhalte,2020,8
+Beratungsinhalt,Medienerziehung/Swisscom,1,anzahl_inhalte,2020,8
+Zusätzliche Beanspruchung,Verschobenes Gespräch,728,anzahl_anrufe,2020,8
+Zusätzliche Beanspruchung,Schweigeanruf,192,anzahl_anrufe,2020,8
+Zusätzliche Beanspruchung,Fehlanruf,88,anzahl_anrufe,2020,8
+Zusätzliche Beanspruchung,Juxanruf,57,anzahl_anrufe,2020,8
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",4,anzahl_anrufe,2020,8
+Gesprächsdauer,Aritmetisches Mittel,0.011805555555555555,minuten,2020,8
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,minuten,2020,8
+Schicht,Umleiter (4.45),259,anzahl_anrufe,2020,9
+Schicht,Morgen (08.00),411,anzahl_anrufe,2020,9
+Schicht,ZD Morgen (08.00),0,anzahl_anrufe,2020,9
+Schicht,Vormit (10.00),431,anzahl_anrufe,2020,9
+Schicht,ZD Nachmittag (12.00),0,anzahl_anrufe,2020,9
+Schicht,Mittag (13.00),502,anzahl_anrufe,2020,9
+Schicht,Vorab (16.00),341,anzahl_anrufe,2020,9
+Schicht,Zwischendrin (17.00),348,anzahl_anrufe,2020,9
+Schicht,Abend (18.00),463,anzahl_anrufe,2020,9
+Schicht,Spät (21.00),330,anzahl_anrufe,2020,9
+Schicht,Nacht (23.00),415,anzahl_anrufe,2020,9
+Schicht,Chat Morgen (10.00),31,anzahl_anrufe,2020,9
+Schicht,Chat Nachmittag (14.00),41,anzahl_anrufe,2020,9
+Schicht,Chat Abend (18.00),122,anzahl_anrufe,2020,9
+Schicht,Mail-Beratung,62,anzahl_anrufe,2020,9
+Schicht,Angestel-Team,3,anzahl_anrufe,2020,9
+Geschlecht,Weiblich,2019,anzahl_anrufe,2020,9
+Geschlecht,Männlich,689,anzahl_anrufe,2020,9
+Geschlecht,Divers,3,anzahl_anrufe,2020,9
+Geschlecht,nicht bestimmbar,74,anzahl_anrufe,2020,9
+Alter,bis 18 J.,94,anzahl_anrufe,2020,9
+Alter,19 - 40 J.,573,anzahl_anrufe,2020,9
+Alter,41 - 65 J.,1110,anzahl_anrufe,2020,9
+Alter,über 65 J.,735,anzahl_anrufe,2020,9
+Alter,nicht bestimmbar,273,anzahl_anrufe,2020,9
+Kontakthäufigkeit,Erster Kontakt,834,anzahl_anrufe,2020,9
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",916,anzahl_anrufe,2020,9
+Kontakthäufigkeit,Regelmässiger Kontakt,693,anzahl_anrufe,2020,9
+Kontakthäufigkeit,Vereinbarung,342,anzahl_anrufe,2020,9
+Beratungsinhalt,Alltagsbewältigung,1263,anzahl_inhalte,2020,9
+Beratungsinhalt,Psychisches Leiden,1204,anzahl_inhalte,2020,9
+Beratungsinhalt,Körperliches Leiden,357,anzahl_inhalte,2020,9
+Beratungsinhalt,Sorge wegen Infektion,87,anzahl_inhalte,2020,9
+Beratungsinhalt,Einsamkeit,481,anzahl_inhalte,2020,9
+Beratungsinhalt,Familie / Erziehung,314,anzahl_inhalte,2020,9
+Beratungsinhalt,Beziehung allgemein,215,anzahl_inhalte,2020,9
+Beratungsinhalt,Paarbeziehung,269,anzahl_inhalte,2020,9
+Beratungsinhalt,Arbeit / Ausbildung,178,anzahl_inhalte,2020,9
+Beratungsinhalt,Existenzprobleme,70,anzahl_inhalte,2020,9
+Beratungsinhalt,Gewalt,56,anzahl_inhalte,2020,9
+Beratungsinhalt,Sexualität,49,anzahl_inhalte,2020,9
+Beratungsinhalt,Spiritualität / Lebenssinn,79,anzahl_inhalte,2020,9
+Beratungsinhalt,Suchtverhalten,113,anzahl_inhalte,2020,9
+Beratungsinhalt,Suizidalität,123,anzahl_inhalte,2020,9
+Beratungsinhalt,Verlust / Trauer / Tod,65,anzahl_inhalte,2020,9
+Beratungsinhalt,Verschiedenes,290,anzahl_inhalte,2020,9
+Beratungsinhalt,Medienerziehung/Swisscom,1,anzahl_inhalte,2020,9
+Zusätzliche Beanspruchung,Verschobenes Gespräch,616,anzahl_anrufe,2020,9
+Zusätzliche Beanspruchung,Schweigeanruf,244,anzahl_anrufe,2020,9
+Zusätzliche Beanspruchung,Fehlanruf,96,anzahl_anrufe,2020,9
+Zusätzliche Beanspruchung,Juxanruf,17,anzahl_anrufe,2020,9
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",3,anzahl_anrufe,2020,9
+Gesprächsdauer,Aritmetisches Mittel,0.012499999999999999,minuten,2020,9
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,minuten,2020,9
+Schicht,Umleiter (4.45),217,anzahl_anrufe,2020,10
+Schicht,Morgen (08.00),360,anzahl_anrufe,2020,10
+Schicht,ZD Morgen (08.00),43,anzahl_anrufe,2020,10
+Schicht,Vormit (10.00),419,anzahl_anrufe,2020,10
+Schicht,ZD Nachmittag (12.00),16,anzahl_anrufe,2020,10
+Schicht,Mittag (13.00),422,anzahl_anrufe,2020,10
+Schicht,Vorab (16.00),374,anzahl_anrufe,2020,10
+Schicht,Zwischendrin (17.00),349,anzahl_anrufe,2020,10
+Schicht,Abend (18.00),396,anzahl_anrufe,2020,10
+Schicht,Spät (21.00),497,anzahl_anrufe,2020,10
+Schicht,Nacht (23.00),469,anzahl_anrufe,2020,10
+Schicht,Chat Morgen (10.00),23,anzahl_anrufe,2020,10
+Schicht,Chat Nachmittag (14.00),52,anzahl_anrufe,2020,10
+Schicht,Chat Abend (18.00),127,anzahl_anrufe,2020,10
+Schicht,Mail-Beratung,56,anzahl_anrufe,2020,10
+Schicht,Angestel-Team,5,anzahl_anrufe,2020,10
+Geschlecht,Weiblich,2060,anzahl_anrufe,2020,10
+Geschlecht,Männlich,679,anzahl_anrufe,2020,10
+Geschlecht,Divers,1,anzahl_anrufe,2020,10
+Geschlecht,nicht bestimmbar,96,anzahl_anrufe,2020,10
+Alter,bis 18 J.,120,anzahl_anrufe,2020,10
+Alter,19 - 40 J.,609,anzahl_anrufe,2020,10
+Alter,41 - 65 J.,1093,anzahl_anrufe,2020,10
+Alter,über 65 J.,724,anzahl_anrufe,2020,10
+Alter,nicht bestimmbar,290,anzahl_anrufe,2020,10
+Kontakthäufigkeit,Erster Kontakt,883,anzahl_anrufe,2020,10
+Kontakthäufigkeit,"Gelegentlicher, wiederholter Kontakt",981,anzahl_anrufe,2020,10
+Kontakthäufigkeit,Regelmässiger Kontakt,578,anzahl_anrufe,2020,10
+Kontakthäufigkeit,Vereinbarung,394,anzahl_anrufe,2020,10
+Beratungsinhalt,Alltagsbewältigung,1373,anzahl_inhalte,2020,10
+Beratungsinhalt,Psychisches Leiden,1139,anzahl_inhalte,2020,10
+Beratungsinhalt,Körperliches Leiden,327,anzahl_inhalte,2020,10
+Beratungsinhalt,Sorge wegen Infektion,224,anzahl_inhalte,2020,10
+Beratungsinhalt,Einsamkeit,398,anzahl_inhalte,2020,10
+Beratungsinhalt,Familie / Erziehung,382,anzahl_inhalte,2020,10
+Beratungsinhalt,Beziehung allgemein,210,anzahl_inhalte,2020,10
+Beratungsinhalt,Paarbeziehung,283,anzahl_inhalte,2020,10
+Beratungsinhalt,Arbeit / Ausbildung,187,anzahl_inhalte,2020,10
+Beratungsinhalt,Existenzprobleme,70,anzahl_inhalte,2020,10
+Beratungsinhalt,Gewalt,63,anzahl_inhalte,2020,10
+Beratungsinhalt,Sexualität,46,anzahl_inhalte,2020,10
+Beratungsinhalt,Spiritualität / Lebenssinn,60,anzahl_inhalte,2020,10
+Beratungsinhalt,Suchtverhalten,135,anzahl_inhalte,2020,10
+Beratungsinhalt,Suizidalität,124,anzahl_inhalte,2020,10
+Beratungsinhalt,Verlust / Trauer / Tod,61,anzahl_inhalte,2020,10
+Beratungsinhalt,Verschiedenes,335,anzahl_inhalte,2020,10
+Beratungsinhalt,Medienerziehung/Swisscom,1,anzahl_inhalte,2020,10
+Zusätzliche Beanspruchung,Verschobenes Gespräch,669,anzahl_anrufe,2020,10
+Zusätzliche Beanspruchung,Schweigeanruf,204,anzahl_anrufe,2020,10
+Zusätzliche Beanspruchung,Fehlanruf,108,anzahl_anrufe,2020,10
+Zusätzliche Beanspruchung,Juxanruf,7,anzahl_anrufe,2020,10
+Zusätzliche Beanspruchung,"Ablehnung, ev. gesperrt",2,anzahl_anrufe,2020,10
+Gesprächsdauer,Aritmetisches Mittel,0.012499999999999999,minuten,2020,10
+Gesprächsdauer,Median (Zentralwert),0.010416666666666666,minuten,2020,10
