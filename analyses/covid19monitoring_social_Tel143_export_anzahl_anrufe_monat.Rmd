@@ -1,0 +1,43 @@
+---
+title: "Dargebotene Hand"
+subtitle: "Anzahl Anrufe pro Monat"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Daten Import
+
+```{r}
+
+dat <- readr::read_csv(here::here("data/intermediate_data/Social_Tel143_nach_monat.csv"))
+
+```
+# Daten Manipulation
+
+```{r}
+
+month_name <- format(ISOdate(2000, 1:12, 1), "%B")
+
+dat_month_sum <- dat %>% 
+  filter(kategorie == "Schicht") %>% 
+    mutate(monat_label = factor(month_name[monat], levels = month_name)) %>% 
+  group_by(jahr, monat, monat_label) %>% 
+  summarise(
+    anzahl_anrufe = sum(wert)
+  )
+
+
+```
+# Daten Export
+
+```{r}
+
+readr::write_csv(dat_month_sum, here::here("data/derived_data/Social_Tel143_summe_pro_monat.csv"))
+
+```
+
