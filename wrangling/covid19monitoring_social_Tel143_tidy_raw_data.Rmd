@@ -46,7 +46,7 @@ Create a directory that will contain all shared raw data.
 
 ## define subdir 
 
-sub_dir <- "data/raw/combined"
+sub_dir <- "data/raw_data/combined"
 
 ## define output dir
 
@@ -68,7 +68,7 @@ if (!dir.exists(output_dir)){
 ```{r 2020-05-28-organise}
 # Unzip Data 2020-05-28
 
-unzip(zipfile = here::here("data/raw/2020-05-28/Kantonales_Amt_für_Statistik.zip"), exdir = here::here("data/raw/combined/"), junkpaths = TRUE)
+unzip(zipfile = here::here("data/raw_data/2020-05-28/Kantonales_Amt_für_Statistik.zip"), exdir = here::here(sub_dir), junkpaths = TRUE)
 
 ## rename file where file name is not conform with remaining files
 
@@ -94,7 +94,7 @@ file.rename(
 
 # delete files that were incorrect see issue #2
 
-files_del_vec <- list.files(path = here::here("data/raw/combined/"), pattern = "2019-1Q")
+files_del_vec <- list.files(path = here::here(sub_dir), pattern = "2019-1Q")
 
 files_del_vec <- files_del_vec[
   !str_detect(files_del_vec, pattern = "Erst|gelegent|regel")
@@ -102,9 +102,9 @@ files_del_vec <- files_del_vec[
 
 
 for (name in files_del_vec) {
-  if (file.exists(paste0(here::here("data/raw/combined/"), "/", name))) {
+  if (file.exists(paste0(here::here(sub_dir), "/", name))) {
     unlink(
-      paste0(here::here("data/raw/combined/"), "/", name)
+      paste0(here::here(sub_dir), "/", name)
     )
   } else {
     
@@ -114,12 +114,12 @@ for (name in files_del_vec) {
 
 # delete files that we arent going to use
 
-files_del_vec <- list.files(path = here::here("data/raw/combined/"), pattern = "2020-April")
+files_del_vec <- list.files(path = here::here(sub_dir), pattern = "2020-April")
 
 for (name in files_del_vec) {
-  if (file.exists(paste0(here::here("data/raw/combined/"), "/", name))) {
+  if (file.exists(paste0(here::here(sub_dir), "/", name))) {
     unlink(
-      paste0(here::here("data/raw/combined/"), "/", name)
+      paste0(here::here(sub_dir), "/", name)
     )
   } else {
     
@@ -134,14 +134,14 @@ for (name in files_del_vec) {
 
 ## copy files that were newly sent on 2020-07-13 into main folder
 
-files_copy_vec <- list.files(path = here::here("data/raw/2020-07-13/"), pattern = "Statistik")
+files_copy_vec <- list.files(path = here::here("data/raw_data/2020-07-13/"), pattern = "Statistik")
 
 for (name in files_copy_vec) {
-  if (file.exists(paste0(here::here("data/raw/2020-07-13/"), "/", name))) {
+  if (file.exists(paste0(here::here("data/raw_data/2020-07-13/"), "/", name))) {
     
     file.copy(
-      from = paste0(here::here("data/raw/2020-07-13/"), "/", name),
-      to = (paste0(here::here("data/raw/combined/"), "/", name))
+      from = paste0(here::here("data/raw_data/2020-07-13/"), "/", name),
+      to = (paste0(here::here(sub_dir), "/", name))
     )
   } else {
     
@@ -156,7 +156,7 @@ for (name in files_copy_vec) {
 ```{r 2020-12-04-organise}
 
 raw_date_20201204 <- "2020-12-04"
-path_20201204 <- str_c(here::here("data/raw"),"/", raw_date_20201204)
+path_20201204 <- str_c(here::here("data/raw_data"),"/", raw_date_20201204)
 
 ## copy files that were newly sent on 2020-07-13 into main folder
 
@@ -167,7 +167,7 @@ for (name in files_copy_vec) {
     
     file.copy(
       from = paste0(path_20201204, "/", name),
-      to = (paste0(here::here("data/raw/combined/"), "/", name))
+      to = (paste0(here::here(sub_dir), "/", name))
     )
   } else {
     
@@ -207,13 +207,13 @@ file.rename(
 
 ```{r}
 
-no_files <- length(list.files(path = here::here("data/raw/combined/")))
+no_files <- length(list.files(path = here::here(sub_dir)))
 
 dat_in <- list()
 
 for (i in seq(1:no_files)) {
   dat_in[[i]] <- readxl::read_excel(
-    path = here::here("data/raw/combined/", list.files(path = here::here("data/raw/combined/"))[[i]]),
+    path = here::here(sub_dir, list.files(path = here::here(sub_dir))[[i]]),
     
     ## Skip the first two rows
     
@@ -291,7 +291,7 @@ Relevant metadata is stored in the file names. This metadata is extracted.
 ## use filenames to identify grouped variable year and qaurtal
 dat_filename <- tibble(
   file_id = seq(1:no_files),
-  file_name = list.files(path = here::here("data/raw/combined/"))
+  file_name = list.files(path = here::here(sub_dir))
 )
 
 ## filename dataframe
@@ -437,8 +437,8 @@ Write individual CSV for monthly and quarterly data.
 
 ```{r data-export}
 
-write_csv(dat_by_month_export, here::here("data/final/Social_Tel143_nach_monat.csv"))
-write_csv(dat_by_quartal_export, here::here("data/final/Social_Tel143_nach_quartal.csv"))
+write_csv(dat_by_month_export, here::here("data/intermediate_data/Social_Tel143_nach_monat.csv"))
+write_csv(dat_by_quartal_export, here::here("data/intermediate_data/Social_Tel143_nach_quartal.csv"))
 
 ```
 
@@ -446,17 +446,7 @@ write_csv(dat_by_quartal_export, here::here("data/final/Social_Tel143_nach_quart
 
 ```{r}
 
-dat_by_quartal %>% 
-  bind_rows() %>% 
-  group_by(aggregiert) %>% 
-  count()
-
-aggregiert_alter <- c("bis 18", "19 bis 40", "41 bis 65", "über 65", "nicht bestimmbar")
-aggregiert_kontakthaeufigkeit <- c("Erstkontakt", "gelegentlicher Kontakt", "regelmaessiger Kontakt")
-
-## vali 2
-
-### Compare data for Q2 2019 with April, May, June 2019
+# Compare data for Q2 2019 with April, May, June 2019
 
 dat_by_quartal_export %>% 
   filter(quartal == "2Q", jahr == "2020") %>% 
@@ -475,11 +465,6 @@ dat_by_quartal_export %>%
 
 
 # ## Second summarise to get total
-#
-# group_by(gruppe) %>% 
-# summarise(
-#   sum(sum_anzahl)
-# )
 
 ## by month
 
@@ -492,13 +477,9 @@ dat_by_month_export %>%
   ) %>% 
   filter(kategorie == "Alter")  
   
-
-
-
 ```
 
 # README Markdown
-
 
 ```{r}
 
