@@ -1,0 +1,526 @@
+---
+title: "Dargebotene Hand"
+subtitle: "Data Exploration"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+
+# knitr options
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+# load libraries
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+library(readr)
+#library(statR)
+library(stringr)
+
+# ggplot theme and options
+
+#theme_set(theme_stat(base_size = 11))
+
+
+```
+
+# Raw data input
+
+## Shared raw data
+
+Incoming raw data is stored in ../data/raw/.. and a new directory is created for each time that data is shared. The name of the directory is the date written in ISO 8601.
+
+### ../data/raw/combined/..
+
+Create a directory that will contain all shared raw data. 
+
+```{r create-dir}
+
+## define subdir 
+
+sub_dir <- "data/raw/combined"
+
+## define output dir
+
+output_dir <- file.path(here::here(""), sub_dir)
+
+## create dir if it doesnt exist
+
+if (!dir.exists(output_dir)){
+  dir.create(output_dir)
+} else {
+  print("Directory already exists!")
+}
+```
+
+## Organise raw data
+
+### 2020-05-28
+
+```{r 2020-05-28-organise}
+# Unzip Data 2020-05-28
+
+unzip(zipfile = here::here("data/raw/2020-05-28/Kantonales_Amt_für_Statistik.zip"), exdir = here::here("data/raw/combined/"), junkpaths = TRUE)
+
+## rename file where file name is not conform with remaining files
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - 2019_2Q_nicht_bestimmbar.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2019-2Q_nicht_bestimmbar.xlsx")
+) 
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - 2019-1Q_Erster_Kontakt.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2019-1Q_Erstkontakt.xlsx")
+)
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - 2019-1Q_gelegentlicher_erster_Kontakt.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2019-1Q_gelegentlicher_Kontakt.xlsx")
+)
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - 2020-1Q_gelegenticher_Kontakt.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2020-1Q_gelegentlicher_Kontakt.xlsx")
+)
+
+# delete files that were incorrect see issue #2
+
+files_del_vec <- list.files(path = here::here("data/raw/combined/"), pattern = "2019-1Q")
+
+files_del_vec <- files_del_vec[
+  !str_detect(files_del_vec, pattern = "Erst|gelegent|regel")
+]
+
+
+for (name in files_del_vec) {
+  if (file.exists(paste0(here::here("data/raw/combined/"), "/", name))) {
+    unlink(
+      paste0(here::here("data/raw/combined/"), "/", name)
+    )
+  } else {
+    
+  }
+  
+} 
+
+# delete files that we arent going to use
+
+files_del_vec <- list.files(path = here::here("data/raw/combined/"), pattern = "2020-April")
+
+for (name in files_del_vec) {
+  if (file.exists(paste0(here::here("data/raw/combined/"), "/", name))) {
+    unlink(
+      paste0(here::here("data/raw/combined/"), "/", name)
+    )
+  } else {
+    
+  }
+  
+}
+```
+
+### 2020-07-13
+
+```{r 2020-07-13-organise}
+
+## copy files that were newly sent on 2020-07-13 into main folder
+
+files_copy_vec <- list.files(path = here::here("data/raw/2020-07-13/"), pattern = "Statistik")
+
+for (name in files_copy_vec) {
+  if (file.exists(paste0(here::here("data/raw/2020-07-13/"), "/", name))) {
+    
+    file.copy(
+      from = paste0(here::here("data/raw/2020-07-13/"), "/", name),
+      to = (paste0(here::here("data/raw/combined/"), "/", name))
+    )
+  } else {
+    
+  }
+}
+
+
+```
+
+### 2020-12-04
+
+```{r 2020-12-04-organise}
+
+raw_date_20201204 <- "2020-12-04"
+path_20201204 <- str_c(here::here("data/raw"),"/", raw_date_20201204)
+
+## copy files that were newly sent on 2020-07-13 into main folder
+
+files_copy_vec <- list.files(path = path_20201204, pattern = "Statistik")
+
+for (name in files_copy_vec) {
+  if (file.exists(paste0(path_20201204, "/", name))) {
+    
+    file.copy(
+      from = paste0(path_20201204, "/", name),
+      to = (paste0(here::here("data/raw/combined/"), "/", name))
+    )
+  } else {
+    
+  }
+}
+
+## rename file where file name is not conform with remaining files
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - Juli 2020.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2020-07.xlsx")
+) 
+
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - August 2020.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2020-08.xlsx")
+) 
+
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - September 2020.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2020-09.xlsx")
+) 
+
+
+file.rename(
+  from = file.path(output_dir, "Statistik_Stelle - Oktober 2020.xlsx"),
+  to = file.path(output_dir, "Statistik_Stelle - 2020-10.xlsx")
+) 
+
+
+
+```
+
+## Import raw data
+
+```{r}
+
+no_files <- length(list.files(path = here::here("data/raw/combined/")))
+
+dat_in <- list()
+
+for (i in seq(1:no_files)) {
+  dat_in[[i]] <- readxl::read_excel(
+    path = here::here("data/raw/combined/", list.files(path = here::here("data/raw/combined/"))[[i]]),
+    
+    ## Skip the first two rows
+    
+    skip = 2
+  ) 
+}
+
+```
+
+# Data tidying
+
+Preapere clean variables and rename unnamed variables. All rows with only NAs are removed from the data frames and the variable "gruppe" filled to have a complete tidy dataframe. 
+
+```{r}
+
+dat_clean <- list()
+
+## clean dataframe
+
+for (i in seq(1:no_files)) {
+  
+  dat_clean[[i]] <- dat_in[[i]] %>% 
+    janitor::clean_names() %>% # View()
+    rename(
+      gruppe = x1,
+      variable = x2
+    ) %>% 
+    filter_all(any_vars(!is.na(.))) %>%  ## TODO: add to glossary filter out all rows with only NAs 
+    slice(-1) %>% 
+    fill(gruppe, .direction = "down") 
+  
+}
+
+```
+
+## Validation 1: Check sums (good)
+
+The third row of the raw data files contains the total number of calls in column `Anzahl`. This number is compared to the sum of calls in variable `Gruppe` for value 'Schicht', as this is the only value that is recorded for each incoming call (e.g. Alter, Geschlecht are not always recorded).
+
+```{r check-1}
+# Generate random file number
+random_file_no <- sample(seq(1:no_files), 1)
+
+# Extract value from raw data file for a randon file
+anzahl_anrufe_total <- dat_in[[random_file_no]] %>% slice(1) %>% .$Anzahl
+
+# Write check
+check1 <- dat_clean[[random_file_no]] %>%
+  filter(gruppe == "Schicht") %>% 
+  group_by(gruppe) %>% 
+  summarise(
+    sum_anzahl = sum(anzahl)
+  ) %>% 
+  mutate(
+    check = anzahl_anrufe_total == sum_anzahl
+  )
+
+# Stop script if check is FALSE
+if (check1$check == FALSE) {
+  print("Check 1 of Validation 1 is FALSE")
+  stop("Check 1 of Validation 1 is FALSE. Please evaluate error in code chunk 'check-1' of 'clean_raw_data.Rmd")
+  
+} else {
+  print("Check 1 of Validation 1 is TRUE")
+}
+
+
+```
+
+## Add metadata 
+
+Relevant metadata is stored in the file names. This metadata is extracted.
+
+```{r metadata-extract}
+## use filenames to identify grouped variable year and qaurtal
+dat_filename <- tibble(
+  file_id = seq(1:no_files),
+  file_name = list.files(path = here::here("data/raw/combined/"))
+)
+
+## filename dataframe
+dat_filename_df <- dat_filename %>% 
+  separate(col = file_name, into = c("a", "b", "c", "d"), sep = c(19, 24, 26)) %>% 
+  separate(col = d, into = c("e", "f"), sep = ".xlsx") %>% 
+  select(-a, -f) %>% 
+  mutate(jahr = str_replace(b, pattern = "-", replacement = "")) %>% 
+  select(-b) %>% 
+  mutate(
+    quartal = case_when(
+      str_detect(c, pattern = "Q") ~ c
+    )
+  ) %>% 
+  mutate(
+    monat = case_when(
+      c == "Ap" ~ "04",
+      is.na(quartal) ~ c
+    )
+  ) %>% 
+  select(-c) %>% 
+  rename(aggregiert = e) %>% 
+  mutate(jahr = str_replace(jahr, "_", ""))
+
+## replace "" with NA
+dat_filename_df$aggregiert <- na_if(dat_filename_df$aggregiert, "")
+
+```
+
+### Aggregation level
+
+The metadata of the file names allows to add variables for the level of aggregation of each dataframe.
+
+```{r}
+
+# join gruppe, jahr, quartal and monat to individual tables
+
+dat_final <- list()
+sliced <- list()
+
+for (i in seq(1:no_files)) {
+  
+  sliced[[i]] <- slice(dat_filename_df, i)
+  
+  dat_final[[i]] <- dat_clean[[i]] %>% 
+    mutate(
+      file_id = sliced[[i]]$file_id,
+      aggregiert = sliced[[i]]$aggregiert,
+      jahr = sliced[[i]]$jahr,
+      quartal = sliced[[i]]$quartal,
+      monat = as.numeric(sliced[[i]]$monat)
+    ) %>% 
+    mutate(
+      aggregiert = case_when(
+        aggregiert == "-18" ~ "bis 18",
+        aggregiert == "_19-40" ~ "19 bis 40",
+        aggregiert == "_41-65" ~ "41 bis 65",
+        aggregiert == "_65-" ~ "über 65",
+        aggregiert == "_nicht_bestimmbar" ~ "nicht bestimmbar",
+        aggregiert == "_nicht bestimmbar" ~ "nicht bestimmbar",
+        aggregiert == "_Erstkontakt" ~ "Erstkontakt",
+        aggregiert == "_gelegentlicher_Kontakt" ~ "gelegentlicher Kontakt",
+        aggregiert == "_regelmässiger_Kontakt" ~ "regelmaessiger Kontakt",
+        aggregiert == "_regelm„ssiger_Kontakt" ~ "regelmaessiger Kontakt",
+        aggregiert == "_regem„ssiger_Kontakt" ~ "regelmaessiger Kontakt",
+        TRUE ~ aggregiert
+      )
+    )
+}
+
+```
+
+## Improve data strcture
+
+As we wrote the article and wanted to publish the data openly on GitHub, we realised that some variables are not relevant for the anaysis und that the data structure could be improved. The final data cleaning step is included in the code chunk below.
+
+### Monthly data
+
+```{r}
+dat_by_month <- list()
+
+for (i in seq(1:no_files)) {
+  dat_by_month[[i]] <- dat_final[[i]] %>% 
+    filter(is.na(quartal))
+}
+
+## Final data cleaning
+
+dat_by_month_export <- dat_by_month %>% 
+  bind_rows() %>% 
+  filter(!gruppe %in% c("Opferhilfe", "Wohnregion", "Sprache")) %>% 
+  rename(kategorie = gruppe, sub_kategorie = variable, wert = anzahl) %>% 
+  mutate(
+    einheit = case_when(
+      kategorie == "Gesprächsdauer" ~ "minuten",
+      kategorie == "Beratungsinhalt" ~ "anzahl_inhalte",
+      TRUE ~ "anzahl_anrufe"
+    )
+  ) %>% 
+  select(-in_prozent, -file_id, -aggregiert, -quartal) %>% 
+  relocate(einheit, .after = "wert")
+
+
+```
+
+### Quarterly data
+
+```{r}
+dat_by_quartal <- list()
+
+for (i in seq(1:no_files)) {
+  dat_by_quartal[[i]] <- dat_final[[i]] %>% 
+    filter(!is.na(quartal))
+}
+
+aggregation_alter <- c("bis 18", "19 bis 40", "41 bis 65", "19 bis 65", "über 65", "nicht bestimmbar", "Total")
+aggregation_kontakthaeufigkeit <- c("Erstkontakt", "gelegentlicher Kontakt", "regelmaessiger Kontakt")
+
+dat_by_quartal_export <- dat_by_quartal %>% 
+  bind_rows() %>% 
+  filter(!gruppe %in% c("Opferhilfe", "Wohnregion", "Sprache")) %>% 
+  rename(kategorie = gruppe, sub_kategorie = variable, wert = anzahl) %>% 
+  select(-in_prozent, -file_id, -monat) %>%
+  filter(aggregiert %in% aggregation_alter) %>% 
+  filter(kategorie != "Alter") %>% 
+  mutate(
+    einheit = case_when(
+      kategorie == "Gesprächsdauer" ~ "minuten",
+      kategorie == "Beratungsinhalt" ~ "anzahl_inhalte",
+      TRUE ~ "anzahl_anrufe"
+    )
+  ) %>% 
+  relocate(aggregiert, .after = "sub_kategorie") %>% 
+  relocate(einheit, .after = "wert") %>% 
+  #relocate(sub_kategorie, .after = "kategorie")
+  rename(altersklasse = aggregiert)
+
+```
+
+# Data Export
+
+Write individual CSV for monthly and quarterly data.
+
+```{r data-export}
+
+write_csv(dat_by_month_export, here::here("data/final/Social_Tel143_nach_monat.csv"))
+write_csv(dat_by_quartal_export, here::here("data/final/Social_Tel143_nach_quartal.csv"))
+
+```
+
+## Validation 2: 
+
+```{r}
+
+dat_by_quartal %>% 
+  bind_rows() %>% 
+  group_by(aggregiert) %>% 
+  count()
+
+aggregiert_alter <- c("bis 18", "19 bis 40", "41 bis 65", "über 65", "nicht bestimmbar")
+aggregiert_kontakthaeufigkeit <- c("Erstkontakt", "gelegentlicher Kontakt", "regelmaessiger Kontakt")
+
+## vali 2
+
+### Compare data for Q2 2019 with April, May, June 2019
+
+dat_by_quartal_export %>% 
+  filter(quartal == "2Q", jahr == "2020") %>% 
+  
+  ## Filter nach aggregierung
+  filter(kategorie == "Schicht") %>% 
+  #filter(aggregiert %in% aggregiert_alter) %>% 
+  
+  group_by(kategorie, altersklasse) %>%
+  
+  ## First summarise auf Ebene Gruppe Schicht und aggregiert
+  
+  summarise(
+    sum_anzahl = sum(wert)
+  ) 
+
+
+# ## Second summarise to get total
+#
+# group_by(gruppe) %>% 
+# summarise(
+#   sum(sum_anzahl)
+# )
+
+## by month
+
+dat_by_month_export %>% 
+  filter(monat %in% c(4, 5, 6), jahr == "2020") %>% 
+  #filter(gruppe == "Schicht") %>% 
+  group_by(kategorie, sub_kategorie) %>% 
+  summarise(
+    sum_anzahl = sum(wert)
+  ) %>% 
+  filter(kategorie == "Alter")  
+  
+
+
+
+```
+
+# README Markdown
+
+
+```{r}
+
+dat_by_month_export %>% 
+  names() %>% 
+  tibble::enframe() %>% 
+  select(Spaltenname = value) %>% 
+  mutate(
+    Beschreibung = c(
+      "Kategorien zu welchen bei einem Anruf Informationen aufgenommen werden",
+      "Jeweilige Subkategorie für die einzelnen Kategorien",
+      "Wert für die jeweiligen Subkategorien (siehe 'Wichtige Anmerkung' für Details zu Kategorien)",
+      "Einheit des Werts",
+      "Kalenderjahr",
+      "Monat des Kalenderjahres")
+    ) %>% 
+  mutate(
+    Format = c(
+      "Text", "Text", "Zahl", "Text", "Zahl", "Zahl"
+    )
+  ) %>% 
+  knitr::kable()
+
+```
+
