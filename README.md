@@ -14,6 +14,10 @@ Dieses Repository enthält Daten und Quellcode um die Mitteilung «[Corona verä
 
 ### ../data/raw_data/
 
+Hier sind die Rohdaten abegelegt welche mittels des Skript
+
+### ../data/intermediate_data/
+
 Hier sind die bereinigten Rohdaten zu finden. 
 
 **Social_Tel143_nach_monat.csv**
@@ -59,11 +63,17 @@ Hier sind die aufbereiteten Daten für die drei Grafiken der «[Medienmitteilung
 
 Hier sind die Grafiken der «[Medienmitteilung](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)» als *.png* abgelegt.
 
-## Skript
+## Rmd Skripts
+
+### ../wrangling/covid19monitoring_social_Tel143_tidy_raw_data.Rmd
+
+Hier ist das Skript welches die Rohdaten aus dem Ordner ../data/raw_data/.. bereinigt, aufräumt, und letzlich als finale CSV für die Analyse in der Mitteilung im Ordner ../data/intermediate_data/.. speichert.
 
 ### ../article/Social_Tel143_article.Rmd 
 
 Hier ist das Skript der «[Medienmitteilung](https://www.zh.ch/de/news-uebersicht/mitteilungen/2020/politik-staat/statistik/corona-veraendert-alltagssorgen-nur-wenig.html)» als *.Rmd* abgelegt. Mit diesem Skript kann der gesame Artikel mit den folgenden Vorraussetzungen reproduziert werden. 
+
+### ../analyses/
 
 ## Voraussetzungen
 
