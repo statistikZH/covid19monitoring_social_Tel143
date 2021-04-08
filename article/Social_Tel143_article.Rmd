@@ -70,8 +70,8 @@ theme_set(theme_stat())
 
 ```{r load-data}
 
-dat_by_month_raw <- readr::read_csv(here::here("data/raw_data/Social_Tel143_nach_monat.csv"))
-dat_by_quartal_raw <- readr::read_csv(here::here("data/raw_data/Social_Tel143_nach_quartal.csv"))
+dat_by_month_raw <- readr::read_csv(here::here("data/intermediate_data/Social_Tel143_nach_monat.csv"))
+dat_by_quartal_raw <- readr::read_csv(here::here("data/intermediate_data/Social_Tel143_nach_quartal.csv"))
 
 ```
 
